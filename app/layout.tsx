@@ -1,46 +1,11 @@
 import type { Metadata } from "next";
-import {
-  Archivo,
-  Bricolage_Grotesque,
-  Caveat,
-  Fraunces,
-  Space_Mono,
-} from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const archivo = Archivo({
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
-  variable: "--font-archivo",
-  display: "swap",
-});
-
-const bricolage = Bricolage_Grotesque({
-  subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
-  variable: "--font-bricolage",
-  display: "swap",
-});
-
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  axes: ["SOFT", "opsz"],
-  style: ["normal", "italic"],
-  variable: "--font-fraunces",
-  display: "swap",
-});
-
-const caveat = Caveat({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-caveat",
-  display: "swap",
-});
-
-const spaceMono = Space_Mono({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-space-mono",
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
   display: "swap",
 });
 
@@ -66,10 +31,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html
-      lang="en"
-      className={`${archivo.variable} ${bricolage.variable} ${fraunces.variable} ${caveat.variable} ${spaceMono.variable}`}
-    >
+    <html lang="en" className={inter.variable}>
       <body>{children}</body>
     </html>
   );

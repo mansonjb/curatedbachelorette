@@ -4,11 +4,11 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const ITEMS: [string, string][] = [
-  ["Index", "/"],
   ["Destinations", "/destinations"],
   ["Vibes", "/vibes"],
   ["Field Notes", "/field-notes"],
-  ["The Letters", "/letters"],
+  ["About", "/about"],
+  ["Plan a weekend", "/matchmaker"],
 ];
 
 export function MobileNavTrigger() {
@@ -28,11 +28,13 @@ export function MobileNavTrigger() {
         aria-label="Menu"
         style={{
           display: "none",
-          background: "var(--ink)",
-          color: "var(--cream)",
+          background: "transparent",
+          color: "var(--ink)",
+          border: "1px solid var(--rule-strong)",
           borderRadius: 999,
-          border: 0,
-          padding: "10px 14px",
+          padding: "9px 16px",
+          fontSize: 13,
+          fontWeight: 600,
           cursor: "pointer",
           font: "inherit",
         }}
@@ -45,8 +47,8 @@ export function MobileNavTrigger() {
             position: "fixed",
             inset: 0,
             zIndex: 80,
-            background: "var(--ink)",
-            color: "var(--cream)",
+            background: "var(--bg)",
+            color: "var(--ink)",
             padding: "20px clamp(20px, 5vw, 40px)",
             overflowY: "auto",
           }}
@@ -59,36 +61,31 @@ export function MobileNavTrigger() {
               marginBottom: 32,
             }}
           >
-            <span className="mono" style={{ color: "var(--blush)" }}>Issue №&nbsp;07</span>
+            <span className="eyebrow">Menu</span>
             <button
               onClick={() => setOpen(false)}
-              className="pill"
-              style={{ background: "var(--blush)", color: "var(--ink)", borderColor: "var(--blush)" }}
+              className="btn btn-ghost btn-sm"
+              style={{ borderRadius: 999 }}
             >
               Close ✕
             </button>
           </div>
-          <nav style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-            {ITEMS.map(([label, href], i) => (
+          <nav style={{ display: "flex", flexDirection: "column" }}>
+            {ITEMS.map(([label, href]) => (
               <Link
                 key={label}
                 href={href}
                 onClick={() => setOpen(false)}
-                className="display"
                 style={{
-                  fontSize: "clamp(40px, 11vw, 96px)",
-                  padding: "8px 0",
-                  borderBottom: "1.5px solid #2a2a26",
-                  color: "var(--cream)",
-                  display: "flex",
-                  alignItems: "baseline",
-                  gap: 18,
+                  fontSize: 28,
+                  fontWeight: 600,
+                  letterSpacing: "-0.02em",
+                  padding: "18px 0",
+                  borderBottom: "1px solid var(--rule)",
+                  color: "var(--ink)",
                 }}
               >
-                <span className="mono" style={{ color: "var(--blush-deep)", fontSize: 11 }}>
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                <span>{label}</span>
+                {label}
               </Link>
             ))}
           </nav>

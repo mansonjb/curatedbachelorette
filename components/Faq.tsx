@@ -12,11 +12,14 @@ export function Faq({ items }: { items: FaqItem[] }) {
         return (
           <li
             key={it.q}
-            className="card-bg"
             style={{
-              background: isOpen ? "var(--blush)" : "var(--paper)",
-              padding: 0,
-              marginBottom: 12,
+              background: "var(--bg)",
+              border: "1px solid var(--rule)",
+              borderRadius: "var(--radius-md)",
+              marginBottom: 10,
+              overflow: "hidden",
+              transition: "border-color 200ms",
+              borderColor: isOpen ? "var(--teal)" : "var(--rule)",
             }}
           >
             <button
@@ -25,36 +28,32 @@ export function Faq({ items }: { items: FaqItem[] }) {
               style={{
                 width: "100%",
                 textAlign: "left",
-                padding: "22px 24px",
+                padding: "20px 24px",
                 border: 0,
                 background: "transparent",
                 cursor: "pointer",
                 font: "inherit",
                 display: "grid",
-                gridTemplateColumns: "44px 1fr auto",
+                gridTemplateColumns: "1fr auto",
                 gap: 14,
                 alignItems: "center",
                 color: "var(--ink)",
               }}
             >
-              <span className="display" style={{ fontSize: 28, color: "var(--blush-deep)" }}>
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <span className="display-soft" style={{ fontSize: 22, lineHeight: 1.1 }}>
-                {it.q}
-              </span>
+              <span style={{ fontSize: 17, fontWeight: 600, lineHeight: 1.4 }}>{it.q}</span>
               <span
                 style={{
-                  width: 36,
-                  height: 36,
+                  width: 32,
+                  height: 32,
                   borderRadius: 999,
-                  background: "var(--ink)",
-                  color: "var(--cream)",
+                  background: isOpen ? "var(--teal)" : "var(--bg-alt)",
+                  color: isOpen ? "#fff" : "var(--ink)",
                   display: "inline-flex",
                   alignItems: "center",
                   justifyContent: "center",
+                  fontSize: 16,
                   transform: isOpen ? "rotate(45deg)" : "none",
-                  transition: "transform 240ms",
+                  transition: "transform 240ms, background 200ms, color 200ms",
                 }}
               >
                 +
@@ -63,13 +62,22 @@ export function Faq({ items }: { items: FaqItem[] }) {
             <div
               style={{
                 overflow: "hidden",
-                maxHeight: isOpen ? 280 : 0,
+                maxHeight: isOpen ? 320 : 0,
                 opacity: isOpen ? 1 : 0,
                 transition: "max-height 320ms, opacity 240ms, padding 240ms",
-                padding: isOpen ? "0 24px 22px 82px" : "0 24px 0 82px",
+                padding: isOpen ? "0 24px 22px" : "0 24px 0",
               }}
             >
-              <p style={{ margin: 0, fontSize: 16, lineHeight: 1.55 }}>{it.a}</p>
+              <p
+                style={{
+                  margin: 0,
+                  fontSize: 15.5,
+                  lineHeight: 1.6,
+                  color: "var(--ink-soft)",
+                }}
+              >
+                {it.a}
+              </p>
             </div>
           </li>
         );

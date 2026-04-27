@@ -1,14 +1,14 @@
 import Link from "next/link";
-import { Asterisk } from "@/components/icons";
 import { MobileNavTrigger } from "@/components/MobileNav";
 
-type Props = { active?: "index" | "destinations" | "vibes" | "field-notes" };
+type ActiveKey = "destinations" | "vibes" | "field-notes" | "about";
+type Props = { active?: ActiveKey | "index" };
 
-const NAV: { label: string; href: string; key: NonNullable<Props["active"]> }[] = [
-  { label: "Index", href: "/", key: "index" },
+const NAV: { label: string; href: string; key: ActiveKey }[] = [
   { label: "Destinations", href: "/destinations", key: "destinations" },
   { label: "Vibes", href: "/vibes", key: "vibes" },
   { label: "Field Notes", href: "/field-notes", key: "field-notes" },
+  { label: "About", href: "/about", key: "about" },
 ];
 
 export function Header({ active = "index" }: Props) {
@@ -18,19 +18,19 @@ export function Header({ active = "index" }: Props) {
         position: "sticky",
         top: 0,
         zIndex: 50,
-        background: "var(--cream)",
-        borderBottom: "1.5px solid var(--ink)",
+        background: "var(--bg)",
+        borderBottom: "1px solid var(--rule)",
       }}
     >
       <div
+        className="container container-wide"
         style={{
-          maxWidth: 1480,
-          margin: "0 auto",
           padding: "16px clamp(20px, 3.5vw, 40px)",
           display: "grid",
           gridTemplateColumns: "auto 1fr auto",
           gap: 24,
           alignItems: "center",
+          maxWidth: 1480,
         }}
       >
         <Link href="/" style={{ display: "inline-flex", alignItems: "center", gap: 10 }}>
@@ -39,21 +39,24 @@ export function Header({ active = "index" }: Props) {
               width: 32,
               height: 32,
               borderRadius: 999,
-              background: "var(--ink)",
-              color: "var(--blush)",
+              background: "var(--teal)",
+              color: "#fff",
               display: "inline-flex",
               alignItems: "center",
               justifyContent: "center",
+              fontWeight: 700,
+              fontSize: 14,
+              letterSpacing: "-0.02em",
             }}
           >
-            <Asterisk size={16} color="var(--blush)" />
+            CB
           </span>
-          <span className="display" style={{ fontSize: 18, lineHeight: 1 }}>
-            Curated/<span style={{ color: "var(--blush-deep)" }}>Bach</span>
+          <span style={{ fontSize: 17, fontWeight: 700, letterSpacing: "-0.015em" }}>
+            Curated Bachelorette
           </span>
         </Link>
 
-        <nav className="hide-md" style={{ display: "flex", justifyContent: "center", gap: 6 }}>
+        <nav className="hide-md" style={{ display: "flex", justifyContent: "center", gap: 28 }}>
           {NAV.map((it) => {
             const isActive = it.key === active;
             return (
@@ -61,12 +64,12 @@ export function Header({ active = "index" }: Props) {
                 key={it.key}
                 href={it.href}
                 style={{
-                  padding: "10px 16px",
-                  borderRadius: 999,
-                  fontSize: 13,
+                  fontSize: 14,
                   fontWeight: 500,
-                  background: isActive ? "var(--ink)" : "transparent",
-                  color: isActive ? "var(--cream)" : "var(--ink)",
+                  color: isActive ? "var(--teal-deep)" : "var(--ink)",
+                  borderBottom: isActive ? "2px solid var(--teal)" : "2px solid transparent",
+                  paddingBottom: 4,
+                  transition: "color 160ms",
                 }}
               >
                 {it.label}
@@ -76,19 +79,8 @@ export function Header({ active = "index" }: Props) {
         </nav>
 
         <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-          <Link
-            href="/search"
-            className="hide-sm pill invert"
-            style={{ background: "var(--paper)" }}
-          >
-            Search
-          </Link>
-          <Link
-            href="/matchmaker"
-            className="pill"
-            style={{ background: "var(--blush)", color: "var(--ink)", borderColor: "var(--ink)" }}
-          >
-            Plan a weekend →
+          <Link href="/matchmaker" className="btn btn-primary btn-sm hide-sm">
+            Plan a weekend
           </Link>
           <MobileNavTrigger />
         </div>
