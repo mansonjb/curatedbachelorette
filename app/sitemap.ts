@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
-import { COVERS } from "@/data/destinations/miami";
+import { COVERS } from "@/data/destinations/covers";
 import { VIBES } from "@/data/vibes";
 
 export default function sitemap(): MetadataRoute.Sitemap {

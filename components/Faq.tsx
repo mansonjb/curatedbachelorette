@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { FaqItem } from "@/data/destinations/miami";
+import type { FaqItem } from "@/data/destinations/types";
 
 export function Faq({ items }: { items: FaqItem[] }) {
   const [open, setOpen] = useState<number>(0);

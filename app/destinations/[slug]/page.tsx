@@ -9,7 +9,8 @@ import { Img } from "@/components/Img";
 import { JsonLd } from "@/components/JsonLd";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { findDestination } from "@/data/destinations";
-import { COVERS, type DestinationCover } from "@/data/destinations/miami";
+import { COVERS } from "@/data/destinations/covers";
+import type { DestinationCover } from "@/data/destinations/types";
 import { ISSUE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -621,7 +622,7 @@ function DestPullQuote({ cover }: { cover: DestinationCover }) {
         >
           {cover.pullQuote.lead}
           <br />
-          South Beach
+          {cover.pullQuotePlace}
           <br />
           is,{" "}
           <span style={{ background: "var(--ink)", color: "var(--blush-deep)", padding: "0 0.05em" }}>

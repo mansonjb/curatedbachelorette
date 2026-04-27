@@ -1,33 +1,11 @@
 import { IMG } from "@/lib/images";
-
-export type Stay = { no: number; name: string; area: string; color: string; img: string; note: string; price: string };
-export type DoItem = { hour: string; title: string; img: string; color: string };
-export type Eat = { no: number; name: string; area: string; meal: string; note: string };
-export type ItineraryDay = { day: string; color: string; items: [string, string][] };
-export type FaqItem = { q: string; a: string };
-export type RelatedItem = { name: string; slug: string; note: string; img: string; color: string };
-
-export type DestinationCover = {
-  slug: string;
-  title: string;
-  highlight: string;
-  tags: string[];
-  readingTime: { minutes: number; words: number; author: string; photographer: string; filed: string };
-  hero: { intro: string; group: string; nights: string; perHead: string; bestMonths: string; img: string };
-  intro: string[];
-  stay: Stay[];
-  do: DoItem[];
-  eat: Eat[];
-  pullQuote: { lead: string; emphasis: string; tail: string; cite: string };
-  itinerary: ItineraryDay[];
-  faq: FaqItem[];
-  related: RelatedItem[];
-};
+import type { DestinationCover } from "./types";
 
 export const MIAMI: DestinationCover = {
   slug: "miami",
   title: "Miami",
   highlight: "slowly",
+  pullQuotePlace: "South Beach",
   tags: ["Beach", "Luxury", "Foodie"],
   readingTime: { minutes: 9, words: 1840, author: "M. Aldrin", photographer: "L. Bertrand", filed: "Mar 2026" },
   hero: {
@@ -81,5 +59,3 @@ export const MIAMI: DestinationCover = {
     { name: "Lisbon", slug: "lisbon", note: "Miami in another language.", img: IMG.lisbon, color: "var(--blush-deep)" },
   ],
 };
-
-export const COVERS: Record<string, DestinationCover> = { miami: MIAMI };
