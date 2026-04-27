@@ -1,9 +1,14 @@
 import type { DestinationCover } from "./types";
-import { CHARLESTON } from "./charleston";
+import { CAPRI } from "./capri";
 import { CDMX } from "./cdmx";
+import { CHARLESTON } from "./charleston";
+import { IBIZA } from "./ibiza";
 import { LISBON } from "./lisbon";
+import { MARRAKECH } from "./marrakech";
 import { MIAMI } from "./miami";
+import { MYKONOS } from "./mykonos";
 import { OJAI } from "./ojai";
+import { SAINT_TROPEZ } from "./saint-tropez";
 
 /**
  * Registry of destinations with a published long-form cover.
@@ -18,6 +23,11 @@ export const COVERS: Record<string, DestinationCover> = {
   cdmx: CDMX,
   lisbon: LISBON,
   ojai: OJAI,
+  ibiza: IBIZA,
+  mykonos: MYKONOS,
+  capri: CAPRI,
+  marrakech: MARRAKECH,
+  "saint-tropez": SAINT_TROPEZ,
 };
 
 export function getCover(slug: string): DestinationCover | undefined {
