@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { DisclosureBanner } from "@/components/DisclosureBanner";
 import { Faq } from "@/components/Faq";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Img } from "@/components/Img";
 import { JsonLd } from "@/components/JsonLd";
 import { ScrollProgress } from "@/components/ScrollProgress";
-import { findDestination } from "@/data/destinations";
+import { Stay22Cta, Stay22Map } from "@/components/Stay22";
+import { ViatorBlock } from "@/components/ViatorBlock";
+import { findDestination, type DestinationCard } from "@/data/destinations";
 import { COVERS } from "@/data/destinations/covers";
 import type { DestinationCover } from "@/data/destinations/types";
 import { ISSUE, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -53,6 +56,7 @@ export default async function DestinationPage({
   return (
     <>
       <DestinationJsonLd cover={cover} card={card} slug={slug} />
+      <DisclosureBanner />
       <Header active="destinations" />
       <ScrollProgress />
       <main>
@@ -60,8 +64,9 @@ export default async function DestinationPage({
         <DestHero cover={cover} />
         <DestMeta cover={cover} />
         <DestIntro cover={cover} />
-        <DestStay cover={cover} />
+        <DestStay cover={cover} card={card} />
         <DestDo cover={cover} />
+        <ViatorBlock slug={slug} />
         <DestEat cover={cover} />
         <DestPullQuote cover={cover} />
         <DestItinerary cover={cover} />
@@ -248,7 +253,8 @@ function DestIntro({ cover }: { cover: DestinationCover }) {
   );
 }
 
-function DestStay({ cover }: { cover: DestinationCover }) {
+function DestStay({ cover, card }: { cover: DestinationCover; card: DestinationCard }) {
+  const cityAddress = `${cover.title}, ${card.region}`;
   return (
     <section className="section" style={{ background: "var(--bg-alt)", borderTop: "1px solid var(--rule)" }}>
       <div className="container container-wide" style={{ maxWidth: 1480 }}>
@@ -268,13 +274,14 @@ function DestStay({ cover }: { cover: DestinationCover }) {
                 <h3 className="h-display h-3" style={{ margin: "0 0 8px" }}>{s.name}</h3>
                 <p style={{ margin: 0, fontSize: 14.5, color: "var(--ink-soft)", lineHeight: 1.55 }}>{s.note}</p>
                 <div style={{ marginTop: 16, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <span className="ulink" style={{ fontSize: 14 }}>Check rates</span>
+                  <Stay22Cta hotelName={s.name} city={cover.title} context={`${cover.slug}-stay-${s.no}`} />
                   <span style={{ color: "var(--teal-deep)", fontSize: 18 }}>→</span>
                 </div>
               </div>
             </article>
           ))}
         </div>
+        <Stay22Map address={cityAddress} />
         <style>{`@media (max-width: 900px) { .stay-grid { grid-template-columns: 1fr !important; } }`}</style>
       </div>
     </section>

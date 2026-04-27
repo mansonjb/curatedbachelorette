@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "sync-viator": "tsx --env-file=.env.local scripts/sync-viator.ts"
   },
   "dependencies": {
     "next": "^16.2.4",
@@ -18,6 +19,7 @@
     "@types/node": "22.10.5",
     "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",
+    "tsx": "^4.21.0",
     "typescript": "5.7.2"
   }
 }
