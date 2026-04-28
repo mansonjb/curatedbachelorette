@@ -1,79 +1,79 @@
 {
-  "destinationId": 5466,
+  "destinationId": 628,
   "destinationName": "cdmx",
-  "fetchedAt": "2026-04-28T20:46:46.567Z",
+  "fetchedAt": "2026-04-28T20:54:38.469Z",
   "products": [
     {
-      "productCode": "450006P1",
-      "title": "Luang Prabang: Craft Your Own Aroma Candle in Heritage Home",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/78/4e/10.jpg",
+      "productCode": "488032P1",
+      "title": "Balloon Flight with Breakfast in Cave and Round Trip CDMX",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/25/fa/54.jpg",
       "rating": 5,
-      "reviewCount": 29,
+      "reviewCount": 195,
       "fromPrice": {
-        "value": 29,
+        "value": 159.3,
         "currency": "USD"
       },
-      "productUrl": "https://www.viator.com/tours/Luang-Prabang/Scented-Candle-Making-in-a-Beautiful-Pottery/d5466-450006P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+      "productUrl": "https://www.viator.com/tours/Mexico-City/Balloon-Flight-with-Breakfast-in-Cave-and-Round-Trip-CDMX/d628-488032P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
-      "productCode": "69673P22",
-      "title": "Prabang Plates Food Tour with 15+ Tastings",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/82/15/18.jpg",
+      "productCode": "277127P1",
+      "title": "Teotihuacán: Private Tour from Mexico City",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/3d/2b/fd.jpg",
       "rating": 5,
-      "reviewCount": 22,
+      "reviewCount": 189,
       "fromPrice": {
-        "value": 45,
+        "value": 141.6,
         "currency": "USD"
       },
-      "productUrl": "https://www.viator.com/tours/Luang-Prabang/Prabang-Plates-Food-Tour-with-15-Tastings/d5466-69673P22?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+      "productUrl": "https://www.viator.com/tours/Mexico-City/Teotihuacan-Private-Tour-from-Mexico-City/d628-277127P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
-      "productCode": "69048P6",
-      "title": "Evening Bamboo weaving & Cooking classes join-in",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/e7/27/e4.jpg",
+      "productCode": "362096P1",
+      "title": "Explore the Barrio Bravo of Tepito with local guides",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/fa/27/e8.jpg",
       "rating": 5,
-      "reviewCount": 17,
+      "reviewCount": 128,
       "fromPrice": {
-        "value": 47,
+        "value": 89,
         "currency": "USD"
       },
-      "productUrl": "https://www.viator.com/tours/Luang-Prabang/Evening-Bamboo-weaving-and-Cooking-classes-join-in/d5466-69048P6?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+      "productUrl": "https://www.viator.com/tours/Mexico-City/3-Hours-Private-Tour-Exploring-Tepitos-Bravo-Neighborhood/d628-362096P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
-      "productCode": "412256P1",
-      "title": "Pony Riding in Luang Prabang",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/32/5b/6c.jpg",
+      "productCode": "7626P206",
+      "title": "Private Mexican Cooking Class with Gastronomic Historian, Lucia",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/06/e2/25/ff.jpg",
       "rating": 5,
-      "reviewCount": 16,
+      "reviewCount": 117,
       "fromPrice": {
-        "value": 59,
+        "value": 135,
         "currency": "USD"
       },
-      "productUrl": "https://www.viator.com/tours/Luang-Prabang/Pony-riding-Luang-Prabang/d5466-412256P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+      "productUrl": "https://www.viator.com/tours/Mexico-City/Authentic-Mexican-Hands-On-Home-Cooking-With-a-Local-in-Mexico-City/d628-7626P206?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
-      "productCode": "69048P4",
-      "title": "Home-cooked dinner & Baci ceremony with Villagers in Ban Nasang",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0f/e3/75/19.jpg",
+      "productCode": "366381P2",
+      "title": "Mexico City: Xochimilco at sunrise + Breakfast and transportation",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/73/ba/fa.jpg",
       "rating": 5,
-      "reviewCount": 13,
+      "reviewCount": 112,
       "fromPrice": {
-        "value": 52.29,
+        "value": 171.1,
         "currency": "USD"
       },
-      "productUrl": "https://www.viator.com/tours/Luang-Prabang/Home-cooked-dinner-and-Baci-ceremony-with-Villagers-in-Ban-Nasang/d5466-69048P4?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+      "productUrl": "https://www.viator.com/tours/Mexico-City/Navigation-experience-in-Xochimilco-at-sunrise-with-breakfast/d628-366381P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
-      "productCode": "5599698P3",
-      "title": "Laos Buffalo Dairy Tours Interact, Learn and Taste Fresh Flavors",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/16/7c/e3/e5.jpg",
+      "productCode": "333690P3",
+      "title": "Private tour with Archaeologist at National Anthropology Museum",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/78/17/c6.jpg",
       "rating": 5,
-      "reviewCount": 11,
+      "reviewCount": 104,
       "fromPrice": {
-        "value": 14,
+        "value": 98,
         "currency": "USD"
       },
-      "productUrl": "https://www.viator.com/tours/Luang-Prabang/Laos-Buffalo-Dairy-Farm-Tours-Interact-Learn-and-Taste/d5466-5599698P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+      "productUrl": "https://www.viator.com/tours/Mexico-City/Private-Archeological-tour-at-National-Anthropology-Museum/d628-333690P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     }
   ]
 }

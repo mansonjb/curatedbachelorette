@@ -27,10 +27,10 @@ export const IBIZA: DestinationCover = {
     { no: 3, name: "Hacienda Na Xamena", area: "San Miguel", color: "var(--peach)", img: IMG.hotelLobby, note: "The classic cliffside hotel. The infinity pool is the photo, the silence at 7AM is the reason.", price: "$$$$" },
   ],
   do: [
-    { hour: "Thursday 11AM", title: "Boat day, with one stop at Cala Salada.", img: IMG.marina, color: "var(--blush)" },
-    { hour: "Friday 6PM", title: "Es Vedrà sunset, from a rock, in silence.", img: IMG.beachWalk, color: "var(--blush-deep)" },
-    { hour: "Saturday 1PM", title: "Lunch at El Chiringuito, Es Cavallet, slowly.", img: IMG.dinner, color: "var(--peach)" },
-    { hour: "Sunday 11AM", title: "Las Dalias market. One thing each.", img: IMG.street, color: "var(--rose)" },
+    { hour: "Thursday 11AM", title: "Private four-hour Mediterranean boat charter, with snorkelling.", img: IMG.marina, color: "var(--blush)" },
+    { hour: "Friday 6PM", title: "Es Vedrà sunset by sail — book the small boat, not the party catamaran.", img: IMG.beachWalk, color: "var(--blush-deep)" },
+    { hour: "Saturday 9AM", title: "A Formentera day-escape. Two hours each way, beach in between.", img: IMG.cocktail, color: "var(--peach)" },
+    { hour: "Sunday 10AM", title: "A guided hike to a hidden cove with a local. Two hours, no rush.", img: IMG.street, color: "var(--rose)" },
   ],
   eat: [
     { no: 1, name: "La Paloma", area: "San Lorenzo", meal: "Wednesday dinner", note: "An old farmhouse, candles, a long table outside. Vegetable-forward, family-style. The Saturday-night Ibiza you didn't know existed." },

@@ -28,9 +28,9 @@ export const MIAMI: DestinationCover = {
   ],
   do: [
     { hour: "Friday 4PM", title: "An afternoon at the pool, undisturbed.", img: IMG.cabana, color: "var(--blush)" },
-    { hour: "Saturday 10AM", title: "Walk the MiMo strip on Biscayne.", img: IMG.street, color: "var(--cream)" },
-    { hour: "Saturday 4PM", title: "A sailboat. Two hours. No costume.", img: IMG.marina, color: "var(--rose)" },
-    { hour: "Sunday 9AM", title: "Yoga in Soundscape Park, then breakfast.", img: IMG.beachWalk, color: "var(--peach)" },
+    { hour: "Saturday 10AM", title: "An award-winning Art Deco walking tour of South Beach, ninety minutes.", img: IMG.street, color: "var(--cream)" },
+    { hour: "Saturday 4PM", title: "A sailboat in Biscayne Bay. Two hours. No costume.", img: IMG.marina, color: "var(--rose)" },
+    { hour: "Sunday 11AM", title: "A small-group cigar factory tour in Little Havana, then a long lunch.", img: IMG.portrait, color: "var(--peach)" },
   ],
   eat: [
     { no: 1, name: "Boia De", area: "Buena Vista", meal: "Friday dinner", note: "Cacio e pepe, small kitchen, smaller dining room. Reserve five weeks out, ask for the back banquette." },

@@ -28,9 +28,9 @@ export const SAINT_TROPEZ: DestinationCover = {
   ],
   do: [
     { hour: "Thursday 6PM", title: "Aperitif at Senequier, port-side, slowly.", img: IMG.cocktail, color: "var(--blush)" },
-    { hour: "Friday 10AM", title: "Boat day, Cap Camarat to Pampelonne.", img: IMG.marina, color: "var(--rose)" },
+    { hour: "Friday 10AM", title: "A private boat charter in the Bay of Saint-Tropez, Cap Camarat to Pampelonne.", img: IMG.marina, color: "var(--rose)" },
     { hour: "Saturday 11AM", title: "Walk Ramatuelle. Café in the square.", img: IMG.street, color: "var(--cream)" },
-    { hour: "Sunday 9AM", title: "Place des Lices market, before lunch.", img: IMG.cafe, color: "var(--peach)" },
+    { hour: "Sunday 9AM", title: "A private day-trip down the coast — Èze village, Monte Carlo, and home by aperitivo.", img: IMG.cafe, color: "var(--peach)" },
   ],
   eat: [
     { no: 1, name: "La Ponche", area: "La Ponche", meal: "Thursday dinner", note: "The hotel restaurant, but an institution in its own right. A small dining room, the bouillabaisse, the kind of first dinner that sets the trip up." },

@@ -28,9 +28,9 @@ export const CDMX: DestinationCover = {
   ],
   do: [
     { hour: "Friday 11AM", title: "Casa Luis Barragán, by appointment.", img: IMG.street, color: "var(--rose)" },
-    { hour: "Friday 5PM", title: "Mezcal at Bósforo, before the line.", img: IMG.cocktail, color: "var(--blush)" },
-    { hour: "Saturday 10AM", title: "Walk Parque México. Coffee. People-watch.", img: IMG.cafe, color: "var(--peach)" },
-    { hour: "Sunday 11AM", title: "Frida Kahlo's house, then a cab to Coyoacán market.", img: IMG.portrait, color: "var(--cream)" },
+    { hour: "Saturday 7AM", title: "A private day at Teotihuacán — pyramids before the buses, back by lunch.", img: IMG.marfa, color: "var(--blush)" },
+    { hour: "Saturday 5PM", title: "A private Mexican cooking class with a gastronomic historian, three hours.", img: IMG.dinner, color: "var(--peach)" },
+    { hour: "Sunday 7AM", title: "Xochimilco at sunrise, with breakfast on the trajinera.", img: IMG.portrait, color: "var(--cream)" },
   ],
   eat: [
     { no: 1, name: "Contramar", area: "Roma Norte", meal: "Friday lunch", note: "The reservation that runs the rest of the weekend. 1:30PM, four hours, fish two ways, never rushed." },

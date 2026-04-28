@@ -27,10 +27,10 @@ export const MYKONOS: DestinationCover = {
     { no: 3, name: "A rented house, Agios Lazaros", area: "Above Psarou", color: "var(--peach)", img: IMG.hotelExterior, note: "Our default for groups of six or eight. Look for a flat roof and a cypress at the gate.", price: "$$$" },
   ],
   do: [
-    { hour: "Friday 10AM", title: "Day at Fokos beach. Bring a book.", img: IMG.beachWalk, color: "var(--blush)" },
-    { hour: "Saturday 10:30AM", title: "Walk Chora, before the cruise ships.", img: IMG.street, color: "var(--cream)" },
+    { hour: "Friday 11AM", title: "Private catamaran day, with lunch on board and one quiet anchorage.", img: IMG.marina, color: "var(--blush)" },
+    { hour: "Saturday 10:30AM", title: "A private island tour with a local guide — Chora before the cruise ships.", img: IMG.street, color: "var(--cream)" },
     { hour: "Saturday 6PM", title: "Sunset at Little Venice, with one drink.", img: IMG.cocktail, color: "var(--rose)" },
-    { hour: "Sunday 11AM", title: "Boat to Delos, two hours, museum, return.", img: IMG.marina, color: "var(--sage)" },
+    { hour: "Sunday 11AM", title: "A Greek home-cooking class with Angelina — three hours, four dishes.", img: IMG.dinner, color: "var(--sage)" },
   ],
   eat: [
     { no: 1, name: "Kiki's Tavern", area: "Agios Sostis", meal: "Friday lunch", note: "No reservations, no electricity, grilled fish on a cliff. Arrive at 12:30, put your name down, swim while you wait." },

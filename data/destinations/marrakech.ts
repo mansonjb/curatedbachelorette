@@ -28,9 +28,9 @@ export const MARRAKECH: DestinationCover = {
   ],
   do: [
     { hour: "Friday 10AM", title: "Hammam at La Mamounia, two hours.", img: IMG.cafe, color: "var(--peach)" },
-    { hour: "Saturday 9AM", title: "Medina walk, with a guide, ninety minutes.", img: IMG.street, color: "var(--rose)" },
-    { hour: "Saturday 5PM", title: "Le Jardin Secret. Tea on the upper terrace.", img: IMG.cafe, color: "var(--cream)" },
-    { hour: "Sunday 11AM", title: "Yves Saint Laurent garden, then a long lunch.", img: IMG.portrait, color: "var(--sage)" },
+    { hour: "Friday 5PM", title: "Agafay desert sunset dinner with a camel ride — 90 minutes from the medina, back by 11PM.", img: IMG.beachWalk, color: "var(--blush-deep)" },
+    { hour: "Saturday 9AM", title: "A private day in the Atlas Mountains and the five Berber valleys.", img: IMG.marfa, color: "var(--sage)" },
+    { hour: "Sunday 6AM", title: "A hot-air balloon over the Agafay, with a Berber breakfast on landing.", img: IMG.portrait, color: "var(--rose)" },
   ],
   eat: [
     { no: 1, name: "Le Jardin", area: "Sidi Abdelaziz", meal: "Thursday lunch", note: "An emerald-green courtyard in the medina with a tortoise. Lemon-chicken tagine, a salad, mint tea. The lunch we eat the day we arrive." },
@@ -51,7 +51,7 @@ export const MARRAKECH: DestinationCover = {
     { q: "Is Marrakech right for a bachelorette?", a: "Yes, for a specific kind. It is the wrong call for groups that want a beach or a club, and the right call for groups that want a hammam, a slow lunch in a courtyard, and a candlelit dinner that isn't trying to compete with anyone else's dinner." },
     { q: "How safe is it for a group of women?", a: "Very, in the riads and restaurants we recommend, with cabs ordered through your hotel. The medina is fine in the morning and at lunch; we don't recommend wandering at night without the riad's driver. Dress is your call but covered shoulders save you a dozen stares." },
     { q: "Should we hire a guide for the medina?", a: "Yes, on day one, for ninety minutes only. The guide we use isn't a souk-tour guide; she's a friend with a job. Email us." },
-    { q: "Day-trip to the desert / Atlas?", a: "Skip on a four-night trip. The desert needs three days minimum and the Atlas day-trip eats your only Saturday. Save those for a different vacation, with a different cover." },
+    { q: "Day-trip to the desert / Atlas?", a: "Yes for the Agafay (a small stone desert 45 minutes from the medina) and the Atlas Mountains — both make sense as a single day or evening. Skip the Sahara on a four-night trip; that one needs three days minimum and is a different vacation." },
     { q: "Drinking?", a: "Restaurants we recommend serve wine. The riads we recommend stock champagne in the room on request. Don't expect bars in the medina; we don't go to them. Cocktails happen at +61 or the Royal Mansour." },
   ],
   related: [

@@ -44,7 +44,7 @@ export const VIATOR_DESTINATION_IDS: Record<string, number> = {
   lisbon: 538,
   marrakech: 5408,
   miami: 662,
-  cdmx: 5466,
+  cdmx: 628,
 };
 
 const PARTNER_PID = process.env.VIATOR_PARTNER_PID || "P00250395"; // mcid placeholder

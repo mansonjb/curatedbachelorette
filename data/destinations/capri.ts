@@ -27,10 +27,10 @@ export const CAPRI: DestinationCover = {
     { no: 3, name: "Capri Palace", area: "Anacapri", color: "var(--blush-deep)", img: IMG.hotelExterior, note: "If you want quieter and more spa. Far enough from Capri Town to feel different, close enough by taxi to come back for dinner.", price: "$$$$" },
   ],
   do: [
-    { hour: "Friday 10AM", title: "Boat day, Faraglioni + Blue Grotto if calm.", img: IMG.marina, color: "var(--blush)" },
+    { hour: "Friday 10AM", title: "Private full-day boat tour — Faraglioni, Blue Grotto if calm, limoncello on board.", img: IMG.marina, color: "var(--blush)" },
     { hour: "Saturday 11AM", title: "Anacapri walk, Villa San Michele, slowly.", img: IMG.street, color: "var(--rose)" },
     { hour: "Saturday 4PM", title: "Marina Piccola swim, before aperitivo.", img: IMG.beachWalk, color: "var(--peach)" },
-    { hour: "Sunday 9AM", title: "Coffee in the Piazzetta, before the ferry arrives.", img: IMG.cafe, color: "var(--cream)" },
+    { hour: "Sunday 10AM", title: "A private boat day-trip to Positano and Amalfi for the group that has time for it.", img: IMG.cocktail, color: "var(--cream)" },
   ],
   eat: [
     { no: 1, name: "Le Grottelle", area: "Above the Arco Naturale", meal: "Friday lunch", note: "A walk to get there, scallop ravioli, a view that won't fit in the photo. Reserve, but the table is yours for two hours." },

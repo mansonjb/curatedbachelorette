@@ -27,10 +27,10 @@ export const LISBON: DestinationCover = {
     { no: 3, name: "A rented house, Príncipe Real", area: "Príncipe Real", color: "var(--sage)", img: IMG.hotelExterior, note: "Our default for groups of six or eight. Look for a courtyard and an oven nobody will use.", price: "$$" },
   ],
   do: [
-    { hour: "Wed 6PM", title: "A small dinner near the hotel.", img: IMG.dinner, color: "var(--rose)" },
-    { hour: "Thursday 10AM", title: "Walk from Príncipe Real to the river.", img: IMG.street, color: "var(--cream)" },
-    { hour: "Friday 11AM", title: "Day-trip to Sintra. Quinta da Regaleira. Pastel.", img: IMG.cafe, color: "var(--peach)" },
-    { hour: "Saturday 4PM", title: "Sunset at the Miradouro de Santa Catarina.", img: IMG.beachWalk, color: "var(--blush)" },
+    { hour: "Thursday 10AM", title: "A private guided tuk-tuk through Alfama and Bairro Alto — the city in three hours.", img: IMG.street, color: "var(--cream)" },
+    { hour: "Friday 9AM", title: "A private full-day to Sintra — Pena Palace, Quinta da Regaleira, all tickets sorted.", img: IMG.cafe, color: "var(--peach)" },
+    { hour: "Saturday 9AM", title: "An inland day-trip — Knights Templar castle, Nazaré, the white village of Óbidos.", img: IMG.dinner, color: "var(--rose)" },
+    { hour: "Saturday 6PM", title: "Sunset at the Miradouro de Santa Catarina, with one drink.", img: IMG.beachWalk, color: "var(--blush)" },
   ],
   eat: [
     { no: 1, name: "Cervejaria Ramiro", area: "Anjos", meal: "Wednesday late dinner", note: "Shellfish in a fluorescent dining room, opened in 1956. The prawns are the entrée; the steak sandwich is dessert." },
