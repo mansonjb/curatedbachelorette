@@ -1,0 +1,79 @@
+{
+  "destinationId": 4223,
+  "destinationName": "capri",
+  "fetchedAt": "2026-04-28T20:46:44.707Z",
+  "products": [
+    {
+      "productCode": "387911P1",
+      "title": "Capri Private Boat Tour with Limoncello tasting",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/35/53/fb.jpg",
+      "rating": 5,
+      "reviewCount": 97,
+      "fromPrice": {
+        "value": 1539.83,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Sorrento/Capri-private-boat-Tour-with-Limoncello-tasting/d947-387911P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "177396P3",
+      "title": "Boat tour of Capri",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0f/cb/c2/3a.jpg",
+      "rating": 5,
+      "reviewCount": 65,
+      "fromPrice": {
+        "value": 340.2,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Capri/Walk-and-sail-in-Capri/d4223-177396P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "474907P1",
+      "title": "Capri Private Boat Tour - Grand Class Experience",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/89/1e/a7.jpg",
+      "rating": 5,
+      "reviewCount": 52,
+      "fromPrice": {
+        "value": 1789.31,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Sorrento/Capri-Private-Boat-Tour-Free-Bar-Snack-and-extra-included/d947-474907P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "132331P2",
+      "title": "Full-Day Private Capri Boat Tour",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/70/b2/cc.jpg",
+      "rating": 5,
+      "reviewCount": 47,
+      "fromPrice": {
+        "value": 994.73,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Sorrento/Capri-Boat-Experience/d947-132331P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "344208P2",
+      "title": "Amalfi and Positano Private Boat Tour from Sorrento Coast FD",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/59/8b/76.jpg",
+      "rating": 5,
+      "reviewCount": 36,
+      "fromPrice": {
+        "value": 1790.5,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Sorrento/Amalfi-and-Positano-private-boat-tour-from-Sorrento-Coast-FD/d947-344208P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "254174P2",
+      "title": "Two-seater paragliding Amalfi and Sorrento Coast Monte Faito",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/16/9b/a7/bc.jpg",
+      "rating": 5,
+      "reviewCount": 35,
+      "fromPrice": {
+        "value": 238.73,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Sorrento/30-Minute-Paragliding-Flight-Over-the-Amalfi-Coast/d947-254174P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

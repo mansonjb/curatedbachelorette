@@ -1,0 +1,79 @@
+{
+  "destinationId": 5408,
+  "destinationName": "marrakech",
+  "fetchedAt": "2026-04-28T20:46:45.849Z",
+  "products": [
+    {
+      "productCode": "5626470P1",
+      "title": "Agafay Desert Sunset Dinner with Camel Ride & Moroccan Live Show",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/32/7b/d9/da/caption.jpg",
+      "rating": 5,
+      "reviewCount": 2580,
+      "fromPrice": {
+        "value": 15.28,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Marrakech/Half-Day-Guided-Tour-of-Marrakech-History-and-Culture-Highlights/d5408-5626470P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "5626470P6",
+      "title": "Agafay Desert Dinner with Camel Ride from Marrakech Sunset Tour",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/32/b6/95/8e/caption.jpg",
+      "rating": 5,
+      "reviewCount": 1647,
+      "fromPrice": {
+        "value": 17.19,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Marrakech/Private-Ait-Ben-Haddou-and-Ouarzazate-Tour-from-Marrakech/d5408-5626470P6?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "5626470P8",
+      "title": "Luxury Private Overnight Agafay Desert, Pool, Dinner & Camp",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/17/15/1b/03.jpg",
+      "rating": 5,
+      "reviewCount": 899,
+      "fromPrice": {
+        "value": 1432.4,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Marrakech/3-Day-Marrakech-to-Merzouga-Desert-Adventure-with-Camel-Trek/d5408-5626470P8?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "25014P17",
+      "title": "Private Atlas Mountains and 5 Valleys Tour from Marrakech - All inclusive -",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/06/d6/c2/5c.jpg",
+      "rating": 5,
+      "reviewCount": 190,
+      "fromPrice": {
+        "value": 153.98,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Marrakech/Private-Tour-Atlas-Mountains-and-4-Valleys-Guided-Day-Trip-from-Marrakech/d5408-25014P17?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "121683P3",
+      "title": "Hot air balloon flight to Marrakech + Berber Breakfast",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/75/22/57.jpg",
+      "rating": 5,
+      "reviewCount": 145,
+      "fromPrice": {
+        "value": 171.89,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Marrakech/Oasis-and-desert/d5408-121683P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "270251P1",
+      "title": "Private 4 Days Tour From Marrakech to Fes Via Merzouga Desert",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/36/eb/f2.jpg",
+      "rating": 5,
+      "reviewCount": 124,
+      "fromPrice": {
+        "value": 811.69,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Marrakech/Private-4-Days-Tour-From-Marrakech-to-Fes-Via-Merzouga-Desert/d5408-270251P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

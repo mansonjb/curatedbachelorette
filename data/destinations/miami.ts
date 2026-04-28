@@ -54,7 +54,7 @@ export const MIAMI: DestinationCover = {
     { q: "Dress code?", a: "Linen, slip dresses, a strap. Boia De casual, Sunny's dressy. A flat shoe." },
   ],
   related: [
-    { name: "Charleston", slug: "charleston", note: "Miami slower, more Southern.", img: IMG.charleston, color: "var(--sage)" },
+    { name: "Ibiza", slug: "ibiza", note: "Miami across the Atlantic, with cala beaches.", img: IMG.beachWalk, color: "var(--peach)" },
     { name: "Mexico City", slug: "cdmx", note: "Miami denser, farther from home.", img: IMG.cdmx, color: "var(--rose)" },
     { name: "Lisbon", slug: "lisbon", note: "Miami in another language.", img: IMG.lisbon, color: "var(--blush-deep)" },
   ],

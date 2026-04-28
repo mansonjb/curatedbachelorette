@@ -57,6 +57,6 @@ export const CDMX: DestinationCover = {
   related: [
     { name: "Lisbon", slug: "lisbon", note: "CDMX in Portuguese, with tile.", img: IMG.lisbon, color: "var(--blush-deep)" },
     { name: "Miami", slug: "miami", note: "CDMX with a beach instead of a museum.", img: IMG.miamiPalms, color: "var(--blush)" },
-    { name: "Charleston", slug: "charleston", note: "CDMX softer, slower, smaller.", img: IMG.charleston, color: "var(--sage)" },
+    { name: "Marrakech", slug: "marrakech", note: "CDMX with a riad and a hammam.", img: IMG.hotelLobby, color: "var(--blush-deep)" },
   ],
 };

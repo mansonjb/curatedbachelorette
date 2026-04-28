@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Img } from "@/components/Img";
 import { JsonLd } from "@/components/JsonLd";
+import { TicketBadge } from "@/components/TicketBadge";
 import { DESTINATIONS, type DestinationCard } from "@/data/destinations";
 import { COVERS } from "@/data/destinations/covers";
 import { SITE_URL } from "@/lib/site";
@@ -47,7 +48,7 @@ export default function DestinationsIndex() {
       <Header active="destinations" />
       <main>
         <Hero published={published.length} total={DESTINATIONS.length} />
-        <PublishedGrid items={published} />
+        <Grid items={published} />
         {upcoming.length > 0 && <UpcomingList items={upcoming} />}
       </main>
       <Footer />
@@ -57,27 +58,37 @@ export default function DestinationsIndex() {
 
 function Hero({ published, total }: { published: number; total: number }) {
   return (
-    <section style={{ padding: "clamp(40px, 5vw, 64px) 0 clamp(32px, 4vw, 48px)" }}>
-      <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <div className="eyebrow" style={{ marginBottom: 12 }}>The Atlas</div>
-        <h1 className="h-display h-1" style={{ margin: "0 0 16px", maxWidth: 880 }}>
-          Every bachelorette weekend, considered.
+    <section style={{ padding: "clamp(40px, 5vw, 64px) clamp(20px, 4vw, 40px) clamp(32px, 4vw, 56px)" }}>
+      <div style={{ maxWidth: 1480, margin: "0 auto" }}>
+        <h1
+          className="h-display"
+          style={{
+            margin: "0 0 24px",
+            fontSize: "clamp(48px, 8vw, 104px)",
+            lineHeight: 1.0,
+            fontWeight: 800,
+            letterSpacing: "-0.025em",
+            maxWidth: 980,
+          }}
+        >
+          Every weekend,{" "}
+          <TicketBadge variant="yellow" rotate={-1.5}>considered</TicketBadge>.
         </h1>
         <p
           style={{
-            margin: 0,
+            margin: "0 0 22px",
             maxWidth: 720,
             fontSize: 18,
             lineHeight: 1.6,
             color: "var(--ink-soft)",
           }}
         >
-          We have stayed in every hotel below, eaten the full menu at every restaurant
-          we recommend, and lain by every pool listed for at least one uninterrupted
-          Saturday afternoon. Nothing here was comped.
+          We&apos;ve stayed in every hotel below, eaten the full menu at every
+          restaurant we recommend, and lain by every pool listed for at least one
+          uninterrupted Saturday afternoon. Nothing here was comped.
         </p>
-        <div style={{ marginTop: 22, display: "flex", gap: 8, flexWrap: "wrap" }}>
-          <span className="tag tag-teal">{published} published</span>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+          <span className="tag tag-pink">{published} published</span>
           <span className="tag">{total - published} upcoming</span>
         </div>
       </div>
@@ -85,16 +96,16 @@ function Hero({ published, total }: { published: number; total: number }) {
   );
 }
 
-function PublishedGrid({ items }: { items: DestinationCard[] }) {
+function Grid({ items }: { items: DestinationCard[] }) {
   return (
     <section className="section-tight">
       <div className="container container-wide" style={{ maxWidth: 1480 }}>
         <div
           className="atlas-grid"
-          style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 24 }}
+          style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 28 }}
         >
           {items.map((d) => (
-            <DestCard key={d.slug} d={d} />
+            <ArticleCard key={d.slug} d={d} />
           ))}
         </div>
         <style>
@@ -105,34 +116,23 @@ function PublishedGrid({ items }: { items: DestinationCard[] }) {
   );
 }
 
-function DestCard({ d }: { d: DestinationCard }) {
+function ArticleCard({ d }: { d: DestinationCard }) {
   return (
     <Link href={`/destinations/${d.slug}`} className="card" style={{ display: "block" }}>
-      <Img src={d.img} alt={d.name} ratio="4 / 3" rounded={0} />
-      <div style={{ padding: "20px 22px 22px" }}>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            marginBottom: 10,
-            gap: 8,
-          }}
-        >
-          <span className="tag tag-teal">{d.tag}</span>
-          <span className="meta">{d.price}</span>
+      <div style={{ padding: 14 }}>
+        <Img src={d.img} alt={d.name} ratio="4 / 5" rounded={36} />
+      </div>
+      <div style={{ padding: "8px 28px 28px" }}>
+        <h2 className="h-display" style={{ margin: "0 0 14px", fontSize: 26, lineHeight: 1.1 }}>
+          Bachelorette weekend in {d.name}, {d.region.split(",")[0].trim()}
+        </h2>
+        <div style={{ display: "flex", gap: 12, marginBottom: 16, flexWrap: "wrap" }}>
+          <span className="tag">{d.tag}</span>
+          <span className="meta">{d.group} guests · {d.days} · {d.price}</span>
         </div>
-        <h2 className="h-display h-3" style={{ margin: "0 0 6px" }}>{d.name}</h2>
-        <div className="meta" style={{ marginBottom: 12 }}>
-          {d.region} · {d.group} guests · {d.days}
-        </div>
-        <p style={{ margin: 0, fontSize: 14.5, color: "var(--ink-soft)", lineHeight: 1.55 }}>
+        <p style={{ margin: 0, fontSize: 15, color: "var(--ink-soft)", lineHeight: 1.55 }}>
           {d.headline}
         </p>
-        <div style={{ marginTop: 18, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <span className="ulink" style={{ fontSize: 14 }}>Read the cover</span>
-          <span style={{ color: "var(--teal-deep)", fontSize: 18 }}>→</span>
-        </div>
       </div>
     </Link>
   );
@@ -142,40 +142,28 @@ function UpcomingList({ items }: { items: DestinationCard[] }) {
   return (
     <section
       className="section"
-      style={{ background: "var(--bg-alt)", borderTop: "1px solid var(--rule)", marginTop: "clamp(40px, 5vw, 72px)" }}
+      style={{ background: "var(--bg-soft)", marginTop: "clamp(40px, 5vw, 72px)" }}
     >
       <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <div className="eyebrow" style={{ marginBottom: 8 }}>Filed, not yet published</div>
-        <h2 className="h-display h-2" style={{ margin: "0 0 28px" }}>Upcoming covers.</h2>
-        <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
-          {items.map((d, i) => (
+        <h2 className="h-display h-2" style={{ margin: "0 0 8px" }}>Upcoming covers.</h2>
+        <p style={{ margin: "0 0 28px", color: "var(--ink-soft)", fontSize: 16 }}>Filed, not yet published.</p>
+        <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 12 }}>
+          {items.map((d) => (
             <li
               key={d.slug}
               style={{
-                background: "var(--bg)",
-                border: "1px solid var(--rule)",
-                borderRadius: "var(--radius-md)",
-                padding: "20px 24px",
-                marginBottom: 12,
+                background: "var(--bg-alt)",
+                borderRadius: "var(--radius-lg)",
+                padding: "20px 28px",
                 display: "grid",
-                gridTemplateColumns: "44px 1fr auto auto",
-                gap: 16,
+                gridTemplateColumns: "1fr auto auto",
+                gap: 18,
                 alignItems: "center",
               }}
             >
-              <span
-                style={{
-                  fontSize: 22,
-                  fontWeight: 700,
-                  color: "var(--teal-deep)",
-                  letterSpacing: "-0.02em",
-                }}
-              >
-                {String(i + 1).padStart(2, "0")}
-              </span>
               <div>
-                <div style={{ fontSize: 17, fontWeight: 600 }}>
-                  {d.name}{" "}
+                <div style={{ fontSize: 18, fontWeight: 700 }}>
+                  Bachelorette weekend in {d.name}{" "}
                   <span className="meta" style={{ marginLeft: 6, fontWeight: 400 }}>{d.region}</span>
                 </div>
                 <p style={{ margin: "4px 0 0", color: "var(--ink-soft)", fontSize: 14, lineHeight: 1.55 }}>

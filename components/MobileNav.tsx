@@ -23,21 +23,10 @@ export function MobileNavTrigger() {
   return (
     <>
       <button
-        className="show-md"
+        className="show-md btn btn-ghost btn-sm"
         onClick={() => setOpen(true)}
         aria-label="Menu"
-        style={{
-          display: "none",
-          background: "transparent",
-          color: "var(--ink)",
-          border: "1px solid var(--rule-strong)",
-          borderRadius: 999,
-          padding: "9px 16px",
-          fontSize: 13,
-          fontWeight: 600,
-          cursor: "pointer",
-          font: "inherit",
-        }}
+        style={{ display: "none" }}
       >
         Menu
       </button>
@@ -65,7 +54,6 @@ export function MobileNavTrigger() {
             <button
               onClick={() => setOpen(false)}
               className="btn btn-ghost btn-sm"
-              style={{ borderRadius: 999 }}
             >
               Close ✕
             </button>
@@ -76,12 +64,12 @@ export function MobileNavTrigger() {
                 key={label}
                 href={href}
                 onClick={() => setOpen(false)}
+                className="h-display"
                 style={{
-                  fontSize: 28,
-                  fontWeight: 600,
-                  letterSpacing: "-0.02em",
-                  padding: "18px 0",
-                  borderBottom: "1px solid var(--rule)",
+                  fontSize: 36,
+                  fontWeight: 800,
+                  padding: "16px 0",
+                  borderBottom: "1.5px solid var(--rule)",
                   color: "var(--ink)",
                 }}
               >

@@ -1,0 +1,79 @@
+{
+  "destinationId": 662,
+  "destinationName": "miami",
+  "fetchedAt": "2026-04-28T20:46:46.154Z",
+  "products": [
+    {
+      "productCode": "250325P6",
+      "title": "Award-winning Art Deco & Neon Lights Walking Tour in Miami Beach",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/32/74/be/45/caption.jpg",
+      "rating": 5,
+      "reviewCount": 152,
+      "fromPrice": {
+        "value": 49,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Miami/Miami-Vice-and-Art-Deco-history-and-locations-Walking-Tour/d662-250325P6?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "348065P1",
+      "title": "Miami: 60 Minute Private Everglades Airboat Ride",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/3d/7c/ae.jpg",
+      "rating": 5,
+      "reviewCount": 152,
+      "fromPrice": {
+        "value": 135,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Miami/60-min-Everglades-Airboat-Private-Tour/d662-348065P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "348065P2",
+      "title": "Miami: 90 Minute Private Everglades Airboat Ride",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/16/9c/6a/7a.jpg",
+      "rating": 5,
+      "reviewCount": 140,
+      "fromPrice": {
+        "value": 185,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Miami/90-min-Everglades-Airboat-Private-Tour/d662-348065P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "5555868P3",
+      "title": "Miami Helicopter Tour Hard Rock and Beach",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/f2/82/5c.jpg",
+      "rating": 5,
+      "reviewCount": 66,
+      "fromPrice": {
+        "value": 179.55,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Miami/Miami-and-Hard-Rock-Helicopter-Tour/d662-5555868P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "350867P1",
+      "title": "Miami Art Deco Gems & Jewels Small Group & Exclusive Access Tour",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/32/f1/7d/66/caption.jpg",
+      "rating": 5,
+      "reviewCount": 57,
+      "fromPrice": {
+        "value": 80,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Miami/Must-See-South-Beach-Walking-Tour/d662-350867P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "187660P1",
+      "title": "Cigar Factory Tour in Little Havana, Miami",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0b/04/6f/79.jpg",
+      "rating": 5,
+      "reviewCount": 54,
+      "fromPrice": {
+        "value": 35,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Miami/Clear-Cuban-hand-rolled-cigar-Tour/d662-187660P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

@@ -11,7 +11,7 @@ const NAV: { label: string; href: string; key: ActiveKey }[] = [
   { label: "About", href: "/about", key: "about" },
 ];
 
-export function Header({ active = "index" }: Props) {
+export function Header({ active }: Props) {
   return (
     <header
       style={{
@@ -19,44 +19,38 @@ export function Header({ active = "index" }: Props) {
         top: 0,
         zIndex: 50,
         background: "var(--bg)",
-        borderBottom: "1px solid var(--rule)",
       }}
     >
       <div
-        className="container container-wide"
         style={{
-          padding: "16px clamp(20px, 3.5vw, 40px)",
+          maxWidth: 1480,
+          margin: "0 auto",
+          padding: "20px clamp(20px, 3.5vw, 40px)",
           display: "grid",
           gridTemplateColumns: "auto 1fr auto",
           gap: 24,
           alignItems: "center",
-          maxWidth: 1480,
         }}
       >
-        <Link href="/" style={{ display: "inline-flex", alignItems: "center", gap: 10 }}>
+        <Link href="/" style={{ display: "inline-flex", alignItems: "baseline", gap: 6 }}>
           <span
+            className="h-display"
             style={{
-              width: 32,
-              height: 32,
-              borderRadius: 999,
-              background: "var(--teal)",
-              color: "#fff",
-              display: "inline-flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontWeight: 700,
-              fontSize: 14,
-              letterSpacing: "-0.02em",
+              fontSize: 26,
+              fontWeight: 800,
+              letterSpacing: "-0.025em",
+              lineHeight: 1,
             }}
           >
-            CB
+            curated
+            <span style={{ color: "var(--pink-deep)" }}>bach</span>
           </span>
-          <span style={{ fontSize: 17, fontWeight: 700, letterSpacing: "-0.015em" }}>
-            Curated Bachelorette
+          <span style={{ fontSize: 12, color: "var(--muted)", fontWeight: 500 }}>
+            weekends, curated
           </span>
         </Link>
 
-        <nav className="hide-md" style={{ display: "flex", justifyContent: "center", gap: 28 }}>
+        <nav className="hide-md" style={{ display: "flex", justifyContent: "center", gap: 36 }}>
           {NAV.map((it) => {
             const isActive = it.key === active;
             return (
@@ -64,11 +58,9 @@ export function Header({ active = "index" }: Props) {
                 key={it.key}
                 href={it.href}
                 style={{
-                  fontSize: 14,
-                  fontWeight: 500,
-                  color: isActive ? "var(--teal-deep)" : "var(--ink)",
-                  borderBottom: isActive ? "2px solid var(--teal)" : "2px solid transparent",
-                  paddingBottom: 4,
+                  fontSize: 16,
+                  fontWeight: 600,
+                  color: isActive ? "var(--pink-deep)" : "var(--ink)",
                   transition: "color 160ms",
                 }}
               >
@@ -78,8 +70,8 @@ export function Header({ active = "index" }: Props) {
           })}
         </nav>
 
-        <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-          <Link href="/matchmaker" className="btn btn-primary btn-sm hide-sm">
+        <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
+          <Link href="/matchmaker" className="btn btn-pink btn-sm hide-sm">
             Plan a weekend
           </Link>
           <MobileNavTrigger />

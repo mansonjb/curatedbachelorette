@@ -1,0 +1,79 @@
+{
+  "destinationId": 4217,
+  "destinationName": "ibiza",
+  "fetchedAt": "2026-04-28T20:46:43.918Z",
+  "products": [
+    {
+      "productCode": "349856P1",
+      "title": "Explore Secret Ibiza: Guided Hiking Tours with Local Experts",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0f/f4/d4/be.jpg",
+      "rating": 5,
+      "reviewCount": 130,
+      "fromPrice": {
+        "value": 164.14,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Ibiza/Hiking-Tour-around-Es-Vedra-in-Ibiza/d4217-349856P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "312857P1",
+      "title": "Private 4-hour Mediterranean Boat Tour in Ibiza with Snorkeling",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0b/df/0b/ce.jpg",
+      "rating": 5,
+      "reviewCount": 114,
+      "fromPrice": {
+        "value": 459.56,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Ibiza/Discover-hidden-corners-and-enjoy-the-sunset-on-a-mediterranean-traditional-boat/d4217-312857P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "314262P1",
+      "title": "MagiCharter: Private charter motorboat sunset in Ibiza",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0b/e2/37/f2.jpg",
+      "rating": 5,
+      "reviewCount": 102,
+      "fromPrice": {
+        "value": 656.52,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Ibiza/Private-Motor-Boat-Rental-in-the-Balearic-Islands/d4217-314262P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "17897P7",
+      "title": "Es Vedra Sailing Voyage",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/09/ab/66/d9.jpg",
+      "rating": 5,
+      "reviewCount": 51,
+      "fromPrice": {
+        "value": 3521.32,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Ibiza/Es-Vedra-Sailing-Voyage/d4217-17897P7?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "350855P2",
+      "title": "Sail Beyond The Bleu: A Formentera Day Escape!",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/47/20/28.jpg",
+      "rating": 5,
+      "reviewCount": 43,
+      "fromPrice": {
+        "value": 948.97,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Ibiza/Explore-the-beauty-of-the-colourful-seaside-and-dazzling-Mediterranean-waters/d4217-350855P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "349988P1",
+      "title": "Combo : Boat, 4x4, hiking in Es Vedra for sunset",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/82/9d/62.jpg",
+      "rating": 5,
+      "reviewCount": 39,
+      "fromPrice": {
+        "value": 340.2,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Ibiza/Full-Day-Excursion-in-4x4-with-Hiking-and-Boat-in-Ibiza/d4217-349988P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

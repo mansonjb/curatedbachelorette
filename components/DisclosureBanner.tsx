@@ -1,23 +1,23 @@
 import Link from "next/link";
 
 /**
- * FTC-required affiliate disclosure shown above-the-fold on every page.
- * Keep brief; full text lives on /disclosure.
+ * FTC-required affiliate disclosure shown above-the-fold on destination
+ * covers. Keep brief; full text lives on /disclosure.
  */
 export function DisclosureBanner() {
   return (
     <div
       style={{
-        background: "var(--bg-alt)",
-        borderBottom: "1px solid var(--rule)",
+        background: "var(--yellow-soft)",
         fontSize: 12.5,
-        color: "var(--ink-soft)",
+        color: "var(--ink)",
+        fontWeight: 500,
       }}
     >
       <div
-        className="container container-wide"
         style={{
           maxWidth: 1480,
+          margin: "0 auto",
           padding: "8px clamp(20px, 4vw, 40px)",
           display: "flex",
           justifyContent: "center",
@@ -27,10 +27,9 @@ export function DisclosureBanner() {
         }}
       >
         <span>
-          Some links on this page are affiliate links — we may earn a commission at no
-          cost to you.
+          Some links here are affiliate links — we may earn a commission at no cost to you.
         </span>
-        <Link href="/disclosure" className="ulink" style={{ color: "var(--teal-deep)" }}>
+        <Link href="/disclosure" className="ulink-h">
           Learn more
         </Link>
       </div>

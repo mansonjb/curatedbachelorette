@@ -56,7 +56,7 @@ export const LISBON: DestinationCover = {
   ],
   related: [
     { name: "Mexico City", slug: "cdmx", note: "Lisbon noisier, denser, hotter.", img: IMG.cdmx, color: "var(--rose)" },
-    { name: "Charleston", slug: "charleston", note: "Lisbon, but nobody walks anywhere.", img: IMG.charleston, color: "var(--sage)" },
+    { name: "Marrakech", slug: "marrakech", note: "Lisbon across the strait, in another language.", img: IMG.hotelLobby, color: "var(--blush-deep)" },
     { name: "Miami", slug: "miami", note: "Lisbon, with a pool and a flight half as long.", img: IMG.miamiPalms, color: "var(--blush)" },
   ],
 };

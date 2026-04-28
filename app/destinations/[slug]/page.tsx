@@ -9,6 +9,7 @@ import { Img } from "@/components/Img";
 import { JsonLd } from "@/components/JsonLd";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { Stay22Cta, Stay22Map } from "@/components/Stay22";
+import { TicketBadge } from "@/components/TicketBadge";
 import { ViatorBlock } from "@/components/ViatorBlock";
 import { findDestination, type DestinationCard } from "@/data/destinations";
 import { COVERS } from "@/data/destinations/covers";
@@ -27,7 +28,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const cover = COVERS[slug];
   if (!cover) return {};
-  const title = `${cover.title} bachelorette weekend, ${cover.highlight}`;
+  const title = `Bachelorette weekend in ${cover.title}, ${cover.highlight}`;
   const description = cover.hero.intro;
   return {
     title,
@@ -128,7 +129,7 @@ function DestinationJsonLd({
         data={{
           "@context": "https://schema.org",
           "@type": "Article",
-          headline: `${cover.title} bachelorette weekend — a curated cover`,
+          headline: `Bachelorette weekend in ${cover.title} — a curated cover`,
           description: cover.hero.intro,
           author: { "@type": "Person", name: cover.readingTime.author },
           publisher: { "@type": "Organization", name: SITE_NAME },
@@ -142,16 +143,11 @@ function DestinationJsonLd({
 
 function Breadcrumbs({ cover }: { cover: DestinationCover }) {
   return (
-    <nav
-      className="meta"
-      style={{
-        padding: "20px 0 0",
-      }}
-    >
-      <div className="container container-wide" style={{ maxWidth: 1480, display: "flex", gap: 8 }}>
-        <Link href="/" className="ulink" style={{ color: "var(--ink-soft)" }}>Home</Link>
+    <nav style={{ padding: "20px 0 0" }}>
+      <div className="container-wide" style={{ maxWidth: 1480, margin: "0 auto", padding: "0 clamp(20px, 4vw, 40px)", display: "flex", gap: 8, fontSize: 13, color: "var(--ink-soft)" }}>
+        <Link href="/" className="ulink-h">Home</Link>
         <span style={{ color: "var(--muted)" }}>/</span>
-        <Link href="/destinations" className="ulink" style={{ color: "var(--ink-soft)" }}>Destinations</Link>
+        <Link href="/destinations" className="ulink-h">Destinations</Link>
         <span style={{ color: "var(--muted)" }}>/</span>
         <span style={{ color: "var(--ink)" }}>{cover.title}</span>
       </div>
@@ -161,31 +157,35 @@ function Breadcrumbs({ cover }: { cover: DestinationCover }) {
 
 function DestHero({ cover }: { cover: DestinationCover }) {
   return (
-    <section style={{ padding: "clamp(24px, 3vw, 36px) 0 clamp(36px, 5vw, 56px)" }}>
-      <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <div style={{ display: "flex", gap: 8, marginBottom: 18, flexWrap: "wrap" }}>
-          <span className="tag tag-teal">Issue {ISSUE.number} · Cover Story</span>
-          {cover.tags.map((t) => (
-            <span key={t} className="tag">{t}</span>
-          ))}
+    <section style={{ padding: "clamp(28px, 4vw, 56px) clamp(20px, 4vw, 40px) clamp(36px, 5vw, 64px)" }}>
+      <div style={{ maxWidth: 1480, margin: "0 auto" }}>
+        <div style={{ display: "flex", gap: 8, marginBottom: 22, flexWrap: "wrap" }}>
+          <span className="tag tag-ink">Issue {ISSUE.number} · Cover</span>
+          {cover.tags.map((t) => <span key={t} className="tag">{t}</span>)}
         </div>
-        <h1 className="h-display h-1" style={{ margin: "0 0 20px", maxWidth: 920 }}>
-          {cover.title} bachelorette weekend,{" "}
-          <span style={{ color: "var(--teal-deep)" }}>{cover.highlight}</span>.
-        </h1>
-        <p
+        <h1
+          className="h-display"
           style={{
             margin: 0,
-            maxWidth: 760,
-            fontSize: 19,
-            lineHeight: 1.6,
-            color: "var(--ink-soft)",
+            fontSize: "clamp(56px, 9vw, 120px)",
+            lineHeight: 1.0,
+            fontWeight: 800,
+            letterSpacing: "-0.025em",
+            maxWidth: 1100,
           }}
         >
+          Bachelorette weekend in {cover.title},{" "}
+          <TicketBadge variant="pink" rotate={-1.2}>
+            {cover.highlight}
+          </TicketBadge>
+        </h1>
+        <p style={{ margin: "32px 0 0", maxWidth: 760, fontSize: 19, lineHeight: 1.6, color: "var(--ink-soft)" }}>
           {cover.hero.intro}
         </p>
-        <div style={{ marginTop: 32, borderRadius: "var(--radius-xl)", overflow: "hidden" }}>
-          <Img src={cover.hero.img} alt={cover.title} ratio="16 / 9" rounded={28} />
+        <div className="tilt-l" style={{ marginTop: 40 }}>
+          <div style={{ border: "1.5px solid var(--ink)", borderRadius: "var(--radius-xl)", overflow: "hidden", background: "var(--bg-alt)" }}>
+            <Img src={cover.hero.img} alt={cover.title} ratio="16 / 9" rounded={0} />
+          </div>
         </div>
       </div>
     </section>
@@ -203,29 +203,31 @@ function DestMeta({ cover }: { cover: DestinationCover }) {
   return (
     <section
       style={{
-        background: "var(--bg-alt)",
-        borderTop: "1px solid var(--rule)",
-        borderBottom: "1px solid var(--rule)",
+        background: "var(--bg-soft)",
+        margin: "0 clamp(20px, 4vw, 40px)",
+        borderRadius: "var(--radius-lg)",
+        maxWidth: 1480,
       }}
     >
       <div
-        className="container container-wide"
+        className="meta-grid"
         style={{
-          maxWidth: 1480,
-          padding: "20px clamp(20px, 4vw, 40px)",
+          padding: "24px clamp(24px, 4vw, 40px)",
           display: "grid",
           gridTemplateColumns: `repeat(${items.length}, minmax(0, 1fr))`,
           gap: 24,
+          maxWidth: 1480,
+          margin: "0 auto",
         }}
       >
         {items.map(([k, v]) => (
           <div key={k}>
             <div className="eyebrow" style={{ marginBottom: 4 }}>{k}</div>
-            <div style={{ fontSize: 15, fontWeight: 500 }}>{v}</div>
+            <div style={{ fontSize: 16, fontWeight: 600 }}>{v}</div>
           </div>
         ))}
       </div>
-      <style>{`@media (max-width: 900px) { section[style*='grid-template-columns: repeat'] { grid-template-columns: 1fr 1fr !important; } }`}</style>
+      <style>{`@media (max-width: 900px) { .meta-grid { grid-template-columns: 1fr 1fr !important; } }`}</style>
     </section>
   );
 }
@@ -240,8 +242,8 @@ function DestIntro({ cover }: { cover: DestinationCover }) {
             key={i}
             style={{
               margin: i === 0 ? "0 0 18px" : "18px 0 0",
-              fontSize: i === 0 ? 21 : 17,
-              lineHeight: i === 0 ? 1.45 : 1.65,
+              fontSize: i === 0 ? 22 : 17,
+              lineHeight: i === 0 ? 1.45 : 1.7,
               color: i === 0 ? "var(--ink)" : "var(--ink-soft)",
             }}
           >
@@ -256,26 +258,24 @@ function DestIntro({ cover }: { cover: DestinationCover }) {
 function DestStay({ cover, card }: { cover: DestinationCover; card: DestinationCard }) {
   const cityAddress = `${cover.title}, ${card.region}`;
   return (
-    <section className="section" style={{ background: "var(--bg-alt)", borderTop: "1px solid var(--rule)" }}>
+    <section className="section" style={{ background: "var(--bg-soft)" }}>
       <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <SectionHeader number="01" title="Stay" subtitle={`${cover.stay.length} hotels we paid for`} />
-        <div
-          className="stay-grid"
-          style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 24 }}
-        >
+        <SectionHeader number="01" title="Stay" />
+        <div className="stay-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 28 }}>
           {cover.stay.map((s) => (
-            <article key={s.no} className="card" style={{ background: "var(--bg)" }}>
-              <Img src={s.img} alt={s.name} ratio="4 / 3" rounded={0} />
-              <div style={{ padding: "20px 22px 22px" }}>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
+            <article key={s.no} className="card" style={{ background: "var(--bg-alt)" }}>
+              <div style={{ padding: 14 }}>
+                <Img src={s.img} alt={s.name} ratio="4 / 3" rounded={28} />
+              </div>
+              <div style={{ padding: "0 26px 24px" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
                   <span className="tag">{s.area}</span>
                   <span className="meta">{s.price}</span>
                 </div>
-                <h3 className="h-display h-3" style={{ margin: "0 0 8px" }}>{s.name}</h3>
+                <h3 className="h-display" style={{ margin: "0 0 8px", fontSize: 24, lineHeight: 1.15 }}>{s.name}</h3>
                 <p style={{ margin: 0, fontSize: 14.5, color: "var(--ink-soft)", lineHeight: 1.55 }}>{s.note}</p>
-                <div style={{ marginTop: 16, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <div style={{ marginTop: 16 }}>
                   <Stay22Cta hotelName={s.name} city={cover.title} context={`${cover.slug}-stay-${s.no}`} />
-                  <span style={{ color: "var(--teal-deep)", fontSize: 18 }}>→</span>
                 </div>
               </div>
             </article>
@@ -292,34 +292,17 @@ function DestDo({ cover }: { cover: DestinationCover }) {
   return (
     <section className="section">
       <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <SectionHeader number="02" title="Do" subtitle="One thing per half-day" />
-        <div
-          className="do-grid"
-          style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 24 }}
-        >
+        <SectionHeader number="02" title="Do" />
+        <div className="do-grid" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 28 }}>
           {cover.do.map((d, i) => (
-            <article
-              key={d.title}
-              className="card"
-              style={{
-                display: "grid",
-                gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1.1fr)",
-                background: "var(--bg)",
-              }}
-            >
-              <Img src={d.img} alt={d.title} ratio="4 / 5" rounded={0} />
-              <div
-                style={{
-                  padding: "22px 22px",
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: 8,
-                  justifyContent: "center",
-                }}
-              >
+            <article key={d.title} className="card" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)", background: "var(--bg-alt)" }}>
+              <div style={{ padding: 14 }}>
+                <Img src={d.img} alt={d.title} ratio="4 / 5" rounded={28} />
+              </div>
+              <div style={{ padding: "32px 28px 32px 8px", display: "flex", flexDirection: "column", gap: 10, justifyContent: "center" }}>
                 <span className="tag">№ {String(i + 1).padStart(2, "0")}</span>
                 <div className="meta">{d.hour}</div>
-                <h3 className="h-display h-3" style={{ margin: 0 }}>{d.title}</h3>
+                <h3 className="h-display" style={{ margin: 0, fontSize: 22, lineHeight: 1.15 }}>{d.title}</h3>
               </div>
             </article>
           ))}
@@ -332,50 +315,39 @@ function DestDo({ cover }: { cover: DestinationCover }) {
 
 function DestEat({ cover }: { cover: DestinationCover }) {
   return (
-    <section className="section" style={{ background: "var(--bg-alt)", borderTop: "1px solid var(--rule)" }}>
+    <section className="section" style={{ background: "var(--bg-soft)" }}>
       <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <SectionHeader number="03" title="Eat" subtitle={`${cover.eat.length} reservations`} />
+        <SectionHeader number="03" title="Eat" />
         <ol style={{ listStyle: "none", padding: 0, margin: 0 }}>
           {cover.eat.map((e) => (
             <li
               key={e.no}
               style={{
-                background: "var(--bg)",
-                border: "1px solid var(--rule)",
-                borderRadius: "var(--radius-md)",
-                padding: "20px 24px",
-                marginBottom: 12,
+                background: "var(--bg-alt)",
+                borderRadius: "var(--radius-lg)",
+                padding: "24px 32px",
+                marginBottom: 14,
                 display: "grid",
                 gridTemplateColumns: "44px 1fr auto",
-                gap: 16,
+                gap: 20,
                 alignItems: "center",
               }}
-              className="eat-row"
             >
-              <span
-                style={{
-                  fontSize: 22,
-                  fontWeight: 700,
-                  color: "var(--teal-deep)",
-                  letterSpacing: "-0.02em",
-                }}
-              >
+              <span className="h-display" style={{ fontSize: 28, color: "var(--pink-deep)" }}>
                 {String(e.no).padStart(2, "0")}
               </span>
               <div>
-                <div style={{ fontSize: 17, fontWeight: 600 }}>
-                  {e.name}{" "}
-                  <span className="meta" style={{ marginLeft: 6, fontWeight: 400 }}>{e.area}</span>
+                <div style={{ fontSize: 18, fontWeight: 700 }}>
+                  {e.name} <span className="meta" style={{ marginLeft: 6, fontWeight: 400 }}>{e.area}</span>
                 </div>
-                <p style={{ margin: "4px 0 0", color: "var(--ink-soft)", fontSize: 14, lineHeight: 1.55 }}>
+                <p style={{ margin: "4px 0 0", color: "var(--ink-soft)", fontSize: 14.5, lineHeight: 1.55 }}>
                   {e.note}
                 </p>
               </div>
-              <span className="tag tag-teal">{e.meal}</span>
+              <span className="tag tag-pink">{e.meal}</span>
             </li>
           ))}
         </ol>
-        <style>{`@media (max-width: 540px) { .eat-row { grid-template-columns: auto 1fr !important; } .eat-row > .tag { grid-column: 1 / -1; }`}</style>
       </div>
     </section>
   );
@@ -385,27 +357,28 @@ function DestPullQuote({ cover }: { cover: DestinationCover }) {
   return (
     <section
       style={{
-        padding: "clamp(72px, 10vw, 140px) 0",
+        padding: "clamp(72px, 10vw, 140px) clamp(20px, 4vw, 40px)",
         background: "var(--ink)",
-        color: "#fff",
+        color: "var(--bg)",
       }}
     >
-      <div className="container" style={{ maxWidth: 960, textAlign: "center" }}>
+      <div style={{ maxWidth: 1080, margin: "0 auto", textAlign: "center" }}>
         <p
           className="h-display"
           style={{
             margin: 0,
-            fontSize: "clamp(32px, 5vw, 56px)",
-            lineHeight: 1.15,
-            letterSpacing: "-0.02em",
-            fontWeight: 600,
+            fontSize: "clamp(36px, 6vw, 72px)",
+            lineHeight: 1.1,
+            letterSpacing: "-0.025em",
+            fontWeight: 800,
           }}
         >
           {cover.pullQuote.lead} {cover.pullQuotePlace} is,{" "}
-          <span style={{ color: "var(--teal)" }}>{cover.pullQuote.emphasis}</span>,{" "}
+          <TicketBadge variant="yellow" rotate={-1.2}>{cover.pullQuote.emphasis}</TicketBadge>
+          ,{" "}
           {cover.pullQuote.tail}
         </p>
-        <div className="meta" style={{ marginTop: 24, color: "rgba(255,255,255,0.6)" }}>
+        <div className="meta" style={{ marginTop: 28, color: "rgba(245,239,229,0.6)" }}>
           {cover.pullQuote.cite}
         </div>
       </div>
@@ -417,24 +390,15 @@ function DestItinerary({ cover }: { cover: DestinationCover }) {
   return (
     <section className="section">
       <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <SectionHeader number="04" title="Plan" subtitle="Print, fold, pretend nothing was organized" />
-        <div
-          className="iti-grid"
-          style={{ display: "grid", gridTemplateColumns: `repeat(${cover.itinerary.length}, minmax(0, 1fr))`, gap: 16 }}
-        >
+        <SectionHeader number="04" title="Plan" />
+        <div className="iti-grid" style={{ display: "grid", gridTemplateColumns: `repeat(${cover.itinerary.length}, minmax(0, 1fr))`, gap: 20 }}>
           {cover.itinerary.map((d) => (
             <div
               key={d.day}
               className="card"
-              style={{
-                padding: 22,
-                display: "flex",
-                flexDirection: "column",
-                gap: 14,
-                background: "var(--bg)",
-              }}
+              style={{ padding: 26, display: "flex", flexDirection: "column", gap: 14, background: "var(--bg-alt)" }}
             >
-              <div className="h-display h-3" style={{ margin: 0 }}>{d.day}</div>
+              <div className="h-display" style={{ margin: 0, fontSize: 24 }}>{d.day}</div>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 10 }}>
                 {d.items.map(([t, l]) => (
                   <li
@@ -456,9 +420,7 @@ function DestItinerary({ cover }: { cover: DestinationCover }) {
             </div>
           ))}
         </div>
-        <style>
-          {`@media (max-width: 900px) { .iti-grid { grid-template-columns: 1fr 1fr !important; } } @media (max-width: 540px) { .iti-grid { grid-template-columns: 1fr !important; } }`}
-        </style>
+        <style>{`@media (max-width: 900px) { .iti-grid { grid-template-columns: 1fr 1fr !important; } } @media (max-width: 540px) { .iti-grid { grid-template-columns: 1fr !important; } }`}</style>
       </div>
     </section>
   );
@@ -466,9 +428,9 @@ function DestItinerary({ cover }: { cover: DestinationCover }) {
 
 function DestFaq({ cover }: { cover: DestinationCover }) {
   return (
-    <section className="section" style={{ background: "var(--bg-alt)", borderTop: "1px solid var(--rule)" }}>
+    <section className="section" style={{ background: "var(--bg-soft)" }}>
       <div className="container" style={{ maxWidth: 880 }}>
-        <SectionHeader number="05" title="FAQ" subtitle="Reader letters, paraphrased" />
+        <SectionHeader number="05" title="FAQ" />
         <Faq items={cover.faq} />
       </div>
     </section>
@@ -479,24 +441,18 @@ function DestRelated({ cover }: { cover: DestinationCover }) {
   return (
     <section className="section">
       <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <div className="eyebrow" style={{ marginBottom: 8 }}>Adjacent reading</div>
-        <h2 className="h-display h-2" style={{ margin: "0 0 32px" }}>
+        <h2 className="h-display h-2" style={{ margin: "0 0 28px" }}>
           If {cover.title} isn&apos;t quite right.
         </h2>
-        <div
-          className="rel-grid"
-          style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 24 }}
-        >
+        <div className="rel-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 28 }}>
           {cover.related.map((it) => (
             <Link key={it.name} href={`/destinations/${it.slug}`} className="card" style={{ display: "block" }}>
-              <Img src={it.img} alt={it.name} ratio="4 / 3" rounded={0} />
-              <div style={{ padding: "18px 22px 22px" }}>
-                <h3 className="h-display h-3" style={{ margin: "0 0 6px" }}>{it.name}</h3>
-                <p style={{ margin: 0, fontSize: 14.5, color: "var(--ink-soft)", lineHeight: 1.55 }}>{it.note}</p>
-                <div style={{ marginTop: 14, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <span className="ulink" style={{ fontSize: 14 }}>Read the cover</span>
-                  <span style={{ color: "var(--teal-deep)", fontSize: 18 }}>→</span>
-                </div>
+              <div style={{ padding: 14 }}>
+                <Img src={it.img} alt={it.name} ratio="4 / 3" rounded={28} />
+              </div>
+              <div style={{ padding: "0 26px 24px" }}>
+                <h3 className="h-display" style={{ margin: "0 0 8px", fontSize: 22 }}>{it.name}</h3>
+                <p style={{ margin: 0, color: "var(--ink-soft)", fontSize: 14.5, lineHeight: 1.55 }}>{it.note}</p>
               </div>
             </Link>
           ))}
@@ -507,31 +463,11 @@ function DestRelated({ cover }: { cover: DestinationCover }) {
   );
 }
 
-function SectionHeader({
-  number,
-  title,
-  subtitle,
-}: {
-  number: string;
-  title: string;
-  subtitle?: string;
-}) {
+function SectionHeader({ number, title }: { number: string; title: string }) {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "baseline",
-        flexWrap: "wrap",
-        gap: 12,
-        marginBottom: 28,
-      }}
-    >
-      <div>
-        <div className="eyebrow" style={{ marginBottom: 6 }}>№ {number}</div>
-        <h2 className="h-display h-2" style={{ margin: 0 }}>{title}</h2>
-      </div>
-      {subtitle && <span className="tag">{subtitle}</span>}
+    <div style={{ display: "flex", alignItems: "baseline", gap: 16, flexWrap: "wrap", marginBottom: 28 }}>
+      <span className="eyebrow">№ {number}</span>
+      <h2 className="h-display h-2" style={{ margin: 0 }}>{title}.</h2>
     </div>
   );
 }

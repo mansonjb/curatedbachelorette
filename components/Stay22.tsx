@@ -32,9 +32,8 @@ export function Stay22Map({ address }: { address: string }) {
   return (
     <div
       style={{
-        marginTop: 32,
-        border: "1px solid var(--rule)",
-        borderRadius: "var(--radius-lg)",
+        marginTop: 36,
+        borderRadius: "var(--radius-xl)",
         overflow: "hidden",
         background: "var(--bg-alt)",
       }}

@@ -31,19 +31,20 @@ export type ViatorCache = {
  * Map our destination slugs to Viator destinationId.
  * Source of truth; updated when a new cover ships.
  *
- * IDs verified against /v1/taxonomy/destinations on 2026-04-27.
+ * IDs resolved via /partner/search/freetext on 2026-04-28.
+ * Saint-Tropez has no dedicated Viator destination → falls back to the
+ * French Riviera parent (179), which carries Tropez tours alongside Nice
+ * and Cannes; close enough for the bachelorette demand.
  */
 export const VIATOR_DESTINATION_IDS: Record<string, number> = {
+  ibiza: 4217,
+  mykonos: 958,
+  capri: 4223,
+  "saint-tropez": 179,
+  lisbon: 538,
+  marrakech: 5408,
   miami: 662,
-  charleston: 5266,
   cdmx: 5466,
-  lisbon: 791,
-  ojai: 32488,
-  ibiza: 974,
-  mykonos: 36,
-  capri: 681,
-  marrakech: 802,
-  "saint-tropez": 5302,
 };
 
 const PARTNER_PID = process.env.VIATOR_PARTNER_PID || "P00250395"; // mcid placeholder

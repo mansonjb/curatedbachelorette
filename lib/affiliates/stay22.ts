@@ -45,7 +45,7 @@ export function stay22MapSrc(address: string): string {
   const params = new URLSearchParams();
   if (PARTNER_ID) params.set("aid", PARTNER_ID);
   params.set("address", address);
-  params.set("maincolor", "1aafa1");
+  params.set("maincolor", "e8708a");
   return `${MAP_BASE}?${params.toString()}`;
 }
 

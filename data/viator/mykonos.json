@@ -1,0 +1,79 @@
+{
+  "destinationId": 958,
+  "destinationName": "mykonos",
+  "fetchedAt": "2026-04-28T20:46:44.311Z",
+  "products": [
+    {
+      "productCode": "462539P1",
+      "title": "Mykonos Private Island Tour",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/5b/59/c6.jpg",
+      "rating": 5,
+      "reviewCount": 136,
+      "fromPrice": {
+        "value": 166.52,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mykonos/Private-Island-Tour-Discover-Mykonos-With-Us/d958-462539P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "274302P2",
+      "title": "Sea kayaking Mykonos natural beauty beaches",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/3a/5b/c4.jpg",
+      "rating": 5,
+      "reviewCount": 104,
+      "fromPrice": {
+        "value": 107.43,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mykonos/Adventure-Sea-Kayaking-the-wild-North-Coast/d958-274302P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "364436P1",
+      "title": "Sip, Sail and Savor Private Catamaran Experience up to 20 guests",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/b4/d6/33.jpg",
+      "rating": 5,
+      "reviewCount": 90,
+      "fromPrice": {
+        "value": 3461.63,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mykonos/Sip-Sail-and-Savor-Private-Catamaran-Experience-20-guests/d958-364436P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "5586083P4",
+      "title": "Private Mykonos Sightseeing Experience with a Local",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/17/0e/03/65.jpg",
+      "rating": 5,
+      "reviewCount": 64,
+      "fromPrice": {
+        "value": 150.86,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mykonos/Experience-the-True-Essence-of-Mykonos-With-a-Local/d958-5586083P4?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "5536404P1",
+      "title": "Mykonos Private Island Tour In Half Day",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/17/0d/6c/57.jpg",
+      "rating": 5,
+      "reviewCount": 61,
+      "fromPrice": {
+        "value": 95.47,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mykonos/Private-Tour-Discover-Mykonos-Island-In-Half-Day/d958-5536404P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "7626P457",
+      "title": "Mykonos Home Cooking Class & Traditional Greek Meal with Angelina",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/7f/f3/4c.jpg",
+      "rating": 5,
+      "reviewCount": 56,
+      "fromPrice": {
+        "value": 326,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mykonos/Private-Greek-Cooking-Class-in-Mykonos-with-a-Food-Professional/d958-7626P457?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}
