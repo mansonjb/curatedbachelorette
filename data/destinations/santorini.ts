@@ -15,7 +15,7 @@ export const SANTORINI: DestinationCover = {
     nights: "4 (Wed→Sun)",
     perHead: "$2,000 – $3,800",
     bestMonths: "late May · June · early Oct",
-    img: IMG.hotelExterior,
+    img: IMG.santoriniHero,
   },
   intro: [
     "Santorini in late May or early October is the island that the photographs promised. Santorini in August is a cruise terminal. We have not changed our minds about this in eight visits, and we are not going to.",

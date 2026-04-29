@@ -15,7 +15,7 @@ export const CDMX: DestinationCover = {
     nights: "4 (Thu→Mon)",
     perHead: "$1,000 – $1,900",
     bestMonths: "Mar · Apr · Oct · Nov",
-    img: IMG.cdmx,
+    img: IMG.cdmxHero,
   },
   intro: [
     "Mexico City is the only weekend on this site we recommend extending to four nights, and the only one we recommend not over-planning. The city rewards a sleepy Friday morning and a long Saturday lunch the way no other capital does. It punishes a packed schedule.",

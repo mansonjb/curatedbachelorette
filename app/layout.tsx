@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
+import { Stay22LetMeAllez } from "@/components/Stay22LetMeAllez";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -32,7 +33,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={outfit.variable}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Stay22LetMeAllez />
+      </body>
     </html>
   );
 }

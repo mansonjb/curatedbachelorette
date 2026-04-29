@@ -15,7 +15,7 @@ export const MYKONOS: DestinationCover = {
     nights: "4 (Thu→Mon)",
     perHead: "$1,800 – $3,400",
     bestMonths: "early June · mid-Sept · early Oct",
-    img: IMG.hotelExterior,
+    img: IMG.mykonosHero,
   },
   intro: [
     "We have been to Mykonos in August. We do not recommend it. The Mykonos that justifies the airfare is the one that exists in the first three weeks of June and from the second week of September onward — the small island with seventy beaches, two windmills, and a town that smells faintly of jasmine after dinner.",

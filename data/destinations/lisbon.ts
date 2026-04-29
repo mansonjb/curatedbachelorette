@@ -15,7 +15,7 @@ export const LISBON: DestinationCover = {
     nights: "4 (Wed→Sun)",
     perHead: "$1,000 – $1,700",
     bestMonths: "May · June · Sept · early Oct",
-    img: IMG.lisbon,
+    img: IMG.lisbonHero,
   },
   intro: [
     "Lisbon is the rare European weekend that's still affordable, still uncrowded in May and September, and still genuinely confused by what a bachelorette is — which, for our purposes, is exactly the right kind of indifference.",

@@ -15,7 +15,7 @@ export const COMPORTA: DestinationCover = {
     nights: "4 (Thu→Mon)",
     perHead: "$1,200 – $2,400",
     bestMonths: "late May · June · Sept",
-    img: IMG.beachWalk,
+    img: IMG.comportaHero,
   },
   intro: [
     "Comporta is the trip we send brides to when they have explicitly said, on the group text, 'I do not want a city this time.' It is a stretch of pine and sand on the Setúbal peninsula, an hour by car from Lisbon airport, almost entirely without traffic, hotels, or signage. It has been quietly fashionable for fifteen years and remains, somehow, undiscovered by the people you'd worry about.",

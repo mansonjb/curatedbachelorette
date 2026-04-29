@@ -15,7 +15,7 @@ export const CAPRI: DestinationCover = {
     nights: "3 (Thu→Sun)",
     perHead: "$2,400 – $4,200",
     bestMonths: "late May · June · early Sept",
-    img: IMG.marina,
+    img: IMG.capriHero,
   },
   intro: [
     "Capri is the only destination on this site we recommend specifically because it empties at 6PM. The cruise ferries leave, the day-trippers leave, the Piazzetta becomes a small town again, and the people who stayed have an island for an hour.",

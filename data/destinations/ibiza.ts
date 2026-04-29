@@ -15,7 +15,7 @@ export const IBIZA: DestinationCover = {
     nights: "4 (Wed→Sun)",
     perHead: "$1,800 – $3,200",
     bestMonths: "May · June · early Sept",
-    img: IMG.beachWalk,
+    img: IMG.ibizaHero,
   },
   intro: [
     "There are two Ibizas. One is the island's caricature — Bora Bora at noon, a club at three, a hangover at four. The other is what we're writing about: a quiet villa in San Juan, two boat days that end before dark, a Saturday lunch at a beach shack with a fish on the table and a dog under it.",

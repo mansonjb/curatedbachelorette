@@ -15,7 +15,7 @@ export const MARRAKECH: DestinationCover = {
     nights: "4 (Thu→Mon)",
     perHead: "$900 – $1,800",
     bestMonths: "Mar · Apr · Oct · Nov",
-    img: IMG.hotelLobby,
+    img: IMG.marrakechHero,
   },
   intro: [
     "Marrakech is the destination that gets oversold and under-prepared. The trip we send people on is not a souk-and-tajine cavalcade; it is a slow, sensory week organized around one extraordinary riad and the parts of the city you can reach in twenty minutes. Everything else — the day-trips, the camel, the desert — is for a longer trip.",

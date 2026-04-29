@@ -15,7 +15,7 @@ export const SAINT_TROPEZ: DestinationCover = {
     nights: "3 (Thu→Sun)",
     perHead: "$1,800 – $3,400",
     bestMonths: "early June · early Oct",
-    img: IMG.marina,
+    img: IMG.tropezHero,
   },
   intro: [
     "We do not recommend Saint-Tropez in August. The harbor is a parking lot, the dinners are seatings, the village belongs to a tour bus from Antibes. We recommend Saint-Tropez two weeks of the year: the first week of June, before it begins, and the second week of October, after it ends. Both are extraordinary.",

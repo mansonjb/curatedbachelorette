@@ -15,7 +15,7 @@ export const MALLORCA: DestinationCover = {
     nights: "4 (Wed→Sun)",
     perHead: "$1,400 – $2,800",
     bestMonths: "May · June · Sept · early Oct",
-    img: IMG.hotelExterior,
+    img: IMG.mallorcaHero,
   },
   intro: [
     "Mallorca is the second-largest Mediterranean island after Sicily, and a great deal of it is, frankly, terrible. The eastern coast of the island is the bachelorette of cliché — Magaluf, the strip, a kind of British vacation we are not interested in. The western half, the Serra de Tramuntana, is something else entirely: stone villages perched over the sea, olive terraces five hundred years old, three of the best restaurants in Spain, and almost no English-speaking party traffic.",

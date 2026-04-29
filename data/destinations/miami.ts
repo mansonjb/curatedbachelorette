@@ -15,7 +15,7 @@ export const MIAMI: DestinationCover = {
     nights: "3 (Thu→Sun)",
     perHead: "$1,200 – $2,400",
     bestMonths: "Mar · Apr · Oct · Nov",
-    img: IMG.miamiPalms,
+    img: IMG.miamiHero,
   },
   intro: [
     "The first thing to know about a Miami bachelorette is that it is not, in fact, a Miami bachelorette. It is a Miami weekend that happens to involve a bride. The distinction matters, because the city does not need any help being more itself, and the bride does not need to be told, repeatedly, that she is the bride.",

@@ -15,7 +15,7 @@ export const HVAR: DestinationCover = {
     nights: "4 (Thu→Mon)",
     perHead: "$1,200 – $2,400",
     bestMonths: "late May · June · early Sept",
-    img: IMG.beachWalk,
+    img: IMG.hvarHero,
   },
   intro: [
     "Hvar has a reputation we recommend ignoring. The yacht-club Hvar of mid-July is a real thing; it is also a small thing, confined to four streets near the marina, and easy to walk past. The island that surrounds those four streets is one of the quieter places in the Mediterranean — pine forest, lavender, a handful of Roman fishing villages on the south coast that don't show up on a chartered yacht's itinerary.",
