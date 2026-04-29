@@ -1,7 +1,7 @@
 {
   "destinationId": 5408,
   "destinationName": "marrakech",
-  "fetchedAt": "2026-04-28T20:54:37.779Z",
+  "fetchedAt": "2026-04-29T05:35:02.352Z",
   "products": [
     {
       "productCode": "5626470P1",
@@ -10,7 +10,7 @@
       "rating": 5,
       "reviewCount": 2580,
       "fromPrice": {
-        "value": 15.28,
+        "value": 15.27,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/Half-Day-Guided-Tour-of-Marrakech-History-and-Culture-Highlights/d5408-5626470P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -22,7 +22,7 @@
       "rating": 5,
       "reviewCount": 1647,
       "fromPrice": {
-        "value": 17.19,
+        "value": 17.18,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/Private-Ait-Ben-Haddou-and-Ouarzazate-Tour-from-Marrakech/d5408-5626470P6?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -34,7 +34,7 @@
       "rating": 5,
       "reviewCount": 899,
       "fromPrice": {
-        "value": 1432.4,
+        "value": 1431.52,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/3-Day-Marrakech-to-Merzouga-Desert-Adventure-with-Camel-Trek/d5408-5626470P8?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -46,7 +46,7 @@
       "rating": 5,
       "reviewCount": 190,
       "fromPrice": {
-        "value": 153.98,
+        "value": 153.89,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/Private-Tour-Atlas-Mountains-and-4-Valleys-Guided-Day-Trip-from-Marrakech/d5408-25014P17?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -58,7 +58,7 @@
       "rating": 5,
       "reviewCount": 145,
       "fromPrice": {
-        "value": 171.89,
+        "value": 171.78,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/Oasis-and-desert/d5408-121683P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -70,7 +70,7 @@
       "rating": 5,
       "reviewCount": 124,
       "fromPrice": {
-        "value": 811.69,
+        "value": 811.19,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/Private-4-Days-Tour-From-Marrakech-to-Fes-Via-Merzouga-Desert/d5408-270251P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"

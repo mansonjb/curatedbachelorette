@@ -1,7 +1,7 @@
 {
   "destinationId": 179,
   "destinationName": "saint-tropez",
-  "fetchedAt": "2026-04-28T20:54:36.785Z",
+  "fetchedAt": "2026-04-29T05:35:00.131Z",
   "products": [
     {
       "productCode": "420556P1",
@@ -10,7 +10,7 @@
       "rating": 5,
       "reviewCount": 120,
       "fromPrice": {
-        "value": 596.83,
+        "value": 596.47,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Nice/Luxury-Day-Boat-for-rent-in-Saint-Jean-Cap-Ferrat/d478-420556P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -22,7 +22,7 @@
       "rating": 5,
       "reviewCount": 96,
       "fromPrice": {
-        "value": 565.98,
+        "value": 565.63,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Cannes/The-most-exhaustive-tour-of-French-Riviera-certified-tour-guide/d786-467701P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -34,7 +34,7 @@
       "rating": 5,
       "reviewCount": 91,
       "fromPrice": {
-        "value": 571.77,
+        "value": 571.42,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Cogolin/Private-Boat-Charter-in-the-Bay-of-St-Tropez/d50414-75054P13?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -46,7 +46,7 @@
       "rating": 5,
       "reviewCount": 73,
       "fromPrice": {
-        "value": 181.44,
+        "value": 181.33,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Beaulieu-sur-Mer/Private-Tour-1-Hour-French-Riviera-Solar-Boat-Cruise-from-Saint-Jean-Cap-Ferrat/d50249-42535P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -58,7 +58,7 @@
       "rating": 5,
       "reviewCount": 70,
       "fromPrice": {
-        "value": 346.16,
+        "value": 345.95,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Cannes/Private-Boat-Tour-Cannes-Lerins-Islands/d786-72085P14?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -70,7 +70,7 @@
       "rating": 5,
       "reviewCount": 51,
       "fromPrice": {
-        "value": 752.01,
+        "value": 751.55,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Nice/Eze-Monaco-and-Monte-Carlo-Half-Day/d478-5497912P11?mcid=42383&pid=P00298683&medium=api&api_version=2.0"

@@ -1,12 +1,16 @@
 import type { DestinationCover } from "./types";
 import { CAPRI } from "./capri";
 import { CDMX } from "./cdmx";
+import { COMPORTA } from "./comporta";
+import { HVAR } from "./hvar";
 import { IBIZA } from "./ibiza";
 import { LISBON } from "./lisbon";
+import { MALLORCA } from "./mallorca";
 import { MARRAKECH } from "./marrakech";
 import { MIAMI } from "./miami";
 import { MYKONOS } from "./mykonos";
 import { SAINT_TROPEZ } from "./saint-tropez";
+import { SANTORINI } from "./santorini";
 
 /**
  * Registry of destinations with a published long-form cover.
@@ -20,9 +24,13 @@ import { SAINT_TROPEZ } from "./saint-tropez";
 export const COVERS: Record<string, DestinationCover> = {
   ibiza: IBIZA,
   mykonos: MYKONOS,
+  santorini: SANTORINI,
   capri: CAPRI,
   "saint-tropez": SAINT_TROPEZ,
+  hvar: HVAR,
+  mallorca: MALLORCA,
   lisbon: LISBON,
+  comporta: COMPORTA,
   marrakech: MARRAKECH,
   miami: MIAMI,
   cdmx: CDMX,

@@ -48,6 +48,19 @@ export const DESTINATIONS: DestinationCard[] = [
   },
   {
     no: 3,
+    slug: "santorini",
+    name: "Santorini",
+    region: "Cyclades, Greece",
+    group: "4–6",
+    days: "4 nights",
+    tag: "Luxury",
+    color: "var(--sage)",
+    img: IMG.hotelExterior,
+    headline: "Off-season Santorini, off the cliff edge.",
+    price: "$$$$",
+  },
+  {
+    no: 4,
     slug: "capri",
     name: "Capri",
     region: "Campania, Italy",
@@ -60,7 +73,7 @@ export const DESTINATIONS: DestinationCard[] = [
     price: "$$$$",
   },
   {
-    no: 4,
+    no: 5,
     slug: "saint-tropez",
     name: "Saint-Tropez",
     region: "Côte d'Azur, France",
@@ -73,7 +86,33 @@ export const DESTINATIONS: DestinationCard[] = [
     price: "$$$$",
   },
   {
-    no: 5,
+    no: 6,
+    slug: "hvar",
+    name: "Hvar",
+    region: "Dalmatia, Croatia",
+    group: "6–10",
+    days: "4 nights",
+    tag: "Beach",
+    color: "var(--sage)",
+    img: IMG.beachWalk,
+    headline: "Adriatic pine and lavender, off-yacht.",
+    price: "$$$",
+  },
+  {
+    no: 7,
+    slug: "mallorca",
+    name: "Mallorca",
+    region: "Balearic Islands, Spain",
+    group: "6–10",
+    days: "4 nights",
+    tag: "Foodie",
+    color: "var(--peach)",
+    img: IMG.hotelExterior,
+    headline: "The Tramuntana, two boat days, off-Magaluf.",
+    price: "$$$$",
+  },
+  {
+    no: 8,
     slug: "lisbon",
     name: "Lisbon",
     region: "Portugal",
@@ -86,7 +125,20 @@ export const DESTINATIONS: DestinationCard[] = [
     price: "$$$",
   },
   {
-    no: 6,
+    no: 9,
+    slug: "comporta",
+    name: "Comporta",
+    region: "Setúbal, Portugal",
+    group: "4–8",
+    days: "4 nights",
+    tag: "Beach",
+    color: "var(--peach)",
+    img: IMG.beachWalk,
+    headline: "Atlantic pine forest, twelve kilometres of empty beach.",
+    price: "$$$",
+  },
+  {
+    no: 10,
     slug: "marrakech",
     name: "Marrakech",
     region: "Morocco",
@@ -99,7 +151,7 @@ export const DESTINATIONS: DestinationCard[] = [
     price: "$$$",
   },
   {
-    no: 7,
+    no: 11,
     slug: "miami",
     name: "Miami",
     region: "Florida, USA",
@@ -112,7 +164,7 @@ export const DESTINATIONS: DestinationCard[] = [
     price: "$$$$",
   },
   {
-    no: 8,
+    no: 12,
     slug: "cdmx",
     name: "Mexico City",
     region: "Mexico",
@@ -126,7 +178,7 @@ export const DESTINATIONS: DestinationCard[] = [
   },
 ];
 
-export const CATEGORIES = ["All", "Beach", "City", "Luxury", "Foodie"] as const;
+export const CATEGORIES = ["All", "Beach", "City", "Luxury", "Foodie", "Wellness"] as const;
 
 export function findDestination(slug: string): DestinationCard | undefined {
   return DESTINATIONS.find((d) => d.slug === slug);

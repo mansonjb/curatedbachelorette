@@ -39,9 +39,13 @@ export type ViatorCache = {
 export const VIATOR_DESTINATION_IDS: Record<string, number> = {
   ibiza: 4217,
   mykonos: 958,
+  santorini: 959,
   capri: 4223,
   "saint-tropez": 179,
+  hvar: 22146,
+  mallorca: 955,
   lisbon: 538,
+  comporta: 51025,
   marrakech: 5408,
   miami: 662,
   cdmx: 628,

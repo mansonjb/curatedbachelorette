@@ -1,7 +1,7 @@
 {
   "destinationId": 628,
   "destinationName": "cdmx",
-  "fetchedAt": "2026-04-28T20:54:38.469Z",
+  "fetchedAt": "2026-04-29T05:35:03.017Z",
   "products": [
     {
       "productCode": "488032P1",
@@ -10,7 +10,7 @@
       "rating": 5,
       "reviewCount": 195,
       "fromPrice": {
-        "value": 159.3,
+        "value": 159.06,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mexico-City/Balloon-Flight-with-Breakfast-in-Cave-and-Round-Trip-CDMX/d628-488032P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -22,7 +22,7 @@
       "rating": 5,
       "reviewCount": 189,
       "fromPrice": {
-        "value": 141.6,
+        "value": 141.39,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mexico-City/Teotihuacan-Private-Tour-from-Mexico-City/d628-277127P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -58,7 +58,7 @@
       "rating": 5,
       "reviewCount": 112,
       "fromPrice": {
-        "value": 171.1,
+        "value": 170.85,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mexico-City/Navigation-experience-in-Xochimilco-at-sunrise-with-breakfast/d628-366381P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"

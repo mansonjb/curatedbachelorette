@@ -1,0 +1,79 @@
+{
+  "destinationId": 22146,
+  "destinationName": "hvar",
+  "fetchedAt": "2026-04-29T05:35:00.582Z",
+  "products": [
+    {
+      "productCode": "120111P3",
+      "title": "Exclusive Private Tour: Red Rocks & Pakleni Islands",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/84/a0/81.jpg",
+      "rating": 5,
+      "reviewCount": 117,
+      "fromPrice": {
+        "value": 823.12,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Hvar/Red-Rocks-and-Pakleni-islands-private-speed-boat-tour/d22146-120111P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "361760P1",
+      "title": "Blue & Green Cave Vis Island and Pakleni Islands Private Day Trip from Hvar",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0f/61/68/53.jpg",
+      "rating": 5,
+      "reviewCount": 93,
+      "fromPrice": {
+        "value": 951.96,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Hvar/Blue-Cave-and-Green-Cave-Vis-Island-and-Pakleni-Islands-Speedboat-Daytrip/d22146-361760P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "101112P1",
+      "title": "Private tour of Pakleni islands, Red Cliffs & South Shore of Hvar",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/81/89/e9.jpg",
+      "rating": 5,
+      "reviewCount": 84,
+      "fromPrice": {
+        "value": 572.61,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Hvar/Flash-Hvar-Boat-Tours/d22146-101112P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "133052P2",
+      "title": "Tuk Tuk Sightseeing Tour of Hvar",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/77/e3/30.jpg",
+      "rating": 5,
+      "reviewCount": 69,
+      "fromPrice": {
+        "value": 286.3,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Hvar/Tuk-Tuk-sightseeing-tour-Hvar/d22146-133052P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "152806P3",
+      "title": "Private boat tour of Red rocks & Pakleni islands",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/8c/08/06.jpg",
+      "rating": 5,
+      "reviewCount": 52,
+      "fromPrice": {
+        "value": 954.35,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Hvar/Explore-Hvar-coast-Tour/d22146-152806P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "145272P1",
+      "title": "4-Seater Buggy — Self-Guided Adventure in Hvar",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/32/7c/29/e5/caption.jpg",
+      "rating": 5,
+      "reviewCount": 49,
+      "fromPrice": {
+        "value": 357.88,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Hvar/Scooter-Adventure-HVAR-ISLAND/d22146-145272P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

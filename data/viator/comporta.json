@@ -1,0 +1,41 @@
+{
+  "destinationId": 51025,
+  "destinationName": "comporta",
+  "fetchedAt": "2026-04-29T05:35:01.900Z",
+  "products": [
+    {
+      "productCode": "164947P15",
+      "title": "Lisbon to Seville Private Transfer: Algarve Coast & Scenic Stops",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/45/1d/ff.jpg",
+      "rating": 5,
+      "reviewCount": 2,
+      "fromPrice": {
+        "value": 536.82,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Lisbon/Hassle-Free-transfer-from-Lisbon-to-Sevilha/d538-164947P15?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "164947P24",
+      "title": "Comporta to Algarve Private Tour with Boat Trip to Benagil caves",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/45/1d/fc.jpg",
+      "rating": 5,
+      "reviewCount": 1,
+      "fromPrice": {
+        "value": 417.53,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Lisbon/Algarve-full-day-private-tour-with-boat-trip-to-visit-Benagil/d538-164947P24?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "92356P33",
+      "title": "Private Luxury Transfer Between Lisbon and Comporta",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/70/8f/73.jpg",
+      "fromPrice": {
+        "value": 128.84,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Lisbon/Private-Luxury-Transfer-Between-Lisbon-and-Comporta/d538-92356P33?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

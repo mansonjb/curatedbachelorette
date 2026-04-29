@@ -1,0 +1,79 @@
+{
+  "destinationId": 955,
+  "destinationName": "mallorca",
+  "fetchedAt": "2026-04-29T05:35:00.982Z",
+  "products": [
+    {
+      "productCode": "415978P1",
+      "title": "90' Stand Up Paddle tour in a small group in Cala Ratjada",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/65/ce/b5.jpg",
+      "rating": 5,
+      "reviewCount": 75,
+      "fromPrice": {
+        "value": 56.07,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mallorca/Private-90-Minute-Stand-Up-Paddle-Tour-in-Cala-Ratjada/d955-415978P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "70310P17",
+      "title": "Climbing day in private tour",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0d/09/98/88.jpg",
+      "rating": 5,
+      "reviewCount": 50,
+      "fromPrice": {
+        "value": 220.69,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mallorca/Climbing-day/d955-70310P17?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "460775P6",
+      "title": "Private Sunset Cruise on Sailing Boat",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/55/0a/17.jpg",
+      "rating": 5,
+      "reviewCount": 50,
+      "fromPrice": {
+        "value": 715.76,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mallorca/Private-Sunset-Cruise-on-Sailing-Cruise/d955-460775P6?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "460775P2",
+      "title": "Private Half Day Cruise on a Speed Boat in Mallorca",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/57/c6/34.jpg",
+      "rating": 5,
+      "reviewCount": 45,
+      "fromPrice": {
+        "value": 1288.37,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mallorca/Private-Half-Day-Cruise-on-a-Speed-Boat/d955-460775P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "354833P2",
+      "title": "Private Half Day Boat Tour in Port de Soller",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/70/d3/0e.jpg",
+      "rating": 5,
+      "reviewCount": 42,
+      "fromPrice": {
+        "value": 823.12,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mallorca/Half-Day-Private-Sailing-Tour-along-the-Tramuntana-Coast/d955-354833P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "5572573P4",
+      "title": "Private Charter Boat Tour in Mallorca",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/c0/e7/41.jpg",
+      "rating": 5,
+      "reviewCount": 39,
+      "fromPrice": {
+        "value": 620.33,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mallorca/Boat-Tour-in-Mallorca-Explore-the-Mediterranean/d955-5572573P4?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

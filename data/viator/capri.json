@@ -1,7 +1,7 @@
 {
   "destinationId": 4223,
   "destinationName": "capri",
-  "fetchedAt": "2026-04-28T20:54:36.382Z",
+  "fetchedAt": "2026-04-29T05:34:59.699Z",
   "products": [
     {
       "productCode": "387911P1",
@@ -10,7 +10,7 @@
       "rating": 5,
       "reviewCount": 97,
       "fromPrice": {
-        "value": 1539.83,
+        "value": 1538.88,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Sorrento/Capri-private-boat-Tour-with-Limoncello-tasting/d947-387911P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -22,7 +22,7 @@
       "rating": 5,
       "reviewCount": 65,
       "fromPrice": {
-        "value": 340.2,
+        "value": 339.99,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Capri/Walk-and-sail-in-Capri/d4223-177396P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -34,7 +34,7 @@
       "rating": 5,
       "reviewCount": 52,
       "fromPrice": {
-        "value": 1789.31,
+        "value": 1788.21,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Sorrento/Capri-Private-Boat-Tour-Free-Bar-Snack-and-extra-included/d947-474907P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -46,7 +46,7 @@
       "rating": 5,
       "reviewCount": 47,
       "fromPrice": {
-        "value": 994.73,
+        "value": 994.12,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Sorrento/Capri-Boat-Experience/d947-132331P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -58,7 +58,7 @@
       "rating": 5,
       "reviewCount": 36,
       "fromPrice": {
-        "value": 1790.5,
+        "value": 1789.4,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Sorrento/Amalfi-and-Positano-private-boat-tour-from-Sorrento-Coast-FD/d947-344208P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -70,7 +70,7 @@
       "rating": 5,
       "reviewCount": 35,
       "fromPrice": {
-        "value": 238.73,
+        "value": 238.59,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Sorrento/30-Minute-Paragliding-Flight-Over-the-Amalfi-Coast/d947-254174P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
