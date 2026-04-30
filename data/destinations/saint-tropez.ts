@@ -22,8 +22,8 @@ export const SAINT_TROPEZ: DestinationCover = {
     "This plan is the October version. The harbor has space. La Ponche has tables. Senequier still has a coffee. The light is exactly the light Bonnard painted, and that is not a sentimental observation; it is the entire reason we keep coming back.",
   ],
   stay: [
-    { no: 1, name: "Hôtel La Ponche", area: "La Ponche", color: "var(--rose)", img: IMG.tropez2, note: "The original. A village hotel, twenty rooms, walking distance to the port. The right answer for groups under six.", price: "$$$$" },
-    { no: 2, name: "Lily of the Valley", area: "La Croix-Valmer", color: "var(--sage)", img: IMG.tropez3, note: "Twenty minutes from the village, a real spa, a hill of vines. We send people who want a longer breakfast and shorter dinners.", price: "$$$$" },
+    { no: 1, name: "Hôtel La Ponche", area: "La Ponche", color: "var(--rose)", img: "/destinations/saint-tropez/hotel-1.jpg", note: "The original. A village hotel, twenty rooms, walking distance to the port. The right answer for groups under six.", price: "$$$$" },
+    { no: 2, name: "Lily of the Valley", area: "La Croix-Valmer", color: "var(--sage)", img: "/destinations/saint-tropez/hotel-2.jpg", note: "Twenty minutes from the village, a real spa, a hill of vines. We send people who want a longer breakfast and shorter dinners.", price: "$$$$" },
     { no: 3, name: "A rented house, Ramatuelle", area: "Ramatuelle hills", color: "var(--peach)", img: IMG.tropez4, note: "Our default for groups of six or eight. Cypress, a pool, twenty minutes to the village, fifteen to the beach.", price: "$$$" },
   ],
   do: [

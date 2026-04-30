@@ -22,9 +22,9 @@ export const SANTORINI: DestinationCover = {
     "We send small groups (four to six) to the village of Imerovigli or Pyrgos rather than Oia. The view of the caldera is the same; the staircase tax for dinner is half. The plan is built around two boat days, two long lunches, and one extraordinary tasting at a winery we have come to love beyond reason.",
   ],
   stay: [
-    { no: 1, name: "Vora Villas", area: "Imerovigli", color: "var(--rose)", img: IMG.santorini2, note: "Five villas, each with a plunge pool that points at the volcano. Quieter than Oia, ten minutes by foot.", price: "$$$$" },
-    { no: 2, name: "Aria Suites", area: "Fira", color: "var(--peach)", img: IMG.santorini3, note: "Walking distance to dinner, a real plunge pool, the kind of suite that makes the bride forget the airport.", price: "$$$" },
-    { no: 3, name: "Mystique, a Luxury Collection", area: "Oia", color: "var(--blush-deep)", img: IMG.santorini4, note: "If you must do Oia, do it from a cave suite that opens onto a stone terrace at the cliff edge.", price: "$$$$" },
+    { no: 1, name: "Vora Villas", area: "Imerovigli", color: "var(--rose)", img: "/destinations/santorini/hotel-1.jpg", note: "Five villas, each with a plunge pool that points at the volcano. Quieter than Oia, ten minutes by foot.", price: "$$$$" },
+    { no: 2, name: "Aria Suites", area: "Fira", color: "var(--peach)", img: "/destinations/santorini/hotel-2.jpg", note: "Walking distance to dinner, a real plunge pool, the kind of suite that makes the bride forget the airport.", price: "$$$" },
+    { no: 3, name: "Mystique, a Luxury Collection", area: "Oia", color: "var(--blush-deep)", img: "/destinations/santorini/hotel-3.jpg", note: "If you must do Oia, do it from a cave suite that opens onto a stone terrace at the cliff edge.", price: "$$$$" },
   ],
   do: [
     { hour: "Thursday 10AM", title: "A private catamaran day around the caldera, with a swim at the hot springs.", img: IMG.santorini2, color: "var(--blush)" },

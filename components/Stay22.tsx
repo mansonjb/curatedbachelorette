@@ -1,5 +1,5 @@
 import { AffiliateLink } from "@/components/AffiliateLink";
-import { stay22Url } from "@/lib/affiliates/stay22";
+import { stay22MapSrc, stay22Url } from "@/lib/affiliates/stay22";
 
 /** "Check rates" button rendered inside each hotel card. */
 export function Stay22Cta({
@@ -88,6 +88,29 @@ export function Stay22Map({ address }: { address: string }) {
           </div>
         </div>
         <span className="meta">via Stay22 · sponsored</span>
+      </div>
+
+      {/* Stay22 Allez interactive map + sortable hotel list */}
+      <div
+        style={{
+          borderRadius: "var(--radius-lg)",
+          overflow: "hidden",
+          border: "1.5px solid var(--ink)",
+          marginBottom: 20,
+          background: "var(--bg)",
+        }}
+      >
+        <iframe
+          src={stay22MapSrc(address)}
+          title={`Stay22 hotel map for ${address}`}
+          style={{
+            display: "block",
+            width: "100%",
+            height: 520,
+            border: 0,
+          }}
+          loading="lazy"
+        />
       </div>
 
       <div

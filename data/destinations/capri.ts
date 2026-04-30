@@ -22,9 +22,9 @@ export const CAPRI: DestinationCover = {
     "We recommend Capri for groups of four to six exclusively. Above six, the hotels become a logistics problem and the dinner reservations turn into seatings. Below four, the boat days don't make economic sense. Four, five or six, with three nights and two boat days, is the assignment.",
   ],
   stay: [
-    { no: 1, name: "J.K. Place Capri", area: "Marina Grande", color: "var(--rose)", img: IMG.capri2, note: "Twenty rooms, a small pool, the only hotel that makes sense if you want to actually swim from the property.", price: "$$$$" },
-    { no: 2, name: "Hotel La Minerva", area: "Capri Town", color: "var(--peach)", img: IMG.capri3, note: "Family-run, walking distance to the Piazzetta, a terrace looking at the Faraglioni. Half the price of J.K., 80% of the experience.", price: "$$$" },
-    { no: 3, name: "Capri Palace", area: "Anacapri", color: "var(--blush-deep)", img: IMG.capri4, note: "If you want quieter and more spa. Far enough from Capri Town to feel different, close enough by taxi to come back for dinner.", price: "$$$$" },
+    { no: 1, name: "J.K. Place Capri", area: "Marina Grande", color: "var(--rose)", img: "/destinations/capri/hotel-1.jpg", note: "Twenty rooms, a small pool, the only hotel that makes sense if you want to actually swim from the property.", price: "$$$$" },
+    { no: 2, name: "Hotel La Minerva", area: "Capri Town", color: "var(--peach)", img: "/destinations/capri/hotel-2.jpg", note: "Family-run, walking distance to the Piazzetta, a terrace looking at the Faraglioni. Half the price of J.K., 80% of the experience.", price: "$$$" },
+    { no: 3, name: "Capri Palace", area: "Anacapri", color: "var(--blush-deep)", img: "/destinations/capri/hotel-3.jpg", note: "If you want quieter and more spa. Far enough from Capri Town to feel different, close enough by taxi to come back for dinner.", price: "$$$$" },
   ],
   do: [
     { hour: "Friday 10AM", title: "Private full-day boat tour — Faraglioni, Blue Grotto if calm, limoncello on board.", img: IMG.capri2, color: "var(--blush)" },

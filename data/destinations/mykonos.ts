@@ -22,8 +22,8 @@ export const MYKONOS: DestinationCover = {
     "This plan assumes you fly into Athens, then catch the morning ferry — three hours, scenic, the right way to arrive. Sleep in Chora, leave it for the beaches, return for dinner. The boat to Delos is optional and good. The boat to anywhere else is not necessary.",
   ],
   stay: [
-    { no: 1, name: "Belvedere Hotel", area: "Chora", color: "var(--rose)", img: IMG.mykonos2, note: "In town, walking distance to dinner, a real pool. The right answer for groups under six who want to stay in Mykonos Town.", price: "$$$$" },
-    { no: 2, name: "Cavo Tagoo", area: "North coast", color: "var(--blush-deep)", img: IMG.mykonos3, note: "If you want the resort experience and the photo. Ten-minute taxi to town. The infinity pool is the assignment.", price: "$$$$" },
+    { no: 1, name: "Belvedere Hotel", area: "Chora", color: "var(--rose)", img: "/destinations/mykonos/hotel-1.jpg", note: "In town, walking distance to dinner, a real pool. The right answer for groups under six who want to stay in Mykonos Town.", price: "$$$$" },
+    { no: 2, name: "Cavo Tagoo", area: "North coast", color: "var(--blush-deep)", img: "/destinations/mykonos/hotel-2.jpg", note: "If you want the resort experience and the photo. Ten-minute taxi to town. The infinity pool is the assignment.", price: "$$$$" },
     { no: 3, name: "A rented house, Agios Lazaros", area: "Above Psarou", color: "var(--peach)", img: IMG.mykonos4, note: "Our default for groups of six or eight. Look for a flat roof and a cypress at the gate.", price: "$$$" },
   ],
   do: [

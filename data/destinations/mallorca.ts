@@ -22,9 +22,9 @@ export const MALLORCA: DestinationCover = {
     "Our plan stays exclusively on the west coast. We base in Sóller or Deià, two villages an hour's drive from Palma airport. We never see Magaluf. We boat once across to Sa Foradada (the rock with a hole) and Sa Calobra (the canyon-cove). The bride spends most of the four days at a 16th-century finca, eating slowly, swimming when it's warm, reading when it's not.",
   ],
   stay: [
-    { no: 1, name: "Belmond La Residencia", area: "Deià", color: "var(--rose)", img: IMG.mallorca2, note: "Two stone fincas merged, two pools, an art collection that's actually good. The grande-dame answer for groups of six.", price: "$$$$" },
-    { no: 2, name: "Son Brull", area: "Pollença", color: "var(--sage)", img: IMG.mallorca3, note: "A converted 18th-century monastery on the north of the island. Quieter than Deià, ten minutes from the cleanest north-coast beaches.", price: "$$$$" },
-    { no: 3, name: "A rented finca, Sóller", area: "Sóller valley", color: "var(--peach)", img: IMG.mallorca4, note: "What we book for groups of eight or ten. Citrus orchard, a long pool, a kitchen nobody will use because lunch is always out.", price: "$$$" },
+    { no: 1, name: "Belmond La Residencia", area: "Deià", color: "var(--rose)", img: "/destinations/mallorca/hotel-1.jpg", note: "Two stone fincas merged, two pools, an art collection that's actually good. The grande-dame answer for groups of six.", price: "$$$$" },
+    { no: 2, name: "Son Brull", area: "Pollença", color: "var(--sage)", img: "/destinations/mallorca/hotel-2.jpg", note: "A converted 18th-century monastery on the north of the island. Quieter than Deià, ten minutes from the cleanest north-coast beaches.", price: "$$$$" },
+    { no: 3, name: "A rented finca, Sóller", area: "Sóller valley", color: "var(--peach)", img: "/destinations/mallorca/hotel-3.jpg", note: "What we book for groups of eight or ten. Citrus orchard, a long pool, a kitchen nobody will use because lunch is always out.", price: "$$$" },
   ],
   do: [
     { hour: "Thursday 10AM", title: "A private boat day from Port de Sóller — Sa Foradada, Cala Deià for lunch.", img: IMG.mallorca2, color: "var(--blush)" },

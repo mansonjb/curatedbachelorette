@@ -22,8 +22,8 @@ export const COMPORTA: DestinationCover = {
     "The plan assumes you fly into Lisbon, hire a car at the airport (one car per four people; the parking is sand), and drive south. We never spend more than one half-day off the beach. The drive in is the entire decompression of the trip; the drive out, on Monday morning, is the only thing that takes you back into the world.",
   ],
   stay: [
-    { no: 1, name: "Quinta da Comporta", area: "Carvalhal", color: "var(--sage)", img: IMG.comporta2, note: "A wellness-leaning quinta with seventy rooms, a real spa, and a pool that points at the rice fields. Easiest sell to a difficult group.", price: "$$$$" },
-    { no: 2, name: "Sublime Comporta", area: "Muda", color: "var(--peach)", img: IMG.comporta3, note: "Twenty-two villas tucked into the cork forest, each with a plunge pool and a hammock. The right answer for groups of six.", price: "$$$$" },
+    { no: 1, name: "Quinta da Comporta", area: "Carvalhal", color: "var(--sage)", img: "/destinations/comporta/hotel-1.jpg", note: "A wellness-leaning quinta with seventy rooms, a real spa, and a pool that points at the rice fields. Easiest sell to a difficult group.", price: "$$$$" },
+    { no: 2, name: "Sublime Comporta", area: "Muda", color: "var(--peach)", img: "/destinations/comporta/hotel-2.jpg", note: "Twenty-two villas tucked into the cork forest, each with a plunge pool and a hammock. The right answer for groups of six.", price: "$$$$" },
     { no: 3, name: "A rented stilted casa", area: "Pego", color: "var(--rose)", img: IMG.comporta4, note: "What we book for groups of eight. Wood, white linen, a path through the dunes that ends at the ocean.", price: "$$$" },
   ],
   do: [

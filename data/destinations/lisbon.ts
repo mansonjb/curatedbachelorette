@@ -22,8 +22,8 @@ export const LISBON: DestinationCover = {
     "The plan is built around two long lunches and two long walks. A Wednesday arrival lets you skip the Friday-night airport scrum and gives you one extra day of being lightly jet-lagged on a terrace, which we have come to consider a feature.",
   ],
   stay: [
-    { no: 1, name: "Santiago de Alfama", area: "Alfama", color: "var(--rose)", img: IMG.lisbon2, note: "Tile-floored, 19 rooms, the morning sun comes in through the iron windows.", price: "$$$" },
-    { no: 2, name: "The Lumiares", area: "Bairro Alto", color: "var(--blush-deep)", img: IMG.lisbon3, note: "Apartments more than rooms. The rooftop bar is fine; the kitchenettes are the point.", price: "$$$" },
+    { no: 1, name: "Santiago de Alfama", area: "Alfama", color: "var(--rose)", img: "/destinations/lisbon/hotel-1.jpg", note: "Tile-floored, 19 rooms, the morning sun comes in through the iron windows.", price: "$$$" },
+    { no: 2, name: "The Lumiares", area: "Bairro Alto", color: "var(--blush-deep)", img: "/destinations/lisbon/hotel-2.jpg", note: "Apartments more than rooms. The rooftop bar is fine; the kitchenettes are the point.", price: "$$$" },
     { no: 3, name: "A rented house, Príncipe Real", area: "Príncipe Real", color: "var(--sage)", img: IMG.lisbon4, note: "Our default for groups of six or eight. Look for a courtyard and an oven nobody will use.", price: "$$" },
   ],
   do: [

@@ -22,8 +22,8 @@ export const CDMX: DestinationCover = {
     "The version of CDMX we send brides to is small and walkable: Roma Norte, Condesa, a few crossings into Juárez and Coyoacán. We avoid the rooftop-bar industrial complex and we never recommend Polanco for anything except one specific bakery.",
   ],
   stay: [
-    { no: 1, name: "Casa Polanco", area: "Polanco", color: "var(--blush-deep)", img: IMG.cdmx2, note: "If you want the grande-dame experience and a pool. Only recommended for groups under six.", price: "$$$$" },
-    { no: 2, name: "Octavia Casa", area: "Roma Norte", color: "var(--rose)", img: IMG.cdmx3, note: "Eight rooms, a courtyard, a single record player. The right answer for groups of four to six.", price: "$$$" },
+    { no: 1, name: "Casa Polanco", area: "Polanco", color: "var(--blush-deep)", img: "/destinations/cdmx/hotel-1.jpg", note: "If you want the grande-dame experience and a pool. Only recommended for groups under six.", price: "$$$$" },
+    { no: 2, name: "Octavia Casa", area: "Roma Norte", color: "var(--rose)", img: "/destinations/cdmx/hotel-2.jpg", note: "Eight rooms, a courtyard, a single record player. The right answer for groups of four to six.", price: "$$$" },
     { no: 3, name: "A rented apartment, Condesa", area: "Condesa", color: "var(--sage)", img: IMG.cdmx4, note: "What we book for eight or more. Look for two-floor places with a roof and a kitchen nobody will use.", price: "$$" },
   ],
   do: [

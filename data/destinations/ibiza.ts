@@ -23,8 +23,8 @@ export const IBIZA: DestinationCover = {
   ],
   stay: [
     { no: 1, name: "A finca, San Juan", area: "North Ibiza", color: "var(--sage)", img: IMG.ibiza2, note: "Eight bedrooms, an outdoor kitchen, a pool that faces a hill of pines. We have rented this house three years running.", price: "$$$$" },
-    { no: 2, name: "Six Senses Ibiza", area: "Cala Xarraca", color: "var(--rose)", img: IMG.ibiza3, note: "If you don't want to manage a villa. North-facing, a real spa, a beach club that closes by ten.", price: "$$$$" },
-    { no: 3, name: "Hacienda Na Xamena", area: "San Miguel", color: "var(--peach)", img: IMG.ibiza4, note: "The classic cliffside hotel. The infinity pool is the photo, the silence at 7AM is the reason.", price: "$$$$" },
+    { no: 2, name: "Six Senses Ibiza", area: "Cala Xarraca", color: "var(--rose)", img: "/destinations/ibiza/hotel-2.jpg", note: "If you don't want to manage a villa. North-facing, a real spa, a beach club that closes by ten.", price: "$$$$" },
+    { no: 3, name: "Hacienda Na Xamena", area: "San Miguel", color: "var(--peach)", img: "/destinations/ibiza/hotel-3.jpg", note: "The classic cliffside hotel. The infinity pool is the photo, the silence at 7AM is the reason.", price: "$$$$" },
   ],
   do: [
     { hour: "Thursday 11AM", title: "Private four-hour Mediterranean boat charter, with snorkelling.", img: IMG.ibiza2, color: "var(--blush)" },

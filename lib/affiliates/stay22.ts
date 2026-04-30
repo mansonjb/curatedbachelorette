@@ -40,13 +40,14 @@ export function stay22Url({
   return `${ALLEZ_BASE}?${params.toString()}`;
 }
 
-/** Iframe src for the Stay22 Allez map widget centred on a city. */
+/** Iframe src for the public Stay22 Allez page centred on a city. */
 export function stay22MapSrc(address: string): string {
   const params = new URLSearchParams();
   if (PARTNER_ID) params.set("aid", PARTNER_ID);
   params.set("address", address);
-  params.set("maincolor", "e8708a");
-  return `${MAP_BASE}?${params.toString()}`;
+  // Allez page renders an interactive map + sortable hotel list. Clicks
+  // are auto-tagged on egress by the site-wide LetMeAllez script.
+  return `https://www.stay22.com/allez?${params.toString()}`;
 }
 
 export const STAY22_ENABLED = Boolean(PARTNER_ID);

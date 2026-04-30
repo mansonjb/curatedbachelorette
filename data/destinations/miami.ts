@@ -22,9 +22,9 @@ export const MIAMI: DestinationCover = {
     "What follows is a three-night plan for a group of six to ten — the size at which a single dinner reservation still feels civilized and the pool float arrangement is not yet a logistics problem. We have stayed in each of the hotels we recommend, eaten the full menu at each of the restaurants, and lain by every pool listed for at least one uninterrupted Saturday afternoon.",
   ],
   stay: [
-    { no: 1, name: "The Standard, Spa Wing", area: "Belle Isle", color: "var(--sage)", img: IMG.miami2, note: "For the group that wants the spa robe more than the rooftop bar.", price: "$$$" },
-    { no: 2, name: "Casa Faena", area: "Mid-Beach", color: "var(--blush-deep)", img: IMG.miami3, note: "Old grande dame, gilded edges, the pool that used to be a chapel.", price: "$$$$" },
-    { no: 3, name: "Esme Hotel", area: "Española Way", color: "var(--rose)", img: IMG.miami4, note: "Walking-distance everything. Tile, more tile, a record player.", price: "$$$" },
+    { no: 1, name: "The Standard, Spa Wing", area: "Belle Isle", color: "var(--sage)", img: "/destinations/miami/hotel-1.jpg", note: "For the group that wants the spa robe more than the rooftop bar.", price: "$$$" },
+    { no: 2, name: "Casa Faena", area: "Mid-Beach", color: "var(--blush-deep)", img: "/destinations/miami/hotel-2.jpg", note: "Old grande dame, gilded edges, the pool that used to be a chapel.", price: "$$$$" },
+    { no: 3, name: "Esme Hotel", area: "Española Way", color: "var(--rose)", img: "/destinations/miami/hotel-3.jpg", note: "Walking-distance everything. Tile, more tile, a record player.", price: "$$$" },
   ],
   do: [
     { hour: "Friday 4PM", title: "An afternoon at the pool, undisturbed.", img: IMG.miami2, color: "var(--blush)" },

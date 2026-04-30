@@ -22,9 +22,9 @@ export const MARRAKECH: DestinationCover = {
     "We have stayed in seven riads, eaten in twenty restaurants, and have come to a small, controversial position: the medina is best in two ninety-minute doses, not in one four-hour overwhelm. Saturday morning and Sunday afternoon. Tuesday and Wednesday: stay home. The riad is the destination.",
   ],
   stay: [
-    { no: 1, name: "El Fenn", area: "Bab el Ksour", color: "var(--blush-deep)", img: IMG.marrakech2, note: "The riad we send people to first. Twenty-eight rooms, three pools, a roof that looks at the Atlas. Ask for a room around the central courtyard.", price: "$$$$" },
-    { no: 2, name: "Riad Mena", area: "Mouassine", color: "var(--rose)", img: IMG.marrakech3, note: "Six rooms, a pool the size of a bathtub, an owner who'll cook a Friday couscous if you ask. The most authentic stay we book.", price: "$$$" },
-    { no: 3, name: "Royal Mansour", area: "Hivernage", color: "var(--peach)", img: IMG.marrakech4, note: "The grand-resort answer, outside the medina. Private riads, a spa that's worth the airfare alone. For groups who want zero medina friction.", price: "$$$$" },
+    { no: 1, name: "El Fenn", area: "Bab el Ksour", color: "var(--blush-deep)", img: "/destinations/marrakech/hotel-1.jpg", note: "The riad we send people to first. Twenty-eight rooms, three pools, a roof that looks at the Atlas. Ask for a room around the central courtyard.", price: "$$$$" },
+    { no: 2, name: "Riad Mena", area: "Mouassine", color: "var(--rose)", img: "/destinations/marrakech/hotel-2.jpg", note: "Six rooms, a pool the size of a bathtub, an owner who'll cook a Friday couscous if you ask. The most authentic stay we book.", price: "$$$" },
+    { no: 3, name: "Royal Mansour", area: "Hivernage", color: "var(--peach)", img: "/destinations/marrakech/hotel-3.jpg", note: "The grand-resort answer, outside the medina. Private riads, a spa that's worth the airfare alone. For groups who want zero medina friction.", price: "$$$$" },
   ],
   do: [
     { hour: "Friday 10AM", title: "Hammam at La Mamounia, two hours.", img: IMG.marrakech2, color: "var(--peach)" },

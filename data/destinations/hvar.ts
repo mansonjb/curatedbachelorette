@@ -22,8 +22,8 @@ export const HVAR: DestinationCover = {
     "The plan is built around two boat days into the Pakleni Islands (twenty minutes from the harbour, swimming-clear water, no infrastructure), one inland afternoon to Stari Grad and the lavender fields, and dinners at konobas — Croatian taverns where the catch of the day is whatever was on the boat that morning. We send groups of six to ten in mid-June or the first week of September; never in August.",
   ],
   stay: [
-    { no: 1, name: "Maslina Resort", area: "Stari Grad", color: "var(--sage)", img: IMG.hvar2, note: "Forty rooms, an olive grove, a real spa. Twenty minutes from Hvar Town by car — far enough for the silence, close enough for dinner.", price: "$$$$" },
-    { no: 2, name: "Palace Elisabeth", area: "Hvar Town", color: "var(--rose)", img: IMG.hvar3, note: "On the main square, a 13th-century palace with thirty-five rooms. The only Hvar Town hotel we'd choose for a group of six.", price: "$$$$" },
+    { no: 1, name: "Maslina Resort", area: "Stari Grad", color: "var(--sage)", img: "/destinations/hvar/hotel-1.jpg", note: "Forty rooms, an olive grove, a real spa. Twenty minutes from Hvar Town by car — far enough for the silence, close enough for dinner.", price: "$$$$" },
+    { no: 2, name: "Palace Elisabeth", area: "Hvar Town", color: "var(--rose)", img: "/destinations/hvar/hotel-2.jpg", note: "On the main square, a 13th-century palace with thirty-five rooms. The only Hvar Town hotel we'd choose for a group of six.", price: "$$$$" },
     { no: 3, name: "A rented stone villa, Vrboska", area: "Vrboska", color: "var(--peach)", img: IMG.hvar4, note: "Our default for groups of eight or ten. Fishing-village quiet, a private dock, ten minutes by car from town.", price: "$$$" },
   ],
   do: [
