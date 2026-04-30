@@ -19,11 +19,17 @@ function loadCache(slug: string): ViatorCache | null {
  * Renders the top Viator products for a destination as a horizontal card row.
  * Renders nothing if the cache file is missing — sync via `npm run sync-viator`.
  *
+ * Acts as the destination's "Do" section: real bookable experiences that
+ * tag onto Viator's 30-day cookie at click. The destination cover no
+ * longer carries a separate editorial Do block — the curation here is
+ * "the top-rated tours in {city} that aren't tourist traps", as filtered
+ * by Viator's traveller rating + review count.
+ *
  * Server Component: reads the JSON synchronously at request time. With
  * `generateStaticParams` the destination pages are built once and served
  * static, so this hits the filesystem at build time only.
  */
-export function ViatorBlock({ slug }: { slug: string }) {
+export function ViatorBlock({ slug, city }: { slug: string; city: string }) {
   const cache = loadCache(slug);
   if (!cache || cache.products.length === 0) return null;
 
@@ -44,10 +50,14 @@ export function ViatorBlock({ slug }: { slug: string }) {
           }}
         >
           <div>
-            <div className="eyebrow" style={{ marginBottom: 6 }}>Bookable experiences</div>
+            <div className="eyebrow" style={{ marginBottom: 6 }}>№ 02</div>
             <h2 className="h-display h-2" style={{ margin: 0 }}>
-              Tours we&apos;d actually take.
+              Do.
             </h2>
+            <p style={{ margin: "10px 0 0", fontSize: 16, color: "var(--ink-soft)", maxWidth: 540 }}>
+              Top-rated, bookable experiences in {city} — the ones with hundreds
+              of recent reviews, not the ones with the loudest ads.
+            </p>
           </div>
           <span className="meta">via Viator · sponsored</span>
         </div>

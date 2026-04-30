@@ -66,8 +66,7 @@ export default async function DestinationPage({
         <DestMeta cover={cover} />
         <DestIntro cover={cover} />
         <DestStay cover={cover} card={card} />
-        <DestDo cover={cover} />
-        <ViatorBlock slug={slug} />
+        <ViatorBlock slug={slug} city={cover.title} />
         <DestEat cover={cover} />
         <DestPullQuote cover={cover} />
         <DestItinerary cover={cover} />
@@ -283,31 +282,6 @@ function DestStay({ cover, card }: { cover: DestinationCover; card: DestinationC
         </div>
         <Stay22Map address={cityAddress} />
         <style>{`@media (max-width: 900px) { .stay-grid { grid-template-columns: 1fr !important; } }`}</style>
-      </div>
-    </section>
-  );
-}
-
-function DestDo({ cover }: { cover: DestinationCover }) {
-  return (
-    <section className="section">
-      <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <SectionHeader number="02" title="Do" />
-        <div className="do-grid" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 28 }}>
-          {cover.do.map((d, i) => (
-            <article key={d.title} className="card" style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)", background: "var(--bg-alt)" }}>
-              <div style={{ padding: 14 }}>
-                <Img src={d.img} alt={d.title} ratio="4 / 5" rounded={28} />
-              </div>
-              <div style={{ padding: "32px 28px 32px 8px", display: "flex", flexDirection: "column", gap: 10, justifyContent: "center" }}>
-                <span className="tag">№ {String(i + 1).padStart(2, "0")}</span>
-                <div className="meta">{d.hour}</div>
-                <h3 className="h-display" style={{ margin: 0, fontSize: 22, lineHeight: 1.15 }}>{d.title}</h3>
-              </div>
-            </article>
-          ))}
-        </div>
-        <style>{`@media (max-width: 900px) { .do-grid { grid-template-columns: 1fr !important; } }`}</style>
       </div>
     </section>
   );
