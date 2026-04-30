@@ -22,15 +22,15 @@ export const HVAR: DestinationCover = {
     "The plan is built around two boat days into the Pakleni Islands (twenty minutes from the harbour, swimming-clear water, no infrastructure), one inland afternoon to Stari Grad and the lavender fields, and dinners at konobas — Croatian taverns where the catch of the day is whatever was on the boat that morning. We send groups of six to ten in mid-June or the first week of September; never in August.",
   ],
   stay: [
-    { no: 1, name: "Maslina Resort", area: "Stari Grad", color: "var(--sage)", img: IMG.hotelRoom, note: "Forty rooms, an olive grove, a real spa. Twenty minutes from Hvar Town by car — far enough for the silence, close enough for dinner.", price: "$$$$" },
-    { no: 2, name: "Palace Elisabeth", area: "Hvar Town", color: "var(--rose)", img: IMG.hotelLobby, note: "On the main square, a 13th-century palace with thirty-five rooms. The only Hvar Town hotel we'd choose for a group of six.", price: "$$$$" },
-    { no: 3, name: "A rented stone villa, Vrboska", area: "Vrboska", color: "var(--peach)", img: IMG.hotelExterior, note: "Our default for groups of eight or ten. Fishing-village quiet, a private dock, ten minutes by car from town.", price: "$$$" },
+    { no: 1, name: "Maslina Resort", area: "Stari Grad", color: "var(--sage)", img: IMG.hvar2, note: "Forty rooms, an olive grove, a real spa. Twenty minutes from Hvar Town by car — far enough for the silence, close enough for dinner.", price: "$$$$" },
+    { no: 2, name: "Palace Elisabeth", area: "Hvar Town", color: "var(--rose)", img: IMG.hvar3, note: "On the main square, a 13th-century palace with thirty-five rooms. The only Hvar Town hotel we'd choose for a group of six.", price: "$$$$" },
+    { no: 3, name: "A rented stone villa, Vrboska", area: "Vrboska", color: "var(--peach)", img: IMG.hvar4, note: "Our default for groups of eight or ten. Fishing-village quiet, a private dock, ten minutes by car from town.", price: "$$$" },
   ],
   do: [
-    { hour: "Friday 10AM", title: "A private speedboat day across the Pakleni Islands, with two swim stops.", img: IMG.marina, color: "var(--blush)" },
-    { hour: "Saturday 11AM", title: "A small-group day-trip to the Blue and Green Caves on Vis.", img: IMG.beachWalk, color: "var(--rose)" },
-    { hour: "Saturday 5PM", title: "A wine-and-olive-oil tasting at a small Stari Grad producer.", img: IMG.cocktail, color: "var(--peach)" },
-    { hour: "Sunday 10AM", title: "A guided lavender-field walk through the Plain, slowly. Two hours.", img: IMG.street, color: "var(--cream)" },
+    { hour: "Friday 10AM", title: "A private speedboat day across the Pakleni Islands, with two swim stops.", img: IMG.hvar2, color: "var(--blush)" },
+    { hour: "Saturday 11AM", title: "A small-group day-trip to the Blue and Green Caves on Vis.", img: IMG.hvar3, color: "var(--rose)" },
+    { hour: "Saturday 5PM", title: "A wine-and-olive-oil tasting at a small Stari Grad producer.", img: IMG.hvar4, color: "var(--peach)" },
+    { hour: "Sunday 10AM", title: "A guided lavender-field walk through the Plain, slowly. Two hours.", img: IMG.hvarHero, color: "var(--cream)" },
   ],
   eat: [
     { no: 1, name: "Konoba Menego", area: "Hvar Town", meal: "Thursday dinner", note: "Stone-walled, candle-lit, the Dalmatian classics done patiently. Octopus under a peka, lamb on a slow flame." },
@@ -55,8 +55,8 @@ export const HVAR: DestinationCover = {
     { q: "Croatia for a bachelorette of ten?", a: "Yes — this is the rare destination on the site that still works at ten. The villa stock in Vrboska is generous, the dinner reservations forgive a group, and the boat days scale to two boats with one captain on each." },
   ],
   related: [
-    { name: "Mykonos", slug: "mykonos", note: "Hvar Greek, white-washed, half as forested.", img: IMG.hotelExterior, color: "var(--rose)" },
-    { name: "Mallorca", slug: "mallorca", note: "Hvar in Spanish, with mountains.", img: IMG.beachWalk, color: "var(--peach)" },
-    { name: "Saint-Tropez", slug: "saint-tropez", note: "Hvar's French cousin, in October.", img: IMG.marina, color: "var(--butter)" },
+    { name: "Mykonos", slug: "mykonos", note: "Hvar Greek, white-washed, half as forested.", img: IMG.mykonosHero, color: "var(--rose)" },
+    { name: "Mallorca", slug: "mallorca", note: "Hvar in Spanish, with mountains.", img: IMG.mallorcaHero, color: "var(--peach)" },
+    { name: "Saint-Tropez", slug: "saint-tropez", note: "Hvar's French cousin, in October.", img: IMG.tropezHero, color: "var(--butter)" },
   ],
 };

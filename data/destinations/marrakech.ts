@@ -22,15 +22,15 @@ export const MARRAKECH: DestinationCover = {
     "We have stayed in seven riads, eaten in twenty restaurants, and have come to a small, controversial position: the medina is best in two ninety-minute doses, not in one four-hour overwhelm. Saturday morning and Sunday afternoon. Tuesday and Wednesday: stay home. The riad is the destination.",
   ],
   stay: [
-    { no: 1, name: "El Fenn", area: "Bab el Ksour", color: "var(--blush-deep)", img: IMG.hotelLobby, note: "The riad we send people to first. Twenty-eight rooms, three pools, a roof that looks at the Atlas. Ask for a room around the central courtyard.", price: "$$$$" },
-    { no: 2, name: "Riad Mena", area: "Mouassine", color: "var(--rose)", img: IMG.hotelRoom, note: "Six rooms, a pool the size of a bathtub, an owner who'll cook a Friday couscous if you ask. The most authentic stay we book.", price: "$$$" },
-    { no: 3, name: "Royal Mansour", area: "Hivernage", color: "var(--peach)", img: IMG.hotelExterior, note: "The grand-resort answer, outside the medina. Private riads, a spa that's worth the airfare alone. For groups who want zero medina friction.", price: "$$$$" },
+    { no: 1, name: "El Fenn", area: "Bab el Ksour", color: "var(--blush-deep)", img: IMG.marrakech2, note: "The riad we send people to first. Twenty-eight rooms, three pools, a roof that looks at the Atlas. Ask for a room around the central courtyard.", price: "$$$$" },
+    { no: 2, name: "Riad Mena", area: "Mouassine", color: "var(--rose)", img: IMG.marrakech3, note: "Six rooms, a pool the size of a bathtub, an owner who'll cook a Friday couscous if you ask. The most authentic stay we book.", price: "$$$" },
+    { no: 3, name: "Royal Mansour", area: "Hivernage", color: "var(--peach)", img: IMG.marrakech4, note: "The grand-resort answer, outside the medina. Private riads, a spa that's worth the airfare alone. For groups who want zero medina friction.", price: "$$$$" },
   ],
   do: [
-    { hour: "Friday 10AM", title: "Hammam at La Mamounia, two hours.", img: IMG.cafe, color: "var(--peach)" },
-    { hour: "Friday 5PM", title: "Agafay desert sunset dinner with a camel ride — 90 minutes from the medina, back by 11PM.", img: IMG.beachWalk, color: "var(--blush-deep)" },
-    { hour: "Saturday 9AM", title: "A private day in the Atlas Mountains and the five Berber valleys.", img: IMG.marfa, color: "var(--sage)" },
-    { hour: "Sunday 6AM", title: "A hot-air balloon over the Agafay, with a Berber breakfast on landing.", img: IMG.portrait, color: "var(--rose)" },
+    { hour: "Friday 10AM", title: "Hammam at La Mamounia, two hours.", img: IMG.marrakech2, color: "var(--peach)" },
+    { hour: "Friday 5PM", title: "Agafay desert sunset dinner with a camel ride — 90 minutes from the medina, back by 11PM.", img: IMG.marrakech3, color: "var(--blush-deep)" },
+    { hour: "Saturday 9AM", title: "A private day in the Atlas Mountains and the five Berber valleys.", img: IMG.marrakech4, color: "var(--sage)" },
+    { hour: "Sunday 6AM", title: "A hot-air balloon over the Agafay, with a Berber breakfast on landing.", img: IMG.marrakechHero, color: "var(--rose)" },
   ],
   eat: [
     { no: 1, name: "Le Jardin", area: "Sidi Abdelaziz", meal: "Thursday lunch", note: "An emerald-green courtyard in the medina with a tortoise. Lemon-chicken tagine, a salad, mint tea. The lunch we eat the day we arrive." },
@@ -55,8 +55,8 @@ export const MARRAKECH: DestinationCover = {
     { q: "Drinking?", a: "Restaurants we recommend serve wine. The riads we recommend stock champagne in the room on request. Don't expect bars in the medina; we don't go to them. Cocktails happen at +61 or the Royal Mansour." },
   ],
   related: [
-    { name: "Lisbon", slug: "lisbon", note: "Marrakech in Portuguese, with tile and a tram.", img: IMG.lisbon, color: "var(--blush-deep)" },
-    { name: "Mexico City", slug: "cdmx", note: "Marrakech denser, wetter, equally architectural.", img: IMG.cdmx, color: "var(--rose)" },
-    { name: "Saint-Tropez", slug: "saint-tropez", note: "Marrakech if Marrakech were on the sea.", img: IMG.marina, color: "var(--butter)" },
+    { name: "Lisbon", slug: "lisbon", note: "Marrakech in Portuguese, with tile and a tram.", img: IMG.lisbonHero, color: "var(--blush-deep)" },
+    { name: "Mexico City", slug: "cdmx", note: "Marrakech denser, wetter, equally architectural.", img: IMG.cdmxHero, color: "var(--rose)" },
+    { name: "Saint-Tropez", slug: "saint-tropez", note: "Marrakech if Marrakech were on the sea.", img: IMG.tropezHero, color: "var(--butter)" },
   ],
 };

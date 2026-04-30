@@ -22,15 +22,15 @@ export const SAINT_TROPEZ: DestinationCover = {
     "This plan is the October version. The harbor has space. La Ponche has tables. Senequier still has a coffee. The light is exactly the light Bonnard painted, and that is not a sentimental observation; it is the entire reason we keep coming back.",
   ],
   stay: [
-    { no: 1, name: "Hôtel La Ponche", area: "La Ponche", color: "var(--rose)", img: IMG.hotelRoom, note: "The original. A village hotel, twenty rooms, walking distance to the port. The right answer for groups under six.", price: "$$$$" },
-    { no: 2, name: "Lily of the Valley", area: "La Croix-Valmer", color: "var(--sage)", img: IMG.hotelLobby, note: "Twenty minutes from the village, a real spa, a hill of vines. We send people who want a longer breakfast and shorter dinners.", price: "$$$$" },
-    { no: 3, name: "A rented house, Ramatuelle", area: "Ramatuelle hills", color: "var(--peach)", img: IMG.hotelExterior, note: "Our default for groups of six or eight. Cypress, a pool, twenty minutes to the village, fifteen to the beach.", price: "$$$" },
+    { no: 1, name: "Hôtel La Ponche", area: "La Ponche", color: "var(--rose)", img: IMG.tropez2, note: "The original. A village hotel, twenty rooms, walking distance to the port. The right answer for groups under six.", price: "$$$$" },
+    { no: 2, name: "Lily of the Valley", area: "La Croix-Valmer", color: "var(--sage)", img: IMG.tropez3, note: "Twenty minutes from the village, a real spa, a hill of vines. We send people who want a longer breakfast and shorter dinners.", price: "$$$$" },
+    { no: 3, name: "A rented house, Ramatuelle", area: "Ramatuelle hills", color: "var(--peach)", img: IMG.tropez4, note: "Our default for groups of six or eight. Cypress, a pool, twenty minutes to the village, fifteen to the beach.", price: "$$$" },
   ],
   do: [
-    { hour: "Thursday 6PM", title: "Aperitif at Senequier, port-side, slowly.", img: IMG.cocktail, color: "var(--blush)" },
-    { hour: "Friday 10AM", title: "A private boat charter in the Bay of Saint-Tropez, Cap Camarat to Pampelonne.", img: IMG.marina, color: "var(--rose)" },
-    { hour: "Saturday 11AM", title: "Walk Ramatuelle. Café in the square.", img: IMG.street, color: "var(--cream)" },
-    { hour: "Sunday 9AM", title: "A private day-trip down the coast — Èze village, Monte Carlo, and home by aperitivo.", img: IMG.cafe, color: "var(--peach)" },
+    { hour: "Thursday 6PM", title: "Aperitif at Senequier, port-side, slowly.", img: IMG.tropez2, color: "var(--blush)" },
+    { hour: "Friday 10AM", title: "A private boat charter in the Bay of Saint-Tropez, Cap Camarat to Pampelonne.", img: IMG.tropez3, color: "var(--rose)" },
+    { hour: "Saturday 11AM", title: "Walk Ramatuelle. Café in the square.", img: IMG.tropez4, color: "var(--cream)" },
+    { hour: "Sunday 9AM", title: "A private day-trip down the coast — Èze village, Monte Carlo, and home by aperitivo.", img: IMG.tropezHero, color: "var(--peach)" },
   ],
   eat: [
     { no: 1, name: "La Ponche", area: "La Ponche", meal: "Thursday dinner", note: "The hotel restaurant, but an institution in its own right. A small dining room, the bouillabaisse, the kind of first dinner that sets the trip up." },
@@ -54,8 +54,8 @@ export const SAINT_TROPEZ: DestinationCover = {
     { q: "Dress code?", a: "Pampelonne is linen and a swim. La Vague d'Or is the dressy night — a slip, a heel, the only night you'll bring one. Senequier and the village are casual. The look is 'recently woken up but careful about it.'" },
   ],
   related: [
-    { name: "Capri", slug: "capri", note: "Tropez on a smaller, taller Italian island.", img: IMG.marina, color: "var(--blush-deep)" },
-    { name: "Ibiza", slug: "ibiza", note: "Tropez with pines and a different language.", img: IMG.beachWalk, color: "var(--peach)" },
-    { name: "Mykonos", slug: "mykonos", note: "Tropez in the Cyclades.", img: IMG.hotelExterior, color: "var(--rose)" },
+    { name: "Capri", slug: "capri", note: "Tropez on a smaller, taller Italian island.", img: IMG.capriHero, color: "var(--blush-deep)" },
+    { name: "Ibiza", slug: "ibiza", note: "Tropez with pines and a different language.", img: IMG.ibizaHero, color: "var(--peach)" },
+    { name: "Mykonos", slug: "mykonos", note: "Tropez in the Cyclades.", img: IMG.mykonosHero, color: "var(--rose)" },
   ],
 };

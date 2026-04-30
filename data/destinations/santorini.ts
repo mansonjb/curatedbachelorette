@@ -22,15 +22,15 @@ export const SANTORINI: DestinationCover = {
     "We send small groups (four to six) to the village of Imerovigli or Pyrgos rather than Oia. The view of the caldera is the same; the staircase tax for dinner is half. The plan is built around two boat days, two long lunches, and one extraordinary tasting at a winery we have come to love beyond reason.",
   ],
   stay: [
-    { no: 1, name: "Vora Villas", area: "Imerovigli", color: "var(--rose)", img: IMG.hotelRoom, note: "Five villas, each with a plunge pool that points at the volcano. Quieter than Oia, ten minutes by foot.", price: "$$$$" },
-    { no: 2, name: "Aria Suites", area: "Fira", color: "var(--peach)", img: IMG.hotelLobby, note: "Walking distance to dinner, a real plunge pool, the kind of suite that makes the bride forget the airport.", price: "$$$" },
-    { no: 3, name: "Mystique, a Luxury Collection", area: "Oia", color: "var(--blush-deep)", img: IMG.hotelExterior, note: "If you must do Oia, do it from a cave suite that opens onto a stone terrace at the cliff edge.", price: "$$$$" },
+    { no: 1, name: "Vora Villas", area: "Imerovigli", color: "var(--rose)", img: IMG.santorini2, note: "Five villas, each with a plunge pool that points at the volcano. Quieter than Oia, ten minutes by foot.", price: "$$$$" },
+    { no: 2, name: "Aria Suites", area: "Fira", color: "var(--peach)", img: IMG.santorini3, note: "Walking distance to dinner, a real plunge pool, the kind of suite that makes the bride forget the airport.", price: "$$$" },
+    { no: 3, name: "Mystique, a Luxury Collection", area: "Oia", color: "var(--blush-deep)", img: IMG.santorini4, note: "If you must do Oia, do it from a cave suite that opens onto a stone terrace at the cliff edge.", price: "$$$$" },
   ],
   do: [
-    { hour: "Thursday 10AM", title: "A private catamaran day around the caldera, with a swim at the hot springs.", img: IMG.marina, color: "var(--blush)" },
-    { hour: "Friday 5PM", title: "A wine-tasting afternoon at a Vinsanto producer in Pyrgos.", img: IMG.cocktail, color: "var(--rose)" },
-    { hour: "Saturday 9AM", title: "A small-group hike from Fira to Oia along the caldera, three hours, easy.", img: IMG.street, color: "var(--peach)" },
-    { hour: "Sunday 8PM", title: "Sunset at Imerovigli — the view Oia takes credit for, without the queue.", img: IMG.beachWalk, color: "var(--cream)" },
+    { hour: "Thursday 10AM", title: "A private catamaran day around the caldera, with a swim at the hot springs.", img: IMG.santorini2, color: "var(--blush)" },
+    { hour: "Friday 5PM", title: "A wine-tasting afternoon at a Vinsanto producer in Pyrgos.", img: IMG.santorini3, color: "var(--rose)" },
+    { hour: "Saturday 9AM", title: "A small-group hike from Fira to Oia along the caldera, three hours, easy.", img: IMG.santorini4, color: "var(--peach)" },
+    { hour: "Sunday 8PM", title: "Sunset at Imerovigli — the view Oia takes credit for, without the queue.", img: IMG.santoriniHero, color: "var(--cream)" },
   ],
   eat: [
     { no: 1, name: "Selene", area: "Pyrgos", meal: "Wednesday dinner", note: "The first serious restaurant on the island and still the best. Seven-course tasting with the local-vintage pairing." },
@@ -55,8 +55,8 @@ export const SANTORINI: DestinationCover = {
     { q: "Santorini for a bachelorette of ten?", a: "We do not recommend it. Above six the dinner reservations split and the cliff-side hotels start charging by the staircase. Try Mallorca or Mykonos instead." },
   ],
   related: [
-    { name: "Mykonos", slug: "mykonos", note: "Santorini's louder, larger, less vertical sister.", img: IMG.hotelExterior, color: "var(--rose)" },
-    { name: "Capri", slug: "capri", note: "Santorini in Italy, with a lemon dessert.", img: IMG.marina, color: "var(--blush-deep)" },
-    { name: "Hvar", slug: "hvar", note: "Santorini Adriatic — pine instead of pumice.", img: IMG.beachWalk, color: "var(--sage)" },
+    { name: "Mykonos", slug: "mykonos", note: "Santorini's louder, larger, less vertical sister.", img: IMG.mykonosHero, color: "var(--rose)" },
+    { name: "Capri", slug: "capri", note: "Santorini in Italy, with a lemon dessert.", img: IMG.capriHero, color: "var(--blush-deep)" },
+    { name: "Hvar", slug: "hvar", note: "Santorini Adriatic — pine instead of pumice.", img: IMG.hvarHero, color: "var(--sage)" },
   ],
 };

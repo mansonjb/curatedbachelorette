@@ -22,15 +22,15 @@ export const CAPRI: DestinationCover = {
     "We recommend Capri for groups of four to six exclusively. Above six, the hotels become a logistics problem and the dinner reservations turn into seatings. Below four, the boat days don't make economic sense. Four, five or six, with three nights and two boat days, is the assignment.",
   ],
   stay: [
-    { no: 1, name: "J.K. Place Capri", area: "Marina Grande", color: "var(--rose)", img: IMG.hotelLobby, note: "Twenty rooms, a small pool, the only hotel that makes sense if you want to actually swim from the property.", price: "$$$$" },
-    { no: 2, name: "Hotel La Minerva", area: "Capri Town", color: "var(--peach)", img: IMG.hotelRoom, note: "Family-run, walking distance to the Piazzetta, a terrace looking at the Faraglioni. Half the price of J.K., 80% of the experience.", price: "$$$" },
-    { no: 3, name: "Capri Palace", area: "Anacapri", color: "var(--blush-deep)", img: IMG.hotelExterior, note: "If you want quieter and more spa. Far enough from Capri Town to feel different, close enough by taxi to come back for dinner.", price: "$$$$" },
+    { no: 1, name: "J.K. Place Capri", area: "Marina Grande", color: "var(--rose)", img: IMG.capri2, note: "Twenty rooms, a small pool, the only hotel that makes sense if you want to actually swim from the property.", price: "$$$$" },
+    { no: 2, name: "Hotel La Minerva", area: "Capri Town", color: "var(--peach)", img: IMG.capri3, note: "Family-run, walking distance to the Piazzetta, a terrace looking at the Faraglioni. Half the price of J.K., 80% of the experience.", price: "$$$" },
+    { no: 3, name: "Capri Palace", area: "Anacapri", color: "var(--blush-deep)", img: IMG.capri4, note: "If you want quieter and more spa. Far enough from Capri Town to feel different, close enough by taxi to come back for dinner.", price: "$$$$" },
   ],
   do: [
-    { hour: "Friday 10AM", title: "Private full-day boat tour — Faraglioni, Blue Grotto if calm, limoncello on board.", img: IMG.marina, color: "var(--blush)" },
-    { hour: "Saturday 11AM", title: "Anacapri walk, Villa San Michele, slowly.", img: IMG.street, color: "var(--rose)" },
-    { hour: "Saturday 4PM", title: "Marina Piccola swim, before aperitivo.", img: IMG.beachWalk, color: "var(--peach)" },
-    { hour: "Sunday 10AM", title: "A private boat day-trip to Positano and Amalfi for the group that has time for it.", img: IMG.cocktail, color: "var(--cream)" },
+    { hour: "Friday 10AM", title: "Private full-day boat tour — Faraglioni, Blue Grotto if calm, limoncello on board.", img: IMG.capri2, color: "var(--blush)" },
+    { hour: "Saturday 11AM", title: "Anacapri walk, Villa San Michele, slowly.", img: IMG.capri3, color: "var(--rose)" },
+    { hour: "Saturday 4PM", title: "Marina Piccola swim, before aperitivo.", img: IMG.capri4, color: "var(--peach)" },
+    { hour: "Sunday 10AM", title: "A private boat day-trip to Positano and Amalfi for the group that has time for it.", img: IMG.capriHero, color: "var(--cream)" },
   ],
   eat: [
     { no: 1, name: "Le Grottelle", area: "Above the Arco Naturale", meal: "Friday lunch", note: "A walk to get there, scallop ravioli, a view that won't fit in the photo. Reserve, but the table is yours for two hours." },
@@ -54,8 +54,8 @@ export const CAPRI: DestinationCover = {
     { q: "Dress code?", a: "Linen, slip dresses, a flat sandal. Aurora wants a closed-toe shoe at dinner. Il Riccio is more relaxed but still a destination — it is not a beach lunch." },
   ],
   related: [
-    { name: "Mykonos", slug: "mykonos", note: "Capri in the Cyclades, less Italian.", img: IMG.hotelExterior, color: "var(--rose)" },
-    { name: "Saint-Tropez", slug: "saint-tropez", note: "Capri with a French harbor and cypress.", img: IMG.marina, color: "var(--butter)" },
-    { name: "Ibiza", slug: "ibiza", note: "Capri's noisier, larger, pinier cousin.", img: IMG.beachWalk, color: "var(--peach)" },
+    { name: "Mykonos", slug: "mykonos", note: "Capri in the Cyclades, less Italian.", img: IMG.mykonosHero, color: "var(--rose)" },
+    { name: "Saint-Tropez", slug: "saint-tropez", note: "Capri with a French harbor and cypress.", img: IMG.tropezHero, color: "var(--butter)" },
+    { name: "Ibiza", slug: "ibiza", note: "Capri's noisier, larger, pinier cousin.", img: IMG.ibizaHero, color: "var(--peach)" },
   ],
 };

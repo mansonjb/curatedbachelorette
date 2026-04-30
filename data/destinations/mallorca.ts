@@ -22,15 +22,15 @@ export const MALLORCA: DestinationCover = {
     "Our plan stays exclusively on the west coast. We base in Sóller or Deià, two villages an hour's drive from Palma airport. We never see Magaluf. We boat once across to Sa Foradada (the rock with a hole) and Sa Calobra (the canyon-cove). The bride spends most of the four days at a 16th-century finca, eating slowly, swimming when it's warm, reading when it's not.",
   ],
   stay: [
-    { no: 1, name: "Belmond La Residencia", area: "Deià", color: "var(--rose)", img: IMG.hotelRoom, note: "Two stone fincas merged, two pools, an art collection that's actually good. The grande-dame answer for groups of six.", price: "$$$$" },
-    { no: 2, name: "Son Brull", area: "Pollença", color: "var(--sage)", img: IMG.hotelLobby, note: "A converted 18th-century monastery on the north of the island. Quieter than Deià, ten minutes from the cleanest north-coast beaches.", price: "$$$$" },
-    { no: 3, name: "A rented finca, Sóller", area: "Sóller valley", color: "var(--peach)", img: IMG.hotelExterior, note: "What we book for groups of eight or ten. Citrus orchard, a long pool, a kitchen nobody will use because lunch is always out.", price: "$$$" },
+    { no: 1, name: "Belmond La Residencia", area: "Deià", color: "var(--rose)", img: IMG.mallorca2, note: "Two stone fincas merged, two pools, an art collection that's actually good. The grande-dame answer for groups of six.", price: "$$$$" },
+    { no: 2, name: "Son Brull", area: "Pollença", color: "var(--sage)", img: IMG.mallorca3, note: "A converted 18th-century monastery on the north of the island. Quieter than Deià, ten minutes from the cleanest north-coast beaches.", price: "$$$$" },
+    { no: 3, name: "A rented finca, Sóller", area: "Sóller valley", color: "var(--peach)", img: IMG.mallorca4, note: "What we book for groups of eight or ten. Citrus orchard, a long pool, a kitchen nobody will use because lunch is always out.", price: "$$$" },
   ],
   do: [
-    { hour: "Thursday 10AM", title: "A private boat day from Port de Sóller — Sa Foradada, Cala Deià for lunch.", img: IMG.marina, color: "var(--blush)" },
-    { hour: "Friday 11AM", title: "A small-group walk through the Tramuntana — olive terraces above Deià, two hours, lunch in a stone village.", img: IMG.street, color: "var(--rose)" },
-    { hour: "Saturday 11AM", title: "A wine-and-vermouth tasting at a Binissalem winery, with a tapas lunch.", img: IMG.cocktail, color: "var(--peach)" },
-    { hour: "Sunday 9AM", title: "A morning at Cala Deià, the cove below Belmond — swim, lunch at Ca's Patró March, slowly.", img: IMG.beachWalk, color: "var(--cream)" },
+    { hour: "Thursday 10AM", title: "A private boat day from Port de Sóller — Sa Foradada, Cala Deià for lunch.", img: IMG.mallorca2, color: "var(--blush)" },
+    { hour: "Friday 11AM", title: "A small-group walk through the Tramuntana — olive terraces above Deià, two hours, lunch in a stone village.", img: IMG.mallorca3, color: "var(--rose)" },
+    { hour: "Saturday 11AM", title: "A wine-and-vermouth tasting at a Binissalem winery, with a tapas lunch.", img: IMG.mallorca4, color: "var(--peach)" },
+    { hour: "Sunday 9AM", title: "A morning at Cala Deià, the cove below Belmond — swim, lunch at Ca's Patró March, slowly.", img: IMG.mallorcaHero, color: "var(--cream)" },
   ],
   eat: [
     { no: 1, name: "Es Racó d'Es Teix", area: "Deià", meal: "Wednesday dinner", note: "One Michelin star, a small dining room in a stone house, the kind of dinner that anchors the whole trip. Reserve six weeks out." },
@@ -55,8 +55,8 @@ export const MALLORCA: DestinationCover = {
     { q: "Pair with Ibiza or Madrid?", a: "Madrid for one fancy night before, yes. Ibiza after — possible, but the contrast is harsh and the bride often regrets the second flight. We prefer Mallorca on its own, four nights, no detour." },
   ],
   related: [
-    { name: "Ibiza", slug: "ibiza", note: "Mallorca's louder, smaller, more island sister.", img: IMG.beachWalk, color: "var(--peach)" },
-    { name: "Hvar", slug: "hvar", note: "Mallorca in Croatian, with lavender.", img: IMG.beachWalk, color: "var(--sage)" },
-    { name: "Comporta", slug: "comporta", note: "Mallorca on the Atlantic, twice as horizontal.", img: IMG.beachWalk, color: "var(--rose)" },
+    { name: "Ibiza", slug: "ibiza", note: "Mallorca's louder, smaller, more island sister.", img: IMG.ibizaHero, color: "var(--peach)" },
+    { name: "Hvar", slug: "hvar", note: "Mallorca in Croatian, with lavender.", img: IMG.hvarHero, color: "var(--sage)" },
+    { name: "Comporta", slug: "comporta", note: "Mallorca on the Atlantic, twice as horizontal.", img: IMG.comportaHero, color: "var(--rose)" },
   ],
 };

@@ -22,15 +22,15 @@ export const IBIZA: DestinationCover = {
     "We have planned this trip for groups of six and ten and the answer is the same: rent a house in the north, hire a boat for two of the four days, eat at exactly four restaurants, and sleep at least eight hours every night. The bachelorette who follows this plan returns rested. The bachelorette who follows the other plan does not.",
   ],
   stay: [
-    { no: 1, name: "A finca, San Juan", area: "North Ibiza", color: "var(--sage)", img: IMG.hotelExterior, note: "Eight bedrooms, an outdoor kitchen, a pool that faces a hill of pines. We have rented this house three years running.", price: "$$$$" },
-    { no: 2, name: "Six Senses Ibiza", area: "Cala Xarraca", color: "var(--rose)", img: IMG.hotelRoom, note: "If you don't want to manage a villa. North-facing, a real spa, a beach club that closes by ten.", price: "$$$$" },
-    { no: 3, name: "Hacienda Na Xamena", area: "San Miguel", color: "var(--peach)", img: IMG.hotelLobby, note: "The classic cliffside hotel. The infinity pool is the photo, the silence at 7AM is the reason.", price: "$$$$" },
+    { no: 1, name: "A finca, San Juan", area: "North Ibiza", color: "var(--sage)", img: IMG.ibiza2, note: "Eight bedrooms, an outdoor kitchen, a pool that faces a hill of pines. We have rented this house three years running.", price: "$$$$" },
+    { no: 2, name: "Six Senses Ibiza", area: "Cala Xarraca", color: "var(--rose)", img: IMG.ibiza3, note: "If you don't want to manage a villa. North-facing, a real spa, a beach club that closes by ten.", price: "$$$$" },
+    { no: 3, name: "Hacienda Na Xamena", area: "San Miguel", color: "var(--peach)", img: IMG.ibiza4, note: "The classic cliffside hotel. The infinity pool is the photo, the silence at 7AM is the reason.", price: "$$$$" },
   ],
   do: [
-    { hour: "Thursday 11AM", title: "Private four-hour Mediterranean boat charter, with snorkelling.", img: IMG.marina, color: "var(--blush)" },
-    { hour: "Friday 6PM", title: "Es Vedrà sunset by sail — book the small boat, not the party catamaran.", img: IMG.beachWalk, color: "var(--blush-deep)" },
-    { hour: "Saturday 9AM", title: "A Formentera day-escape. Two hours each way, beach in between.", img: IMG.cocktail, color: "var(--peach)" },
-    { hour: "Sunday 10AM", title: "A guided hike to a hidden cove with a local. Two hours, no rush.", img: IMG.street, color: "var(--rose)" },
+    { hour: "Thursday 11AM", title: "Private four-hour Mediterranean boat charter, with snorkelling.", img: IMG.ibiza2, color: "var(--blush)" },
+    { hour: "Friday 6PM", title: "Es Vedrà sunset by sail — book the small boat, not the party catamaran.", img: IMG.ibiza3, color: "var(--blush-deep)" },
+    { hour: "Saturday 9AM", title: "A Formentera day-escape. Two hours each way, beach in between.", img: IMG.ibiza4, color: "var(--peach)" },
+    { hour: "Sunday 10AM", title: "A guided hike to a hidden cove with a local. Two hours, no rush.", img: IMG.ibizaHero, color: "var(--rose)" },
   ],
   eat: [
     { no: 1, name: "La Paloma", area: "San Lorenzo", meal: "Wednesday dinner", note: "An old farmhouse, candles, a long table outside. Vegetable-forward, family-style. The Saturday-night Ibiza you didn't know existed." },
@@ -55,8 +55,8 @@ export const IBIZA: DestinationCover = {
     { q: "Do we need a car?", a: "Two cars. Roads are narrow, parking at restaurants is small, and you'll want to split the group occasionally. Pre-book at the airport." },
   ],
   related: [
-    { name: "Mykonos", slug: "mykonos", note: "Ibiza in the Cyclades, half as loud.", img: IMG.hotelExterior, color: "var(--rose)" },
-    { name: "Saint-Tropez", slug: "saint-tropez", note: "Ibiza with cypress trees and a harbor.", img: IMG.marina, color: "var(--butter)" },
-    { name: "Capri", slug: "capri", note: "Ibiza on a smaller island, fewer beaches.", img: IMG.marina, color: "var(--blush-deep)" },
+    { name: "Mykonos", slug: "mykonos", note: "Ibiza in the Cyclades, half as loud.", img: IMG.mykonosHero, color: "var(--rose)" },
+    { name: "Saint-Tropez", slug: "saint-tropez", note: "Ibiza with cypress trees and a harbor.", img: IMG.tropezHero, color: "var(--butter)" },
+    { name: "Capri", slug: "capri", note: "Ibiza on a smaller island, fewer beaches.", img: IMG.capriHero, color: "var(--blush-deep)" },
   ],
 };

@@ -22,15 +22,15 @@ export const CDMX: DestinationCover = {
     "The version of CDMX we send brides to is small and walkable: Roma Norte, Condesa, a few crossings into Juárez and Coyoacán. We avoid the rooftop-bar industrial complex and we never recommend Polanco for anything except one specific bakery.",
   ],
   stay: [
-    { no: 1, name: "Casa Polanco", area: "Polanco", color: "var(--blush-deep)", img: IMG.hotelRoom, note: "If you want the grande-dame experience and a pool. Only recommended for groups under six.", price: "$$$$" },
-    { no: 2, name: "Octavia Casa", area: "Roma Norte", color: "var(--rose)", img: IMG.hotelLobby, note: "Eight rooms, a courtyard, a single record player. The right answer for groups of four to six.", price: "$$$" },
-    { no: 3, name: "A rented apartment, Condesa", area: "Condesa", color: "var(--sage)", img: IMG.hotelExterior, note: "What we book for eight or more. Look for two-floor places with a roof and a kitchen nobody will use.", price: "$$" },
+    { no: 1, name: "Casa Polanco", area: "Polanco", color: "var(--blush-deep)", img: IMG.cdmx2, note: "If you want the grande-dame experience and a pool. Only recommended for groups under six.", price: "$$$$" },
+    { no: 2, name: "Octavia Casa", area: "Roma Norte", color: "var(--rose)", img: IMG.cdmx3, note: "Eight rooms, a courtyard, a single record player. The right answer for groups of four to six.", price: "$$$" },
+    { no: 3, name: "A rented apartment, Condesa", area: "Condesa", color: "var(--sage)", img: IMG.cdmx4, note: "What we book for eight or more. Look for two-floor places with a roof and a kitchen nobody will use.", price: "$$" },
   ],
   do: [
-    { hour: "Friday 11AM", title: "Casa Luis Barragán, by appointment.", img: IMG.street, color: "var(--rose)" },
-    { hour: "Saturday 7AM", title: "A private day at Teotihuacán — pyramids before the buses, back by lunch.", img: IMG.marfa, color: "var(--blush)" },
-    { hour: "Saturday 5PM", title: "A private Mexican cooking class with a gastronomic historian, three hours.", img: IMG.dinner, color: "var(--peach)" },
-    { hour: "Sunday 7AM", title: "Xochimilco at sunrise, with breakfast on the trajinera.", img: IMG.portrait, color: "var(--cream)" },
+    { hour: "Friday 11AM", title: "Casa Luis Barragán, by appointment.", img: IMG.cdmx2, color: "var(--rose)" },
+    { hour: "Saturday 7AM", title: "A private day at Teotihuacán — pyramids before the buses, back by lunch.", img: IMG.cdmx3, color: "var(--blush)" },
+    { hour: "Saturday 5PM", title: "A private Mexican cooking class with a gastronomic historian, three hours.", img: IMG.cdmx4, color: "var(--peach)" },
+    { hour: "Sunday 7AM", title: "Xochimilco at sunrise, with breakfast on the trajinera.", img: IMG.cdmxHero, color: "var(--cream)" },
   ],
   eat: [
     { no: 1, name: "Contramar", area: "Roma Norte", meal: "Friday lunch", note: "The reservation that runs the rest of the weekend. 1:30PM, four hours, fish two ways, never rushed." },
@@ -55,8 +55,8 @@ export const CDMX: DestinationCover = {
     { q: "Bachelorette accessories?", a: "No. Mexico City is the place this site stops being subtle: anything sash-shaped will be sad in a Rosetta photo." },
   ],
   related: [
-    { name: "Lisbon", slug: "lisbon", note: "CDMX in Portuguese, with tile.", img: IMG.lisbon, color: "var(--blush-deep)" },
-    { name: "Miami", slug: "miami", note: "CDMX with a beach instead of a museum.", img: IMG.miamiPalms, color: "var(--blush)" },
-    { name: "Marrakech", slug: "marrakech", note: "CDMX with a riad and a hammam.", img: IMG.hotelLobby, color: "var(--blush-deep)" },
+    { name: "Lisbon", slug: "lisbon", note: "CDMX in Portuguese, with tile.", img: IMG.lisbonHero, color: "var(--blush-deep)" },
+    { name: "Miami", slug: "miami", note: "CDMX with a beach instead of a museum.", img: IMG.miamiHero, color: "var(--blush)" },
+    { name: "Marrakech", slug: "marrakech", note: "CDMX with a riad and a hammam.", img: IMG.marrakechHero, color: "var(--blush-deep)" },
   ],
 };

@@ -22,15 +22,15 @@ export const LISBON: DestinationCover = {
     "The plan is built around two long lunches and two long walks. A Wednesday arrival lets you skip the Friday-night airport scrum and gives you one extra day of being lightly jet-lagged on a terrace, which we have come to consider a feature.",
   ],
   stay: [
-    { no: 1, name: "Santiago de Alfama", area: "Alfama", color: "var(--rose)", img: IMG.hotelRoom, note: "Tile-floored, 19 rooms, the morning sun comes in through the iron windows.", price: "$$$" },
-    { no: 2, name: "The Lumiares", area: "Bairro Alto", color: "var(--blush-deep)", img: IMG.hotelLobby, note: "Apartments more than rooms. The rooftop bar is fine; the kitchenettes are the point.", price: "$$$" },
-    { no: 3, name: "A rented house, Príncipe Real", area: "Príncipe Real", color: "var(--sage)", img: IMG.hotelExterior, note: "Our default for groups of six or eight. Look for a courtyard and an oven nobody will use.", price: "$$" },
+    { no: 1, name: "Santiago de Alfama", area: "Alfama", color: "var(--rose)", img: IMG.lisbon2, note: "Tile-floored, 19 rooms, the morning sun comes in through the iron windows.", price: "$$$" },
+    { no: 2, name: "The Lumiares", area: "Bairro Alto", color: "var(--blush-deep)", img: IMG.lisbon3, note: "Apartments more than rooms. The rooftop bar is fine; the kitchenettes are the point.", price: "$$$" },
+    { no: 3, name: "A rented house, Príncipe Real", area: "Príncipe Real", color: "var(--sage)", img: IMG.lisbon4, note: "Our default for groups of six or eight. Look for a courtyard and an oven nobody will use.", price: "$$" },
   ],
   do: [
-    { hour: "Thursday 10AM", title: "A private guided tuk-tuk through Alfama and Bairro Alto — the city in three hours.", img: IMG.street, color: "var(--cream)" },
-    { hour: "Friday 9AM", title: "A private full-day to Sintra — Pena Palace, Quinta da Regaleira, all tickets sorted.", img: IMG.cafe, color: "var(--peach)" },
-    { hour: "Saturday 9AM", title: "An inland day-trip — Knights Templar castle, Nazaré, the white village of Óbidos.", img: IMG.dinner, color: "var(--rose)" },
-    { hour: "Saturday 6PM", title: "Sunset at the Miradouro de Santa Catarina, with one drink.", img: IMG.beachWalk, color: "var(--blush)" },
+    { hour: "Thursday 10AM", title: "A private guided tuk-tuk through Alfama and Bairro Alto — the city in three hours.", img: IMG.lisbon2, color: "var(--cream)" },
+    { hour: "Friday 9AM", title: "A private full-day to Sintra — Pena Palace, Quinta da Regaleira, all tickets sorted.", img: IMG.lisbon3, color: "var(--peach)" },
+    { hour: "Saturday 9AM", title: "An inland day-trip — Knights Templar castle, Nazaré, the white village of Óbidos.", img: IMG.lisbon4, color: "var(--rose)" },
+    { hour: "Saturday 6PM", title: "Sunset at the Miradouro de Santa Catarina, with one drink.", img: IMG.lisbonHero, color: "var(--blush)" },
   ],
   eat: [
     { no: 1, name: "Cervejaria Ramiro", area: "Anjos", meal: "Wednesday late dinner", note: "Shellfish in a fluorescent dining room, opened in 1956. The prawns are the entrée; the steak sandwich is dessert." },
@@ -55,8 +55,8 @@ export const LISBON: DestinationCover = {
     { q: "Cash or card?", a: "Card almost everywhere. Cash for Manteigaria and the small tasca lunches. ATMs are easy, your bank's fee is the only annoyance." },
   ],
   related: [
-    { name: "Mexico City", slug: "cdmx", note: "Lisbon noisier, denser, hotter.", img: IMG.cdmx, color: "var(--rose)" },
-    { name: "Marrakech", slug: "marrakech", note: "Lisbon across the strait, in another language.", img: IMG.hotelLobby, color: "var(--blush-deep)" },
-    { name: "Miami", slug: "miami", note: "Lisbon, with a pool and a flight half as long.", img: IMG.miamiPalms, color: "var(--blush)" },
+    { name: "Mexico City", slug: "cdmx", note: "Lisbon noisier, denser, hotter.", img: IMG.cdmxHero, color: "var(--rose)" },
+    { name: "Marrakech", slug: "marrakech", note: "Lisbon across the strait, in another language.", img: IMG.marrakechHero, color: "var(--blush-deep)" },
+    { name: "Miami", slug: "miami", note: "Lisbon, with a pool and a flight half as long.", img: IMG.miamiHero, color: "var(--blush)" },
   ],
 };

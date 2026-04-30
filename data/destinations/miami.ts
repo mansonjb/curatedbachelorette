@@ -22,15 +22,15 @@ export const MIAMI: DestinationCover = {
     "What follows is a three-night plan for a group of six to ten — the size at which a single dinner reservation still feels civilized and the pool float arrangement is not yet a logistics problem. We have stayed in each of the hotels we recommend, eaten the full menu at each of the restaurants, and lain by every pool listed for at least one uninterrupted Saturday afternoon.",
   ],
   stay: [
-    { no: 1, name: "The Standard, Spa Wing", area: "Belle Isle", color: "var(--sage)", img: IMG.hotelRoom, note: "For the group that wants the spa robe more than the rooftop bar.", price: "$$$" },
-    { no: 2, name: "Casa Faena", area: "Mid-Beach", color: "var(--blush-deep)", img: IMG.hotelLobby, note: "Old grande dame, gilded edges, the pool that used to be a chapel.", price: "$$$$" },
-    { no: 3, name: "Esme Hotel", area: "Española Way", color: "var(--rose)", img: IMG.hotelExterior, note: "Walking-distance everything. Tile, more tile, a record player.", price: "$$$" },
+    { no: 1, name: "The Standard, Spa Wing", area: "Belle Isle", color: "var(--sage)", img: IMG.miami2, note: "For the group that wants the spa robe more than the rooftop bar.", price: "$$$" },
+    { no: 2, name: "Casa Faena", area: "Mid-Beach", color: "var(--blush-deep)", img: IMG.miami3, note: "Old grande dame, gilded edges, the pool that used to be a chapel.", price: "$$$$" },
+    { no: 3, name: "Esme Hotel", area: "Española Way", color: "var(--rose)", img: IMG.miami4, note: "Walking-distance everything. Tile, more tile, a record player.", price: "$$$" },
   ],
   do: [
-    { hour: "Friday 4PM", title: "An afternoon at the pool, undisturbed.", img: IMG.cabana, color: "var(--blush)" },
-    { hour: "Saturday 10AM", title: "An award-winning Art Deco walking tour of South Beach, ninety minutes.", img: IMG.street, color: "var(--cream)" },
-    { hour: "Saturday 4PM", title: "A sailboat in Biscayne Bay. Two hours. No costume.", img: IMG.marina, color: "var(--rose)" },
-    { hour: "Sunday 11AM", title: "A small-group cigar factory tour in Little Havana, then a long lunch.", img: IMG.portrait, color: "var(--peach)" },
+    { hour: "Friday 4PM", title: "An afternoon at the pool, undisturbed.", img: IMG.miami2, color: "var(--blush)" },
+    { hour: "Saturday 10AM", title: "An award-winning Art Deco walking tour of South Beach, ninety minutes.", img: IMG.miami3, color: "var(--cream)" },
+    { hour: "Saturday 4PM", title: "A sailboat in Biscayne Bay. Two hours. No costume.", img: IMG.miami4, color: "var(--rose)" },
+    { hour: "Sunday 11AM", title: "A small-group cigar factory tour in Little Havana, then a long lunch.", img: IMG.miamiHero, color: "var(--peach)" },
   ],
   eat: [
     { no: 1, name: "Boia De", area: "Buena Vista", meal: "Friday dinner", note: "Cacio e pepe, small kitchen, smaller dining room. Reserve five weeks out, ask for the back banquette." },
@@ -54,8 +54,8 @@ export const MIAMI: DestinationCover = {
     { q: "Dress code?", a: "Linen, slip dresses, a strap. Boia De casual, Sunny's dressy. A flat shoe." },
   ],
   related: [
-    { name: "Ibiza", slug: "ibiza", note: "Miami across the Atlantic, with cala beaches.", img: IMG.beachWalk, color: "var(--peach)" },
-    { name: "Mexico City", slug: "cdmx", note: "Miami denser, farther from home.", img: IMG.cdmx, color: "var(--rose)" },
-    { name: "Lisbon", slug: "lisbon", note: "Miami in another language.", img: IMG.lisbon, color: "var(--blush-deep)" },
+    { name: "Ibiza", slug: "ibiza", note: "Miami across the Atlantic, with cala beaches.", img: IMG.ibizaHero, color: "var(--peach)" },
+    { name: "Mexico City", slug: "cdmx", note: "Miami denser, farther from home.", img: IMG.cdmxHero, color: "var(--rose)" },
+    { name: "Lisbon", slug: "lisbon", note: "Miami in another language.", img: IMG.lisbonHero, color: "var(--blush-deep)" },
   ],
 };

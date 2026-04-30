@@ -22,15 +22,15 @@ export const COMPORTA: DestinationCover = {
     "The plan assumes you fly into Lisbon, hire a car at the airport (one car per four people; the parking is sand), and drive south. We never spend more than one half-day off the beach. The drive in is the entire decompression of the trip; the drive out, on Monday morning, is the only thing that takes you back into the world.",
   ],
   stay: [
-    { no: 1, name: "Quinta da Comporta", area: "Carvalhal", color: "var(--sage)", img: IMG.hotelRoom, note: "A wellness-leaning quinta with seventy rooms, a real spa, and a pool that points at the rice fields. Easiest sell to a difficult group.", price: "$$$$" },
-    { no: 2, name: "Sublime Comporta", area: "Muda", color: "var(--peach)", img: IMG.hotelLobby, note: "Twenty-two villas tucked into the cork forest, each with a plunge pool and a hammock. The right answer for groups of six.", price: "$$$$" },
-    { no: 3, name: "A rented stilted casa", area: "Pego", color: "var(--rose)", img: IMG.hotelExterior, note: "What we book for groups of eight. Wood, white linen, a path through the dunes that ends at the ocean.", price: "$$$" },
+    { no: 1, name: "Quinta da Comporta", area: "Carvalhal", color: "var(--sage)", img: IMG.comporta2, note: "A wellness-leaning quinta with seventy rooms, a real spa, and a pool that points at the rice fields. Easiest sell to a difficult group.", price: "$$$$" },
+    { no: 2, name: "Sublime Comporta", area: "Muda", color: "var(--peach)", img: IMG.comporta3, note: "Twenty-two villas tucked into the cork forest, each with a plunge pool and a hammock. The right answer for groups of six.", price: "$$$$" },
+    { no: 3, name: "A rented stilted casa", area: "Pego", color: "var(--rose)", img: IMG.comporta4, note: "What we book for groups of eight. Wood, white linen, a path through the dunes that ends at the ocean.", price: "$$$" },
   ],
   do: [
-    { hour: "Thursday 5PM", title: "A walk down the dune path to the ocean. The whole trip resets.", img: IMG.beachWalk, color: "var(--rose)" },
-    { hour: "Friday 10AM", title: "A horseback ride along Pego beach at low tide, two hours.", img: IMG.portrait, color: "var(--peach)" },
-    { hour: "Saturday 11AM", title: "A private day-trip across the river to Setúbal — Arrábida cliffs, a fish lunch, dolphin spotting.", img: IMG.marina, color: "var(--blush)" },
-    { hour: "Sunday 4PM", title: "A wine-and-cheese tasting at a small producer in the hills above Comporta.", img: IMG.cocktail, color: "var(--cream)" },
+    { hour: "Thursday 5PM", title: "A walk down the dune path to the ocean. The whole trip resets.", img: IMG.comporta2, color: "var(--rose)" },
+    { hour: "Friday 10AM", title: "A horseback ride along Pego beach at low tide, two hours.", img: IMG.comporta3, color: "var(--peach)" },
+    { hour: "Saturday 11AM", title: "A private day-trip across the river to Setúbal — Arrábida cliffs, a fish lunch, dolphin spotting.", img: IMG.comporta4, color: "var(--blush)" },
+    { hour: "Sunday 4PM", title: "A wine-and-cheese tasting at a small producer in the hills above Comporta.", img: IMG.comportaHero, color: "var(--cream)" },
   ],
   eat: [
     { no: 1, name: "Cavalariça", area: "Comporta village", meal: "Thursday dinner", note: "A converted horse stable, white-washed, the chef's tasting on a small handwritten menu. Pre-order the suckling pig if it's on the day's list." },
@@ -55,8 +55,8 @@ export const COMPORTA: DestinationCover = {
     { q: "Comporta in August?", a: "It's the one Portuguese destination we'd say is fine in August — the population doubles but it's still empty by Mediterranean standards. The downside is heat; we still prefer June." },
   ],
   related: [
-    { name: "Lisbon", slug: "lisbon", note: "Comporta's city pair, an hour north.", img: IMG.lisbon, color: "var(--blush-deep)" },
-    { name: "Mallorca", slug: "mallorca", note: "Comporta in Spanish, with mountains.", img: IMG.beachWalk, color: "var(--peach)" },
-    { name: "Hvar", slug: "hvar", note: "Comporta in Croatian, with pines.", img: IMG.beachWalk, color: "var(--sage)" },
+    { name: "Lisbon", slug: "lisbon", note: "Comporta's city pair, an hour north.", img: IMG.lisbonHero, color: "var(--blush-deep)" },
+    { name: "Mallorca", slug: "mallorca", note: "Comporta in Spanish, with mountains.", img: IMG.mallorcaHero, color: "var(--peach)" },
+    { name: "Hvar", slug: "hvar", note: "Comporta in Croatian, with pines.", img: IMG.hvarHero, color: "var(--sage)" },
   ],
 };
