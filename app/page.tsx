@@ -188,9 +188,14 @@ function ArticleCard({
         <Img src={d.img} alt={d.name} ratio="4 / 5" rounded={36} />
       </div>
       <div style={{ padding: "8px 28px 28px" }}>
-        <h3 className="h-display" style={{ margin: "0 0 16px", fontSize: 26, lineHeight: 1.1 }}>
-          Bachelorette weekend in {d.name}, {d.region.split(",")[0].trim()}
+        <div className="eyebrow" style={{ marginBottom: 6 }}>Bachelorette weekend in</div>
+        <h3
+          className="h-display"
+          style={{ margin: "0 0 4px", fontSize: 40, lineHeight: 1.0, letterSpacing: "-0.025em" }}
+        >
+          {d.name}
         </h3>
+        <div className="meta" style={{ marginBottom: 14 }}>{d.region}</div>
         <div className="meta" style={{ marginBottom: 4 }}>Updated: {updated}</div>
         <div className="meta" style={{ marginBottom: 16 }}>Published: {published}</div>
         <p style={{ margin: 0, fontSize: 15, color: "var(--ink-soft)", lineHeight: 1.55 }}>

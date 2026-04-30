@@ -123,9 +123,14 @@ function ArticleCard({ d }: { d: DestinationCard }) {
         <Img src={d.img} alt={d.name} ratio="4 / 5" rounded={36} />
       </div>
       <div style={{ padding: "8px 28px 28px" }}>
-        <h2 className="h-display" style={{ margin: "0 0 14px", fontSize: 26, lineHeight: 1.1 }}>
-          Bachelorette weekend in {d.name}, {d.region.split(",")[0].trim()}
+        <div className="eyebrow" style={{ marginBottom: 6 }}>Bachelorette weekend in</div>
+        <h2
+          className="h-display"
+          style={{ margin: "0 0 4px", fontSize: 40, lineHeight: 1.0, letterSpacing: "-0.025em" }}
+        >
+          {d.name}
         </h2>
+        <div className="meta" style={{ marginBottom: 14 }}>{d.region}</div>
         <div style={{ display: "flex", gap: 12, marginBottom: 16, flexWrap: "wrap" }}>
           <span className="tag">{d.tag}</span>
           <span className="meta">{d.group} guests · {d.days} · {d.price}</span>

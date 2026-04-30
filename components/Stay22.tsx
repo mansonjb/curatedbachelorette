@@ -1,5 +1,5 @@
 import { AffiliateLink } from "@/components/AffiliateLink";
-import { stay22Url } from "@/lib/affiliates/stay22";
+import { stay22MapSrc, stay22Url } from "@/lib/affiliates/stay22";
 
 /** Primary CTA on each hotel card — pink pill, hard to miss. */
 export function Stay22Cta({
@@ -90,9 +90,9 @@ export function Stay22Map({ address }: { address: string }) {
         <span className="meta">Stay22 · sponsored</span>
       </div>
 
-      {/* Google Maps city embed — no API key required, always renders.
-          Useful as a "where am I going" reference. The bookable conversion
-          path is the OTA button row below; LetMeAllez tags those clicks. */}
+      {/* Stay22 Allez Google-Maps-style embed — interactive map with hotel
+          pins overlaid. Pin clicks open the OTA comparison drawer; outbound
+          taps are auto-tracked under our partner ID. */}
       <div
         style={{
           borderRadius: "var(--radius-lg)",
@@ -103,16 +103,15 @@ export function Stay22Map({ address }: { address: string }) {
         }}
       >
         <iframe
-          src={`https://www.google.com/maps?q=${encodeURIComponent(address + " hotels")}&output=embed&z=13`}
-          title={`Map of ${address}`}
+          src={stay22MapSrc(address)}
+          title={`Hotels in ${address}`}
           style={{
             display: "block",
             width: "100%",
-            height: 420,
+            height: 520,
             border: 0,
           }}
           loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
         />
       </div>
 

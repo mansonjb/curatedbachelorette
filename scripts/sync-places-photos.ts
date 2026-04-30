@@ -34,19 +34,25 @@ const OUT_ROOT = join(process.cwd(), "public", "destinations");
  * pin. Country qualifier disambiguates Hvar (Croatia) from Hvar (other),
  * Capri (Italy) from Capri (Caprice), etc.
  */
+/**
+ * Queries are tuned for visual appeal, not raw popularity. Cathedrals and
+ * busy plazas (the typical Places top-result for a city name) lose to
+ * coves, viewpoints, sunset spots, gardens, and rooftop pools. The first
+ * photo of these spots is almost always travel-magazine-worthy.
+ */
 const QUERIES: Record<string, string> = {
-  ibiza: "Ibiza Town, Spain",
-  mykonos: "Mykonos Town, Greece",
-  santorini: "Oia, Santorini, Greece",
-  capri: "Capri, Italy",
-  "saint-tropez": "Saint-Tropez, France",
-  hvar: "Hvar Town, Croatia",
-  mallorca: "Palma de Mallorca, Spain",
-  lisbon: "Alfama, Lisbon, Portugal",
-  comporta: "Comporta, Portugal",
-  marrakech: "Jemaa el-Fnaa, Marrakech, Morocco",
-  miami: "South Beach, Miami, Florida",
-  cdmx: "Roma Norte, Mexico City",
+  ibiza: "Cala Comte beach Ibiza",
+  mykonos: "Little Venice Mykonos sunset",
+  santorini: "Oia caldera sunset Santorini",
+  capri: "Faraglioni rocks Capri",
+  "saint-tropez": "Pampelonne beach Saint-Tropez",
+  hvar: "Pakleni Islands Hvar Croatia",
+  mallorca: "Cala Mondragó Mallorca",
+  lisbon: "Miradouro da Senhora do Monte Lisbon",
+  comporta: "Praia do Pego Comporta",
+  marrakech: "Jardin Majorelle Marrakech",
+  miami: "Ocean Drive Miami Beach Art Deco",
+  cdmx: "Casa Azul Frida Kahlo Coyoacán",
 };
 
 type Place = {
