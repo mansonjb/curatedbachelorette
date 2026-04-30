@@ -1,7 +1,7 @@
 import { AffiliateLink } from "@/components/AffiliateLink";
-import { stay22MapSrc, stay22Url } from "@/lib/affiliates/stay22";
+import { stay22Url } from "@/lib/affiliates/stay22";
 
-/** "Check rates" button rendered inside each hotel card. */
+/** Primary CTA on each hotel card — pink pill, hard to miss. */
 export function Stay22Cta({
   hotelName,
   city,
@@ -16,10 +16,10 @@ export function Stay22Cta({
       network="stay22"
       context={context}
       href={stay22Url({ address: `${hotelName}, ${city}` })}
-      className="ulink"
-      style={{ fontSize: 14 }}
+      className="btn btn-pink btn-sm"
+      style={{ width: "100%", justifyContent: "center" }}
     >
-      Check rates
+      Book your stay →
     </AffiliateLink>
   );
 }
@@ -82,15 +82,17 @@ export function Stay22Map({ address }: { address: string }) {
         }}
       >
         <div>
-          <div className="eyebrow" style={{ marginBottom: 6 }}>Compare rates</div>
+          <div className="eyebrow" style={{ marginBottom: 6 }}>The map · compare rates</div>
           <div style={{ fontSize: 18, fontWeight: 700 }}>
-            Every hotel in {address}, across the major sites.
+            Where to stay in {address}.
           </div>
         </div>
-        <span className="meta">via Stay22 · sponsored</span>
+        <span className="meta">Stay22 · sponsored</span>
       </div>
 
-      {/* Stay22 Allez interactive map + sortable hotel list */}
+      {/* Google Maps city embed — no API key required, always renders.
+          Useful as a "where am I going" reference. The bookable conversion
+          path is the OTA button row below; LetMeAllez tags those clicks. */}
       <div
         style={{
           borderRadius: "var(--radius-lg)",
@@ -101,15 +103,16 @@ export function Stay22Map({ address }: { address: string }) {
         }}
       >
         <iframe
-          src={stay22MapSrc(address)}
-          title={`Stay22 hotel map for ${address}`}
+          src={`https://www.google.com/maps?q=${encodeURIComponent(address + " hotels")}&output=embed&z=13`}
+          title={`Map of ${address}`}
           style={{
             display: "block",
             width: "100%",
-            height: 520,
+            height: 420,
             border: 0,
           }}
           loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
         />
       </div>
 
