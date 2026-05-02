@@ -18,8 +18,8 @@ export const HVAR: DestinationCover = {
     img: IMG.hvarHero,
   },
   intro: [
-    "Hvar has a reputation we recommend ignoring. The yacht-club Hvar of mid-July is a real thing; it is also a small thing, confined to four streets near the marina, and easy to walk past. The island that surrounds those four streets is one of the quieter places in the Mediterranean — pine forest, lavender, a handful of Roman fishing villages on the south coast that don't show up on a chartered yacht's itinerary.",
-    "The plan is built around two boat days into the Pakleni Islands (twenty minutes from the harbour, swimming-clear water, no infrastructure), one inland afternoon to Stari Grad and the lavender fields, and dinners at konobas — Croatian taverns where the catch of the day is whatever was on the boat that morning. We send groups of six to ten in mid-June or the first week of September; never in August.",
+    "Hvar's reputation is one of those things you can mostly walk past. The yacht-club version of mid-July is real, but small — four streets near the marina, easily avoided by Tuesday morning. The island that wraps those four streets is one of the quieter corners of the Mediterranean: pine forest, lavender fields you can smell from the road, stone fishing villages on the south coast that no chartered yacht's itinerary has ever bothered with.",
+    "Your plan: two boat days into the Pakleni archipelago (twenty minutes from the harbour, water clear enough to count fish, zero infrastructure), one slow inland afternoon to Stari Grad and the lavender, and dinners at konobas — Croatian taverns where the catch is whatever came in on the morning boat. Six to ten people, mid-June or the first week of September. Not August. Never August.",
   ],
   stay: [
     { no: 1, name: "Maslina Resort", area: "Stari Grad", color: "var(--sage)", img: "/destinations/hvar/hotel-1.jpg", note: "Forty rooms, an olive grove, a real spa. Twenty minutes from Hvar Town by car — far enough for the silence, close enough for dinner.", price: "$$$$" },

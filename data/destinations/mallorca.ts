@@ -18,8 +18,8 @@ export const MALLORCA: DestinationCover = {
     img: IMG.mallorcaHero,
   },
   intro: [
-    "Mallorca is the second-largest Mediterranean island after Sicily, and a great deal of it is, frankly, terrible. The eastern coast of the island is the bachelorette of cliché — Magaluf, the strip, a kind of British vacation we are not interested in. The western half, the Serra de Tramuntana, is something else entirely: stone villages perched over the sea, olive terraces five hundred years old, three of the best restaurants in Spain, and almost no English-speaking party traffic.",
-    "Our plan stays exclusively on the west coast. We base in Sóller or Deià, two villages an hour's drive from Palma airport. We never see Magaluf. We boat once across to Sa Foradada (the rock with a hole) and Sa Calobra (the canyon-cove). The bride spends most of the four days at a 16th-century finca, eating slowly, swimming when it's warm, reading when it's not.",
+    "Mallorca's a big island and most of it is, frankly, not for you. The east coast is the cliché — Magaluf, the strip, a particular kind of British vacation we'd rather pretend doesn't exist. The west — the Serra de Tramuntana — is a different country: stone villages clinging to the sea, olive terraces five centuries old, three of the best restaurants in Spain, and almost no English-speaking party traffic. Stay west; you'll thank yourself.",
+    "Base in Sóller or Deià, an hour's drive from Palma airport. Boat once across to Sa Foradada (the rock with the hole) and Sa Calobra (the canyon-cove). Otherwise the bride lives at a 16th-century finca for four days — eating slowly, swimming when it's warm, reading when it isn't, and getting talked out of every plan that involves leaving the property after lunch.",
   ],
   stay: [
     { no: 1, name: "Belmond La Residencia", area: "Deià", color: "var(--rose)", img: "/destinations/mallorca/hotel-1.jpg", note: "Two stone fincas merged, two pools, an art collection that's actually good. The grande-dame answer for groups of six.", price: "$$$$" },

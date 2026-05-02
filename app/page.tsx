@@ -120,7 +120,7 @@ function Hero() {
               background: "var(--bg-alt)",
             }}
           >
-            <Img src={IMG.poolGirls} alt="Pool day" ratio="4 / 5" rounded={0} />
+            <Img src={IMG.santoriniHero} alt="The blue domes of Oia, Santorini" ratio="4 / 5" rounded={0} />
           </div>
         </div>
       </div>

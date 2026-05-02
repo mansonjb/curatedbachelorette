@@ -18,8 +18,8 @@ export const CAPRI: DestinationCover = {
     img: IMG.capriHero,
   },
   intro: [
-    "Capri is the only destination on this site we recommend specifically because it empties at 6PM. The cruise ferries leave, the day-trippers leave, the Piazzetta becomes a small town again, and the people who stayed have an island for an hour.",
-    "We recommend Capri for groups of four to six exclusively. Above six, the hotels become a logistics problem and the dinner reservations turn into seatings. Below four, the boat days don't make economic sense. Four, five or six, with three nights and two boat days, is the assignment.",
+    "The reason to stay on Capri instead of day-tripping from Positano is the 6PM hour. The last ferry pulls out, the day-trippers go with it, the Piazzetta exhales, and the people who slept here get a small Italian town to themselves for sixty minutes. That hour is the entire point. Without it, Capri is a museum.",
+    "Group size matters here more than anywhere else on the site. Four, five, or six is the right number — three nights, two boat days, one Anacapri lunch. Above six, you'll hit a wall on hotel availability and the Saturday dinner becomes two seatings. Below four, the boat charter math stops working. The sweet spot is small.",
   ],
   stay: [
     { no: 1, name: "J.K. Place Capri", area: "Marina Grande", color: "var(--rose)", img: "/destinations/capri/hotel-1.jpg", note: "Twenty rooms, a small pool, the only hotel that makes sense if you want to actually swim from the property.", price: "$$$$" },

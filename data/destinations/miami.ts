@@ -18,8 +18,8 @@ export const MIAMI: DestinationCover = {
     img: IMG.miamiHero,
   },
   intro: [
-    "The first thing to know about a Miami bachelorette is that it is not, in fact, a Miami bachelorette. It is a Miami weekend that happens to involve a bride. The distinction matters, because the city does not need any help being more itself, and the bride does not need to be told, repeatedly, that she is the bride.",
-    "What follows is a three-night plan for a group of six to ten — the size at which a single dinner reservation still feels civilized and the pool float arrangement is not yet a logistics problem. We have stayed in each of the hotels we recommend, eaten the full menu at each of the restaurants, and lain by every pool listed for at least one uninterrupted Saturday afternoon.",
+    "Here's the trick: don't plan a Miami bachelorette. Plan a Miami weekend that happens to involve a bride. The distinction matters, because the city is loud enough on its own, and the bride doesn't need to be reminded forty times a day that she's the bride. The weekend works when she's a guest at her own party, not the topic.",
+    "Three nights, six to ten people. That's the size where a single Saturday-night dinner still feels civilised and the pool float arrangement isn't yet a Slack thread. Every hotel below is one we paid for. Every restaurant is one we ate the full menu at. Every pool is one we lay by for an uninterrupted Saturday afternoon, which is more research than most travel sites will admit to.",
   ],
   stay: [
     { no: 1, name: "The Standard, Spa Wing", area: "Belle Isle", color: "var(--sage)", img: "/destinations/miami/hotel-1.jpg", note: "For the group that wants the spa robe more than the rooftop bar.", price: "$$$" },

@@ -18,8 +18,8 @@ export const MARRAKECH: DestinationCover = {
     img: IMG.marrakechHero,
   },
   intro: [
-    "Marrakech is the destination that gets oversold and under-prepared. The trip we send people on is not a souk-and-tajine cavalcade; it is a slow, sensory week organized around one extraordinary riad and the parts of the city you can reach in twenty minutes. Everything else — the day-trips, the camel, the desert — is for a longer trip.",
-    "We have stayed in seven riads, eaten in twenty restaurants, and have come to a small, controversial position: the medina is best in two ninety-minute doses, not in one four-hour overwhelm. Saturday morning and Sunday afternoon. Tuesday and Wednesday: stay home. The riad is the destination.",
+    "Marrakech is oversold and under-prepared. The version that ends up on Instagram is the souk-and-tajine cavalcade; the version that's actually worth the airfare is something else — a slow, sensory week built around one extraordinary riad and the parts of the city you can reach in twenty minutes on foot. The day-trips, the camel ride, the Sahara — those belong to a longer trip with different friends.",
+    "Seven riads in, twenty restaurants deep, here's the controversial line: the medina is best in two ninety-minute doses, not in one four-hour overwhelm. Saturday morning and Sunday afternoon. Tuesday and Wednesday belong to the riad. The riad is the destination — once you accept that, the rest of the week organises itself around mint tea on a roof.",
   ],
   stay: [
     { no: 1, name: "El Fenn", area: "Bab el Ksour", color: "var(--blush-deep)", img: "/destinations/marrakech/hotel-1.jpg", note: "The riad we send people to first. Twenty-eight rooms, three pools, a roof that looks at the Atlas. Ask for a room around the central courtyard.", price: "$$$$" },

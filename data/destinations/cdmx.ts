@@ -18,8 +18,8 @@ export const CDMX: DestinationCover = {
     img: IMG.cdmxHero,
   },
   intro: [
-    "Mexico City is the only weekend on this site we recommend extending to four nights, and the only one we recommend not over-planning. The city rewards a sleepy Friday morning and a long Saturday lunch the way no other capital does. It punishes a packed schedule.",
-    "The version of CDMX we send brides to is small and walkable: Roma Norte, Condesa, a few crossings into Juárez and Coyoacán. We avoid the rooftop-bar industrial complex and we never recommend Polanco for anything except one specific bakery.",
+    "Mexico City is the only weekend on this site that earns a fourth night, and the only one where over-planning will actually ruin the trip. CDMX rewards a sleepy Friday morning and a Saturday lunch that runs into late afternoon the way no other capital does. Pack the schedule and the city resents you for it; leave gaps and it fills them itself.",
+    "The version of CDMX we recommend is small and walkable: Roma Norte, Condesa, the occasional crossing into Juárez, one Coyoacán afternoon. The rooftop-bar industrial complex you can ignore. Polanco gets exactly one visit, for a single bakery — and that's it. Everything else worth doing happens within a fifteen-minute walk of wherever you're staying.",
   ],
   stay: [
     { no: 1, name: "Casa Polanco", area: "Polanco", color: "var(--blush-deep)", img: "/destinations/cdmx/hotel-1.jpg", note: "If you want the grande-dame experience and a pool. Only recommended for groups under six.", price: "$$$$" },

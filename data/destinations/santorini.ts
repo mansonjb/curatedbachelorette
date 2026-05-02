@@ -18,8 +18,8 @@ export const SANTORINI: DestinationCover = {
     img: IMG.santoriniHero,
   },
   intro: [
-    "Santorini in late May or early October is the island that the photographs promised. Santorini in August is a cruise terminal. We have not changed our minds about this in eight visits, and we are not going to.",
-    "We send small groups (four to six) to the village of Imerovigli or Pyrgos rather than Oia. The view of the caldera is the same; the staircase tax for dinner is half. The plan is built around two boat days, two long lunches, and one extraordinary tasting at a winery we have come to love beyond reason.",
+    "Late May or early October is when the photographs come true. Any other week, the island has a cruise problem. Eight visits in, our position hasn't moved an inch: come twice in shoulder season, or come once and accept that the sunset you queued ninety minutes for will appear in 4,000 other Instagram stories the same night.",
+    "Smart move for groups of four to six: skip Oia and base in Imerovigli or Pyrgos. Same caldera, half the staircase tax at dinner. Two boat days. Two long lunches on cliff-edge tavernas the cruise crowd never reaches. One afternoon at a Vinsanto producer in Pyrgos that we love beyond reason — ask and we'll point you to the right one.",
   ],
   stay: [
     { no: 1, name: "Vora Villas", area: "Imerovigli", color: "var(--rose)", img: "/destinations/santorini/hotel-1.jpg", note: "Five villas, each with a plunge pool that points at the volcano. Quieter than Oia, ten minutes by foot.", price: "$$$$" },

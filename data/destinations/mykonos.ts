@@ -18,8 +18,8 @@ export const MYKONOS: DestinationCover = {
     img: IMG.mykonosHero,
   },
   intro: [
-    "We have been to Mykonos in August. We do not recommend it. The Mykonos that justifies the airfare is the one that exists in the first three weeks of June and from the second week of September onward — the small island with seventy beaches, two windmills, and a town that smells faintly of jasmine after dinner.",
-    "This plan assumes you fly into Athens, then catch the morning ferry — three hours, scenic, the right way to arrive. Sleep in Chora, leave it for the beaches, return for dinner. The boat to Delos is optional and good. The boat to anywhere else is not necessary.",
+    "Skip August. There — that's the whole post if you're in a hurry. The Mykonos that earns its airfare is the one that exists in the first three weeks of June, and from the second week of September onward: a small Greek island with seventy beaches, two windmills, and a town that smells faintly of jasmine once the dinner crowds settle. The other Mykonos is a press release.",
+    "Fly into Athens. Catch the morning ferry — three hours, slow, with the right amount of wind. The plan is to sleep in Chora, leave it for the beaches by 11AM, and come back for the kind of dinner that happens to remember it's Greek. The boat to Delos is optional and worth the boat. Anything else with a hull, you can take or leave.",
   ],
   stay: [
     { no: 1, name: "Belvedere Hotel", area: "Chora", color: "var(--rose)", img: "/destinations/mykonos/hotel-1.jpg", note: "In town, walking distance to dinner, a real pool. The right answer for groups under six who want to stay in Mykonos Town.", price: "$$$$" },

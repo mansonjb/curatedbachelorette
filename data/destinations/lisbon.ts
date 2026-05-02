@@ -18,8 +18,8 @@ export const LISBON: DestinationCover = {
     img: IMG.lisbonHero,
   },
   intro: [
-    "Lisbon is the rare European weekend that's still affordable, still uncrowded in May and September, and still genuinely confused by what a bachelorette is — which, for our purposes, is exactly the right kind of indifference.",
-    "The plan is built around two long lunches and two long walks. A Wednesday arrival lets you skip the Friday-night airport scrum and gives you one extra day of being lightly jet-lagged on a terrace, which we have come to consider a feature.",
+    "Lisbon is the rare European weekend that's still affordable, still uncrowded in May and September, and still — bless it — genuinely puzzled by what a bachelorette is. Which, for the kind of trip we're planning, is exactly the right amount of indifference. Nobody is going to upsell you a sash.",
+    "Two long lunches, two long walks, three nights, four if you have the holiday. Land on Wednesday, not Friday — you skip the airport scrum and earn yourself an extra afternoon of being lightly jet-lagged on a terrace with a tinto. That's not a bug; that's the trip. The Sintra day-trip is on Friday, the tasting on Saturday, the slow Sunday around Príncipe Real and the bakery you'll cite in the group chat for months.",
   ],
   stay: [
     { no: 1, name: "Santiago de Alfama", area: "Alfama", color: "var(--rose)", img: "/destinations/lisbon/hotel-1.jpg", note: "Tile-floored, 19 rooms, the morning sun comes in through the iron windows.", price: "$$$" },

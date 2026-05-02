@@ -18,8 +18,8 @@ export const IBIZA: DestinationCover = {
     img: IMG.ibizaHero,
   },
   intro: [
-    "There are two Ibizas. One is the island's caricature — Bora Bora at noon, a club at three, a hangover at four. The other is what we're writing about: a quiet villa in San Juan, two boat days that end before dark, a Saturday lunch at a beach shack with a fish on the table and a dog under it.",
-    "We have planned this trip for groups of six and ten and the answer is the same: rent a house in the north, hire a boat for two of the four days, eat at exactly four restaurants, and sleep at least eight hours every night. The bachelorette who follows this plan returns rested. The bachelorette who follows the other plan does not.",
+    "There are two Ibizas, and only one of them is on this page. The other one — Bora Bora at noon, a club at three, a hangover at four — runs perfectly well without our help. Yours is the one with the dog under the lunch table at Es Boldadó, the boat that turns around when the captain says the swell is wrong, the villa in San Juan where someone keeps making coffee until the sun goes down.",
+    "Six people, eight, ten — the plan is the same. A house in the north. A captain for two of the four days. Four restaurants and not a fifth. Eight hours of sleep, every night, no exceptions. Brides who follow this version come home tan, rested, and slightly smug. The other version comes home with a story it won't tell its mother.",
   ],
   stay: [
     { no: 1, name: "A finca, San Juan", area: "North Ibiza", color: "var(--sage)", img: IMG.ibiza2, note: "Eight bedrooms, an outdoor kitchen, a pool that faces a hill of pines. We have rented this house three years running.", price: "$$$$" },

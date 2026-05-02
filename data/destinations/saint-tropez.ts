@@ -18,8 +18,8 @@ export const SAINT_TROPEZ: DestinationCover = {
     img: IMG.tropezHero,
   },
   intro: [
-    "We do not recommend Saint-Tropez in August. The harbor is a parking lot, the dinners are seatings, the village belongs to a tour bus from Antibes. We recommend Saint-Tropez two weeks of the year: the first week of June, before it begins, and the second week of October, after it ends. Both are extraordinary.",
-    "This plan is the October version. The harbor has space. La Ponche has tables. Senequier still has a coffee. The light is exactly the light Bonnard painted, and that is not a sentimental observation; it is the entire reason we keep coming back.",
+    "Two weeks of the year, Saint-Tropez is the village it once was — the rest of the calendar belongs to a parking-lot harbour and a tour bus from Antibes. The two weeks: the first of June (before it begins) and the second of October (after it ends). Pick either; both are extraordinary, and the room rate is half what it is in August.",
+    "What follows is the October version. The harbor has space. La Ponche has tables. Senequier serves you a coffee inside fifteen minutes. The afternoon light hits the cypress like Bonnard painted it — sentimental observation, sure, but it's also the entire reason brides who come here in October book again the year they get married.",
   ],
   stay: [
     { no: 1, name: "Hôtel La Ponche", area: "La Ponche", color: "var(--rose)", img: "/destinations/saint-tropez/hotel-1.jpg", note: "The original. A village hotel, twenty rooms, walking distance to the port. The right answer for groups under six.", price: "$$$$" },

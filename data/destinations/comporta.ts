@@ -18,8 +18,8 @@ export const COMPORTA: DestinationCover = {
     img: IMG.comportaHero,
   },
   intro: [
-    "Comporta is the trip we send brides to when they have explicitly said, on the group text, 'I do not want a city this time.' It is a stretch of pine and sand on the Setúbal peninsula, an hour by car from Lisbon airport, almost entirely without traffic, hotels, or signage. It has been quietly fashionable for fifteen years and remains, somehow, undiscovered by the people you'd worry about.",
-    "The plan assumes you fly into Lisbon, hire a car at the airport (one car per four people; the parking is sand), and drive south. We never spend more than one half-day off the beach. The drive in is the entire decompression of the trip; the drive out, on Monday morning, is the only thing that takes you back into the world.",
+    "Comporta is where you go when somebody in the group chat has typed, in all caps, NO CITIES. It's a strip of pine and sand on the Setúbal peninsula, an hour south of Lisbon by car, with no traffic, no chain hotels, and almost no signage. Quietly fashionable for fifteen years, somehow still not on the radar of the people who'd ruin it.",
+    "Fly into Lisbon. Hire a car (one per four guests; the parking lots are sand). Drive south. The drive in is the decompression — by the time you reach the rice fields, the group chat has gone quiet and the bride has stopped checking her phone. After that, half-days only. One trip into Carvalhal for the bakery, one to Comporta village for the linen-shop browse, one boat across to Tróia. Otherwise, the beach.",
   ],
   stay: [
     { no: 1, name: "Quinta da Comporta", area: "Carvalhal", color: "var(--sage)", img: "/destinations/comporta/hotel-1.jpg", note: "A wellness-leaning quinta with seventy rooms, a real spa, and a pool that points at the rice fields. Easiest sell to a difficult group.", price: "$$$$" },
