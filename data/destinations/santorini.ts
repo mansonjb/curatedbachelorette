@@ -39,11 +39,11 @@ export const SANTORINI: DestinationCover = {
     { no: 4, name: "Franco's Cafe", area: "Fira", kind: "Sunset cocktail", note: "The classic Santorini ritual. Classical music on the speakers, one negroni each, sunset at 8:24. Then dinner. That's the night.", when: "Daily", link: "https://www.google.com/maps/search/?api=1&query=Franco%27s+Cafe+Fira" },
   ],
   eat: [
-    { no: 1, name: "Selene", area: "Pyrgos", meal: "Wednesday dinner", note: "The first serious restaurant on the island and still the best. Seven-course tasting with the local-vintage pairing." },
-    { no: 2, name: "To Psaraki", area: "Vlychada", meal: "Thursday lunch", note: "Harbour-side, white-washed, the catch of the day grilled whole. Eat with your hands." },
-    { no: 3, name: "Metaxi Mas", area: "Exo Gonia", meal: "Friday dinner", note: "Inland, away from the cliff, the locals' choice. Reserve four weeks out for a table on the terrace." },
-    { no: 4, name: "Idol", area: "Imerovigli", meal: "Saturday dinner", note: "Mediterranean tasting on a long terrace. We do this on the second-to-last night, in a slip dress." },
-    { no: 5, name: "Galini Cafe", area: "Firostefani", meal: "Sunday breakfast", note: "Coffee, yoghurt with thyme honey, the caldera before the day-trippers arrive. The right last meal." },
+    { no: 1, name: "Selene", area: "Pyrgos", meal: "Wednesday dinner", note: "The first serious restaurant on the island and still the best. Seven-course tasting with the local-vintage pairing.", img: "/destinations/santorini/eat-1.jpg" },
+    { no: 2, name: "To Psaraki", area: "Vlychada", meal: "Thursday lunch", note: "Harbour-side, white-washed, the catch of the day grilled whole. Eat with your hands.", img: "/destinations/santorini/eat-2.jpg" },
+    { no: 3, name: "Metaxi Mas", area: "Exo Gonia", meal: "Friday dinner", note: "Inland, away from the cliff, the locals' choice. Reserve four weeks out for a table on the terrace.", img: "/destinations/santorini/eat-3.jpg" },
+    { no: 4, name: "Idol", area: "Imerovigli", meal: "Saturday dinner", note: "Mediterranean tasting on a long terrace. We do this on the second-to-last night, in a slip dress.", img: "/destinations/santorini/eat-4.jpg" },
+    { no: 5, name: "Galini Cafe", area: "Firostefani", meal: "Sunday breakfast", note: "Coffee, yoghurt with thyme honey, the caldera before the day-trippers arrive. The right last meal.", img: "/destinations/santorini/eat-5.jpg" },
   ],
   pullQuote: { lead: "The point of", emphasis: "off-season", tail: "is the silence.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

@@ -39,11 +39,11 @@ export const SAINT_TROPEZ: DestinationCover = {
     { no: 4, name: "L'Opéra Saint-Tropez", area: "Place de la Garonne", kind: "Cabaret-dinner", note: "Dinner with a small show, then it tips into a club around midnight. Reserve the early seating; you can leave when the bride decides.", when: "Daily in season", link: "https://www.google.com/maps/search/?api=1&query=L%27Opera+Saint+Tropez" },
   ],
   eat: [
-    { no: 1, name: "La Ponche", area: "La Ponche", meal: "Thursday dinner", note: "The hotel restaurant, but an institution in its own right. A small dining room, the bouillabaisse, the kind of first dinner that sets the trip up." },
-    { no: 2, name: "Loulou Ramatuelle", area: "Pampelonne", meal: "Friday lunch", note: "On the beach, a long lunch, the photograph of the trip will be from this table. Reservations required, even in October. Linen, please." },
-    { no: 3, name: "La Vague d'Or", area: "Pampelonne", meal: "Saturday dinner", note: "Three Michelin stars, the pre-marriage dinner of the trip, no children allowed which is a relief. Pace the wine pairing or you'll lose Sunday." },
-    { no: 4, name: "Le Bistrot des Lices", area: "Place des Lices", meal: "Sunday lunch", note: "Village bistro, sit outside, let lunch run two hours. The kind of meal that makes the airport feel rude." },
-    { no: 5, name: "Senequier", area: "Vieux Port", meal: "Daily, 10AM", note: "Coffee, a tarte tropézienne, the harbor. Not for dinner. The tarte is the thing — three each between the table." },
+    { no: 1, name: "La Ponche", area: "La Ponche", meal: "Thursday dinner", note: "The hotel restaurant, but an institution in its own right. A small dining room, the bouillabaisse, the kind of first dinner that sets the trip up.", img: "/destinations/saint-tropez/eat-1.jpg" },
+    { no: 2, name: "Loulou Ramatuelle", area: "Pampelonne", meal: "Friday lunch", note: "On the beach, a long lunch, the photograph of the trip will be from this table. Reservations required, even in October. Linen, please.", img: "/destinations/saint-tropez/eat-2.jpg" },
+    { no: 3, name: "La Vague d'Or", area: "Pampelonne", meal: "Saturday dinner", note: "Three Michelin stars, the pre-marriage dinner of the trip, no children allowed which is a relief. Pace the wine pairing or you'll lose Sunday.", img: "/destinations/saint-tropez/eat-3.jpg" },
+    { no: 4, name: "Le Bistrot des Lices", area: "Place des Lices", meal: "Sunday lunch", note: "Village bistro, sit outside, let lunch run two hours. The kind of meal that makes the airport feel rude.", img: "/destinations/saint-tropez/eat-4.jpg" },
+    { no: 5, name: "Senequier", area: "Vieux Port", meal: "Daily, 10AM", note: "Coffee, a tarte tropézienne, the harbor. Not for dinner. The tarte is the thing — three each between the table.", img: "/destinations/saint-tropez/eat-5.jpg" },
   ],
   pullQuote: { lead: "Saint-Tropez is", emphasis: "small", tail: "in October.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

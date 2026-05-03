@@ -39,11 +39,11 @@ export const IBIZA: DestinationCover = {
     { no: 4, name: "Beachouse Ibiza sunset", area: "Playa d'en Bossa", kind: "Beach club", note: "Pre-dinner, on the sand, drinks slow enough that you can leave by 9PM and still make a real reservation.", when: "Daily, until October", link: "https://www.google.com/maps/search/?api=1&query=Beachouse+Ibiza" },
   ],
   eat: [
-    { no: 1, name: "La Paloma", area: "San Lorenzo", meal: "Wednesday dinner", note: "An old farmhouse, candles, a long table outside. Vegetable-forward, family-style. The Saturday-night Ibiza you didn't know existed." },
-    { no: 2, name: "Es Boldadó", area: "Cala d'Hort", meal: "Friday lunch", note: "Cliffside, looking at Es Vedrà, the fish arrives whole. Reserve, even in May. Sit outside no matter the wind." },
-    { no: 3, name: "Sa Capella", area: "San Antonio", meal: "Saturday dinner", note: "A 17th-century chapel turned restaurant. Theatrical without being a show. Pre-order the suckling pig if it's on." },
-    { no: 4, name: "El Chiringuito", area: "Es Cavallet", meal: "Saturday lunch", note: "Beach club without the club. Long tables, paella, people-watching that's actually pleasant." },
-    { no: 5, name: "Wild Beets", area: "Santa Gertrudis", meal: "Sunday breakfast", note: "Vegan, sunny, the espresso is the best on the island. The pre-flight breakfast that doesn't ruin Monday." },
+    { no: 1, name: "La Paloma", area: "San Lorenzo", meal: "Wednesday dinner", note: "An old farmhouse, candles, a long table outside. Vegetable-forward, family-style. The Saturday-night Ibiza you didn't know existed.", img: "/destinations/ibiza/eat-1.jpg" },
+    { no: 2, name: "Es Boldadó", area: "Cala d'Hort", meal: "Friday lunch", note: "Cliffside, looking at Es Vedrà, the fish arrives whole. Reserve, even in May. Sit outside no matter the wind.", img: "/destinations/ibiza/eat-2.jpg" },
+    { no: 3, name: "Sa Capella", area: "San Antonio", meal: "Saturday dinner", note: "A 17th-century chapel turned restaurant. Theatrical without being a show. Pre-order the suckling pig if it's on.", img: "/destinations/ibiza/eat-3.jpg" },
+    { no: 4, name: "El Chiringuito", area: "Es Cavallet", meal: "Saturday lunch", note: "Beach club without the club. Long tables, paella, people-watching that's actually pleasant.", img: "/destinations/ibiza/eat-4.jpg" },
+    { no: 5, name: "Wild Beets", area: "Santa Gertrudis", meal: "Sunday breakfast", note: "Vegan, sunny, the espresso is the best on the island. The pre-flight breakfast that doesn't ruin Monday.", img: "/destinations/ibiza/eat-5.jpg" },
   ],
   pullQuote: { lead: "Ibiza is", emphasis: "north", tail: "of where you think.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

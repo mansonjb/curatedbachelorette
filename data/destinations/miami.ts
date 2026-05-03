@@ -39,11 +39,11 @@ export const MIAMI: DestinationCover = {
     { no: 4, name: "Mac's Club Deuce", area: "South Beach", kind: "Dive bar", note: "The 1933 dive bar where the locals go to escape the locals. Cash only, no cover, no door, no dress code. The 3AM corrective.", when: "Daily, until 5AM", link: "https://www.google.com/maps/search/?api=1&query=Mac%27s+Club+Deuce+Miami" },
   ],
   eat: [
-    { no: 1, name: "Boia De", area: "Buena Vista", meal: "Friday dinner", note: "Cacio e pepe, small kitchen, smaller dining room. Reserve five weeks out, ask for the back banquette." },
-    { no: 2, name: "Walrus Rodeo", area: "Little River", meal: "Saturday lunch", note: "Wood-fired everything. Chicken for the table. Don't skip the bread." },
-    { no: 3, name: "Mandolin", area: "Buena Vista", meal: "Saturday late lunch", note: "Outdoor courtyard, white walls, a bottle of rosé that lasts two hours." },
-    { no: 4, name: "Sunny's Steakhouse", area: "Little River", meal: "Saturday dinner", note: "A backyard, a steak, a martini. Closest thing Miami has to a club for grown-ups." },
-    { no: 5, name: "OTL", area: "Buena Vista", meal: "Sunday breakfast", note: "Pastries, eggs, sun on a sidewalk. A quiet place to find your sunglasses again." },
+    { no: 1, name: "Boia De", area: "Buena Vista", meal: "Friday dinner", note: "Cacio e pepe, small kitchen, smaller dining room. Reserve five weeks out, ask for the back banquette.", img: "/destinations/miami/eat-1.jpg" },
+    { no: 2, name: "Walrus Rodeo", area: "Little River", meal: "Saturday lunch", note: "Wood-fired everything. Chicken for the table. Don't skip the bread.", img: "/destinations/miami/eat-2.jpg" },
+    { no: 3, name: "Mandolin", area: "Buena Vista", meal: "Saturday late lunch", note: "Outdoor courtyard, white walls, a bottle of rosé that lasts two hours.", img: "/destinations/miami/eat-3.jpg" },
+    { no: 4, name: "Sunny's Steakhouse", area: "Little River", meal: "Saturday dinner", note: "A backyard, a steak, a martini. Closest thing Miami has to a club for grown-ups.", img: "/destinations/miami/eat-4.jpg" },
+    { no: 5, name: "OTL", area: "Buena Vista", meal: "Sunday breakfast", note: "Pastries, eggs, sun on a sidewalk. A quiet place to find your sunglasses again.", img: "/destinations/miami/eat-5.jpg" },
   ],
   pullQuote: { lead: "The point of", emphasis: "mostly", tail: "to lie down.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

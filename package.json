@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "sync-viator": "tsx --env-file=.env.local scripts/sync-viator.ts",
     "sync-places-photos": "tsx --env-file=.env.local scripts/sync-places-photos.ts",
-    "sync-hotel-photos": "tsx --env-file=.env.local scripts/sync-hotel-photos.ts"
+    "sync-hotel-photos": "tsx --env-file=.env.local scripts/sync-hotel-photos.ts",
+    "sync-restaurant-photos": "tsx --env-file=.env.local scripts/sync-restaurant-photos.ts"
   },
   "dependencies": {
     "next": "^16.2.4",

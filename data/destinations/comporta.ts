@@ -39,11 +39,11 @@ export const COMPORTA: DestinationCover = {
     { no: 4, name: "JNcQUOI Beach Club", area: "Praia da Comporta", kind: "Beach club", note: "The Lisbon institution's Comporta outpost. Lunch into late afternoon, music turns up at sunset, dinner if you stay. Reserve.", when: "Daily, season", link: "https://www.google.com/maps/search/?api=1&query=JNcQUOI+Comporta" },
   ],
   eat: [
-    { no: 1, name: "Cavalariça", area: "Comporta village", meal: "Thursday dinner", note: "A converted horse stable, white-washed, the chef's tasting on a small handwritten menu. Pre-order the suckling pig if it's on the day's list." },
-    { no: 2, name: "Sal", area: "Pego beach", meal: "Friday lunch", note: "Beachside, feet in the sand, fresh fish and a long lunch. Reserve a week out, a 1PM table, no rush." },
-    { no: 3, name: "Sublime Beach Club", area: "Carvalhal", meal: "Saturday lunch", note: "The hotel's beach club — open to outside guests, one of the best fish soups on the peninsula. Linen, please." },
-    { no: 4, name: "Dona Bia", area: "Carrasqueira", meal: "Saturday dinner", note: "An old fisherman's tavern in a stilt-house village. No-frills, the catch of the day, the kind of room nobody photographs." },
-    { no: 5, name: "JNcQUOI Deli", area: "Comporta village", meal: "Sunday breakfast", note: "Pastries, a strong espresso, the Sunday papers. The right last morning before the drive back." },
+    { no: 1, name: "Cavalariça", area: "Comporta village", meal: "Thursday dinner", note: "A converted horse stable, white-washed, the chef's tasting on a small handwritten menu. Pre-order the suckling pig if it's on the day's list.", img: "/destinations/comporta/eat-1.jpg" },
+    { no: 2, name: "Sal", area: "Pego beach", meal: "Friday lunch", note: "Beachside, feet in the sand, fresh fish and a long lunch. Reserve a week out, a 1PM table, no rush.", img: "/destinations/comporta/eat-2.jpg" },
+    { no: 3, name: "Sublime Beach Club", area: "Carvalhal", meal: "Saturday lunch", note: "The hotel's beach club — open to outside guests, one of the best fish soups on the peninsula. Linen, please.", img: "/destinations/comporta/eat-3.jpg" },
+    { no: 4, name: "Dona Bia", area: "Carrasqueira", meal: "Saturday dinner", note: "An old fisherman's tavern in a stilt-house village. No-frills, the catch of the day, the kind of room nobody photographs.", img: "/destinations/comporta/eat-4.jpg" },
+    { no: 5, name: "JNcQUOI Deli", area: "Comporta village", meal: "Sunday breakfast", note: "Pastries, a strong espresso, the Sunday papers. The right last morning before the drive back.", img: "/destinations/comporta/eat-5.jpg" },
   ],
   pullQuote: { lead: "Comporta is", emphasis: "horizontal", tail: "for four straight days.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

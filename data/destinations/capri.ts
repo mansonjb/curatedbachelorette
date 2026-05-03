@@ -39,11 +39,11 @@ export const CAPRI: DestinationCover = {
     { no: 4, name: "Lido del Faro", area: "Anacapri", kind: "Sunset bar", note: "On the rocks at the lighthouse. Aperitivo at 7PM, swim if it's calm, taxi back to dinner. The trip's most cinematic hour.", when: "Daily, season", link: "https://www.google.com/maps/search/?api=1&query=Lido+del+Faro+Capri" },
   ],
   eat: [
-    { no: 1, name: "Le Grottelle", area: "Above the Arco Naturale", meal: "Friday lunch", note: "A walk to get there, scallop ravioli, a view that won't fit in the photo. Reserve, but the table is yours for two hours." },
-    { no: 2, name: "Da Paolino", area: "Marina Grande", meal: "Friday dinner", note: "Under the lemon trees. Theatrical, the photo everyone takes, the food still good despite the photo. Ask for table 14 if it's available." },
-    { no: 3, name: "Il Riccio", area: "Anacapri", meal: "Saturday lunch", note: "On the cliff, the swim is included, the dessert room is a thing. Linen, please. The crudo and a bottle of Falanghina." },
-    { no: 4, name: "Pulalli Wine Bar", area: "Capri Town", meal: "Saturday aperitivo", note: "The terrace above the Piazzetta clock tower. One glass, one platter, one moment. The aperitivo we'd recommend over any beach club." },
-    { no: 5, name: "Aurora", area: "Capri Town", meal: "Saturday dinner", note: "The classic. The pizza all'acqua, the linguine ai limoni, the room that hasn't changed since the 60s, on purpose. Reservation: yes, two months out." },
+    { no: 1, name: "Le Grottelle", area: "Above the Arco Naturale", meal: "Friday lunch", note: "A walk to get there, scallop ravioli, a view that won't fit in the photo. Reserve, but the table is yours for two hours.", img: "/destinations/capri/eat-1.jpg" },
+    { no: 2, name: "Da Paolino", area: "Marina Grande", meal: "Friday dinner", note: "Under the lemon trees. Theatrical, the photo everyone takes, the food still good despite the photo. Ask for table 14 if it's available.", img: "/destinations/capri/eat-2.jpg" },
+    { no: 3, name: "Il Riccio", area: "Anacapri", meal: "Saturday lunch", note: "On the cliff, the swim is included, the dessert room is a thing. Linen, please. The crudo and a bottle of Falanghina.", img: "/destinations/capri/eat-3.jpg" },
+    { no: 4, name: "Pulalli Wine Bar", area: "Capri Town", meal: "Saturday aperitivo", note: "The terrace above the Piazzetta clock tower. One glass, one platter, one moment. The aperitivo we'd recommend over any beach club.", img: "/destinations/capri/eat-4.jpg" },
+    { no: 5, name: "Aurora", area: "Capri Town", meal: "Saturday dinner", note: "The classic. The pizza all'acqua, the linguine ai limoni, the room that hasn't changed since the 60s, on purpose. Reservation: yes, two months out.", img: "/destinations/capri/eat-5.jpg" },
   ],
   pullQuote: { lead: "Capri begins", emphasis: "after", tail: "the last ferry leaves.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

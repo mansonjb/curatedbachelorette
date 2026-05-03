@@ -39,11 +39,11 @@ export const MYKONOS: DestinationCover = {
     { no: 4, name: "Astra", area: "Chora", kind: "Late-night club", note: "Tiny, alley-tucked, opens at 1AM and never advertises. The locals' last stop. Ask the doorman, mention the friend who sent you, smile.", when: "Saturday late", link: "https://www.google.com/maps/search/?api=1&query=Astra+Bar+Mykonos" },
   ],
   eat: [
-    { no: 1, name: "Kiki's Tavern", area: "Agios Sostis", meal: "Friday lunch", note: "No reservations, no electricity, grilled fish on a cliff. Arrive at 12:30, put your name down, swim while you wait." },
-    { no: 2, name: "Niko's Taverna", area: "Chora", meal: "Friday dinner", note: "The classic. Mom's stuffed tomatoes, the calamari, a carafe of wine. Open since 1968 and we hope forever." },
-    { no: 3, name: "Hippie Fish", area: "Agios Ioannis", meal: "Saturday lunch", note: "Beachside, sunset-facing, a little louder than we'd usually pick — but the fish is the best on the island." },
+    { no: 1, name: "Kiki's Tavern", area: "Agios Sostis", meal: "Friday lunch", note: "No reservations, no electricity, grilled fish on a cliff. Arrive at 12:30, put your name down, swim while you wait.", img: "/destinations/mykonos/eat-1.jpg" },
+    { no: 2, name: "Niko's Taverna", area: "Chora", meal: "Friday dinner", note: "The classic. Mom's stuffed tomatoes, the calamari, a carafe of wine. Open since 1968 and we hope forever.", img: "/destinations/mykonos/eat-2.jpg" },
+    { no: 3, name: "Hippie Fish", area: "Agios Ioannis", meal: "Saturday lunch", note: "Beachside, sunset-facing, a little louder than we'd usually pick — but the fish is the best on the island.", img: "/destinations/mykonos/eat-3.jpg" },
     { no: 4, name: "Spilia", area: "Agia Anna", meal: "Saturday dinner", note: "A literal cave by the sea. Theatrical, slightly silly, perfect for one of the four nights. The lobster spaghetti is non-negotiable." },
-    { no: 5, name: "M-eating", area: "Chora", meal: "Sunday dinner", note: "The quiet last-night dinner. Greek-modern, candles, a small list of natural wines." },
+    { no: 5, name: "M-eating", area: "Chora", meal: "Sunday dinner", note: "The quiet last-night dinner. Greek-modern, candles, a small list of natural wines.", img: "/destinations/mykonos/eat-5.jpg" },
   ],
   pullQuote: { lead: "Mykonos is", emphasis: "small", tail: "in September.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

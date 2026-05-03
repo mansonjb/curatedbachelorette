@@ -39,11 +39,11 @@ export const MARRAKECH: DestinationCover = {
     { no: 4, name: "Bacha Coffee at night", area: "Dar el Bacha", kind: "Late tea-room", note: "Coffee bar by day, transformed at night into a candle-lit hideaway. Mint tea, the rare thing in Marrakech that's open past 11 and still elegant.", when: "Daily until 11PM", link: "https://www.google.com/maps/search/?api=1&query=Bacha+Coffee+Marrakech" },
   ],
   eat: [
-    { no: 1, name: "Le Jardin", area: "Sidi Abdelaziz", meal: "Thursday lunch", note: "An emerald-green courtyard in the medina with a tortoise. Lemon-chicken tagine, a salad, mint tea. The lunch we eat the day we arrive." },
-    { no: 2, name: "Nomad", area: "Souk Cherifia", meal: "Friday lunch", note: "A rooftop, modern Moroccan, the salads are the assignment. The view is the second-best view in the medina, which is fine." },
-    { no: 3, name: "+61", area: "Hivernage", meal: "Friday dinner", note: "Australian, sit-down, the kind of dinner that gives the palate a break in the middle of the trip. Natural wine, a martini menu, a real dessert program." },
-    { no: 4, name: "Dar Yacout", area: "Bab Doukkala", meal: "Saturday dinner", note: "The classic Moroccan tasting dinner. Rooftop, pre-set, six courses. Theatrical without being silly. We do this exactly once per trip." },
-    { no: 5, name: "Bacha Coffee", area: "Dar el Bacha", meal: "Sunday breakfast", note: "A 1910 palace, sixty kinds of coffee, a slow breakfast that stretches into noon if you let it. Reserve a courtyard table." },
+    { no: 1, name: "Le Jardin", area: "Sidi Abdelaziz", meal: "Thursday lunch", note: "An emerald-green courtyard in the medina with a tortoise. Lemon-chicken tagine, a salad, mint tea. The lunch we eat the day we arrive.", img: "/destinations/marrakech/eat-1.jpg" },
+    { no: 2, name: "Nomad", area: "Souk Cherifia", meal: "Friday lunch", note: "A rooftop, modern Moroccan, the salads are the assignment. The view is the second-best view in the medina, which is fine.", img: "/destinations/marrakech/eat-2.jpg" },
+    { no: 3, name: "+61", area: "Hivernage", meal: "Friday dinner", note: "Australian, sit-down, the kind of dinner that gives the palate a break in the middle of the trip. Natural wine, a martini menu, a real dessert program.", img: "/destinations/marrakech/eat-3.jpg" },
+    { no: 4, name: "Dar Yacout", area: "Bab Doukkala", meal: "Saturday dinner", note: "The classic Moroccan tasting dinner. Rooftop, pre-set, six courses. Theatrical without being silly. We do this exactly once per trip.", img: "/destinations/marrakech/eat-4.jpg" },
+    { no: 5, name: "Bacha Coffee", area: "Dar el Bacha", meal: "Sunday breakfast", note: "A 1910 palace, sixty kinds of coffee, a slow breakfast that stretches into noon if you let it. Reserve a courtyard table.", img: "/destinations/marrakech/eat-5.jpg" },
   ],
   pullQuote: { lead: "The medina is", emphasis: "loud", tail: "in small doses.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

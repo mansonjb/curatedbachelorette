@@ -21,6 +21,8 @@ export type Eat = {
   area: string;
   meal: string;
   note: string;
+  /** Optional photo path — wired by sync-restaurant-photos.ts. */
+  img?: string;
 };
 
 export type ItineraryDay = {

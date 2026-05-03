@@ -39,11 +39,11 @@ export const LISBON: DestinationCover = {
     { no: 4, name: "A Tabacaria", area: "Cais do Sodré", kind: "Speakeasy", note: "Tiny, ten-seat, the bartender is the show. One round of whatever they suggest, then on to dinner.", when: "Daily, until midnight", link: "https://www.google.com/maps/search/?api=1&query=A+Tabacaria+Lisbon" },
   ],
   eat: [
-    { no: 1, name: "Cervejaria Ramiro", area: "Anjos", meal: "Wednesday late dinner", note: "Shellfish in a fluorescent dining room, opened in 1956. The prawns are the entrée; the steak sandwich is dessert." },
-    { no: 2, name: "Taberna da Rua das Flores", area: "Chiado", meal: "Thursday lunch", note: "Twenty-six seats, no reservations, the menu is on a chalkboard. We arrive at 12:25." },
-    { no: 3, name: "Prado", area: "Baixa", meal: "Friday dinner", note: "Vaulted ceilings, natural wine, the room is the half of the experience that Instagram never quite gets." },
-    { no: 4, name: "Belcanto", area: "Chiado", meal: "Saturday dinner", note: "Two-Michelin-star, theatrical, the night the trip becomes a 'we should make this a thing' kind of night." },
-    { no: 5, name: "Manteigaria", area: "Chiado / Príncipe Real", meal: "Daily, 10AM", note: "The pastel de nata. There is no second answer. Two each, eaten standing up." },
+    { no: 1, name: "Cervejaria Ramiro", area: "Anjos", meal: "Wednesday late dinner", note: "Shellfish in a fluorescent dining room, opened in 1956. The prawns are the entrée; the steak sandwich is dessert.", img: "/destinations/lisbon/eat-1.jpg" },
+    { no: 2, name: "Taberna da Rua das Flores", area: "Chiado", meal: "Thursday lunch", note: "Twenty-six seats, no reservations, the menu is on a chalkboard. We arrive at 12:25.", img: "/destinations/lisbon/eat-2.jpg" },
+    { no: 3, name: "Prado", area: "Baixa", meal: "Friday dinner", note: "Vaulted ceilings, natural wine, the room is the half of the experience that Instagram never quite gets.", img: "/destinations/lisbon/eat-3.jpg" },
+    { no: 4, name: "Belcanto", area: "Chiado", meal: "Saturday dinner", note: "Two-Michelin-star, theatrical, the night the trip becomes a 'we should make this a thing' kind of night.", img: "/destinations/lisbon/eat-4.jpg" },
+    { no: 5, name: "Manteigaria", area: "Chiado / Príncipe Real", meal: "Daily, 10AM", note: "The pastel de nata. There is no second answer. Two each, eaten standing up.", img: "/destinations/lisbon/eat-5.jpg" },
   ],
   pullQuote: { lead: "Lisbon does not", emphasis: "rush", tail: "and neither should you.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

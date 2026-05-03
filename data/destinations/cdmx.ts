@@ -39,11 +39,11 @@ export const CDMX: DestinationCover = {
     { no: 4, name: "Patrick Miller", area: "Roma Norte", kind: "Salsa institution", note: "Friday-only since 1986. The locals who taught their kids to dance here are the ones running the floor. Wildly fun if you commit; awkward if you don't.", when: "Friday only", link: "https://www.google.com/maps/search/?api=1&query=Patrick+Miller+Mexico+City" },
   ],
   eat: [
-    { no: 1, name: "Contramar", area: "Roma Norte", meal: "Friday lunch", note: "The reservation that runs the rest of the weekend. 1:30PM, four hours, fish two ways, never rushed." },
-    { no: 2, name: "Pasillo de Humo", area: "Condesa", meal: "Friday dinner", note: "Oaxacan, second-floor, mole all the way. Start with the memelitas." },
-    { no: 3, name: "Rosetta", area: "Roma Norte", meal: "Saturday dinner", note: "An Italian-Mexican thesis written in a 1920s house. Order the dessert before you order anything else." },
-    { no: 4, name: "Lardo", area: "Condesa", meal: "Sunday lunch", note: "Light, bright, the kind of room that fixes a Sunday. The bread basket is non-negotiable." },
-    { no: 5, name: "Panadería Rosetta", area: "Roma / Juárez", meal: "Daily, 8AM", note: "The guava roll. The almond croissant. Coffee from the next-door Niddo. Repeat every morning." },
+    { no: 1, name: "Contramar", area: "Roma Norte", meal: "Friday lunch", note: "The reservation that runs the rest of the weekend. 1:30PM, four hours, fish two ways, never rushed.", img: "/destinations/cdmx/eat-1.jpg" },
+    { no: 2, name: "Pasillo de Humo", area: "Condesa", meal: "Friday dinner", note: "Oaxacan, second-floor, mole all the way. Start with the memelitas.", img: "/destinations/cdmx/eat-2.jpg" },
+    { no: 3, name: "Rosetta", area: "Roma Norte", meal: "Saturday dinner", note: "An Italian-Mexican thesis written in a 1920s house. Order the dessert before you order anything else.", img: "/destinations/cdmx/eat-3.jpg" },
+    { no: 4, name: "Lardo", area: "Condesa", meal: "Sunday lunch", note: "Light, bright, the kind of room that fixes a Sunday. The bread basket is non-negotiable.", img: "/destinations/cdmx/eat-4.jpg" },
+    { no: 5, name: "Panadería Rosetta", area: "Roma / Juárez", meal: "Daily, 8AM", note: "The guava roll. The almond croissant. Coffee from the next-door Niddo. Repeat every morning.", img: "/destinations/cdmx/eat-5.jpg" },
   ],
   pullQuote: { lead: "Four nights in", emphasis: "barely", tail: "enough.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

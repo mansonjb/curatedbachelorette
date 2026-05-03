@@ -8,6 +8,7 @@ import { Header } from "@/components/Header";
 import { Img } from "@/components/Img";
 import { JsonLd } from "@/components/JsonLd";
 import { ScrollProgress } from "@/components/ScrollProgress";
+import { MobileBookCta } from "@/components/MobileBookCta";
 import { Stay22Cta, Stay22Map } from "@/components/Stay22";
 import { TicketBadge } from "@/components/TicketBadge";
 import { ViatorBlock } from "@/components/ViatorBlock";
@@ -74,6 +75,7 @@ export default async function DestinationPage({
         <DestFaq cover={cover} />
         <DestRelated cover={cover} />
       </main>
+      <MobileBookCta city={cover.title} contextSlug={slug} />
       <Footer />
     </>
   );
@@ -398,17 +400,31 @@ function DestEat({ cover }: { cover: DestinationCover }) {
               style={{
                 background: "var(--bg-alt)",
                 borderRadius: "var(--radius-lg)",
-                padding: "24px 32px",
+                padding: 14,
                 marginBottom: 14,
                 display: "grid",
-                gridTemplateColumns: "44px 1fr auto",
+                gridTemplateColumns: "auto 88px 1fr auto",
                 gap: 20,
                 alignItems: "center",
               }}
+              className="eat-row"
             >
-              <span className="h-display" style={{ fontSize: 28, color: "var(--pink-deep)" }}>
+              <span
+                className="h-display"
+                style={{ fontSize: 28, color: "var(--pink-deep)", paddingLeft: 12, minWidth: 40 }}
+              >
                 {String(e.no).padStart(2, "0")}
               </span>
+              {e.img ? (
+                <Img
+                  src={e.img}
+                  alt={e.name}
+                  ratio="1 / 1"
+                  rounded={20}
+                />
+              ) : (
+                <div style={{ width: 88, height: 88, background: "var(--bg-soft)", borderRadius: 20 }} />
+              )}
               <div>
                 <div style={{ fontSize: 18, fontWeight: 700 }}>
                   {e.name} <span className="meta" style={{ marginLeft: 6, fontWeight: 400 }}>{e.area}</span>
@@ -417,10 +433,13 @@ function DestEat({ cover }: { cover: DestinationCover }) {
                   {e.note}
                 </p>
               </div>
-              <span className="tag tag-pink">{e.meal}</span>
+              <span className="tag tag-pink" style={{ marginRight: 12 }}>{e.meal}</span>
             </li>
           ))}
         </ol>
+        <style>
+          {`@media (max-width: 720px) { .eat-row { grid-template-columns: 64px 1fr !important; padding: 12px !important; } .eat-row > .img-frame { width: 64px; height: 64px; grid-row: 1 / span 2; } .eat-row > span:first-child { display: none; } .eat-row > .tag { grid-column: 2; justify-self: start; margin: 6px 0 0 0 !important; } }`}
+        </style>
       </div>
     </section>
   );

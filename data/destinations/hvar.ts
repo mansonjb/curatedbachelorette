@@ -39,11 +39,11 @@ export const HVAR: DestinationCover = {
     { no: 4, name: "Riva Yacht Bar", area: "Hvar harbour", kind: "Pre-dinner cocktail", note: "On the marina, watching superyachts dock. One Aperol, harbourfront, before the konoba dinner that follows.", when: "Daily, sunset", link: "https://www.google.com/maps/search/?api=1&query=Riva+Hvar+Yacht+Bar" },
   ],
   eat: [
-    { no: 1, name: "Konoba Menego", area: "Hvar Town", meal: "Thursday dinner", note: "Stone-walled, candle-lit, the Dalmatian classics done patiently. Octopus under a peka, lamb on a slow flame." },
-    { no: 2, name: "Gariful", area: "Hvar Riva", meal: "Friday lunch", note: "Yes the celebrity restaurant. Yes the lobster spaghetti. Yes once per trip, on a sunny afternoon, sitting on the harbour." },
-    { no: 3, name: "Konoba Humac", area: "Humac", meal: "Friday dinner", note: "A walk-only-by-day stone village in the hills. The peka takes two hours; pre-order. The drive home is the dessert." },
-    { no: 4, name: "San Marco", area: "Stari Grad", meal: "Saturday dinner", note: "On the old harbour, away from Hvar Town's noise. White wine, fish on charcoal, the sound of nothing." },
-    { no: 5, name: "Fig", area: "Hvar Town", meal: "Sunday breakfast", note: "Eggs, sourdough, espresso, sun. The brunch bar that runs the morning back into Monday." },
+    { no: 1, name: "Konoba Menego", area: "Hvar Town", meal: "Thursday dinner", note: "Stone-walled, candle-lit, the Dalmatian classics done patiently. Octopus under a peka, lamb on a slow flame.", img: "/destinations/hvar/eat-1.jpg" },
+    { no: 2, name: "Gariful", area: "Hvar Riva", meal: "Friday lunch", note: "Yes the celebrity restaurant. Yes the lobster spaghetti. Yes once per trip, on a sunny afternoon, sitting on the harbour.", img: "/destinations/hvar/eat-2.jpg" },
+    { no: 3, name: "Konoba Humac", area: "Humac", meal: "Friday dinner", note: "A walk-only-by-day stone village in the hills. The peka takes two hours; pre-order. The drive home is the dessert.", img: "/destinations/hvar/eat-3.jpg" },
+    { no: 4, name: "San Marco", area: "Stari Grad", meal: "Saturday dinner", note: "On the old harbour, away from Hvar Town's noise. White wine, fish on charcoal, the sound of nothing.", img: "/destinations/hvar/eat-4.jpg" },
+    { no: 5, name: "Fig", area: "Hvar Town", meal: "Sunday breakfast", note: "Eggs, sourdough, espresso, sun. The brunch bar that runs the morning back into Monday.", img: "/destinations/hvar/eat-5.jpg" },
   ],
   pullQuote: { lead: "The trick to", emphasis: "Hvar", tail: "is leaving Hvar Town.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

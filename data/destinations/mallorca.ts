@@ -39,11 +39,11 @@ export const MALLORCA: DestinationCover = {
     { no: 4, name: "Tito's Mallorca", area: "Paseo Marítimo", kind: "Megaclub", note: "If the bride wants one big dancefloor night, this is the answer that doesn't involve Magaluf. International DJs, Saturday only.", when: "Saturday in season", link: "https://www.google.com/maps/search/?api=1&query=Tito%27s+Mallorca" },
   ],
   eat: [
-    { no: 1, name: "Es Racó d'Es Teix", area: "Deià", meal: "Wednesday dinner", note: "One Michelin star, a small dining room in a stone house, the kind of dinner that anchors the whole trip. Reserve six weeks out." },
-    { no: 2, name: "Ca's Patró March", area: "Cala Deià", meal: "Thursday lunch", note: "A cliffside fisherman's tavern with no road in. Walk down, eat octopus, walk back up. The lunch in every Mallorca photograph that matters." },
-    { no: 3, name: "Bens d'Avall", area: "Sóller coast", meal: "Friday dinner", note: "A two-Michelin-star tasting on a terrace at sunset. The wine pairing is the assignment; do not skip it." },
-    { no: 4, name: "Ca'n Joan de S'Aigo", area: "Palma (old town)", meal: "Saturday lunch", note: "An ensaïmada and a chocolate, in an 18th-century café, between train and tram. The sweet-stop of the trip, on the day in Palma." },
-    { no: 5, name: "Café Sóller", area: "Sóller plaça", meal: "Sunday breakfast", note: "Plaça-side, an espresso and a bocadillo, the morning train to Palma rumbling past. The right last meal before departures." },
+    { no: 1, name: "Es Racó d'Es Teix", area: "Deià", meal: "Wednesday dinner", note: "One Michelin star, a small dining room in a stone house, the kind of dinner that anchors the whole trip. Reserve six weeks out.", img: "/destinations/mallorca/eat-1.jpg" },
+    { no: 2, name: "Ca's Patró March", area: "Cala Deià", meal: "Thursday lunch", note: "A cliffside fisherman's tavern with no road in. Walk down, eat octopus, walk back up. The lunch in every Mallorca photograph that matters.", img: "/destinations/mallorca/eat-2.jpg" },
+    { no: 3, name: "Bens d'Avall", area: "Sóller coast", meal: "Friday dinner", note: "A two-Michelin-star tasting on a terrace at sunset. The wine pairing is the assignment; do not skip it.", img: "/destinations/mallorca/eat-3.jpg" },
+    { no: 4, name: "Ca'n Joan de S'Aigo", area: "Palma (old town)", meal: "Saturday lunch", note: "An ensaïmada and a chocolate, in an 18th-century café, between train and tram. The sweet-stop of the trip, on the day in Palma.", img: "/destinations/mallorca/eat-4.jpg" },
+    { no: 5, name: "Café Sóller", area: "Sóller plaça", meal: "Sunday breakfast", note: "Plaça-side, an espresso and a bocadillo, the morning train to Palma rumbling past. The right last meal before departures.", img: "/destinations/mallorca/eat-5.jpg" },
   ],
   pullQuote: { lead: "There are two", emphasis: "Mallorcas", tail: "and only one is real.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [
