@@ -32,6 +32,12 @@ export const COMPORTA: DestinationCover = {
     { hour: "Saturday 11AM", title: "A private day-trip across the river to Setúbal — Arrábida cliffs, a fish lunch, dolphin spotting.", img: IMG.comporta4, color: "var(--blush)" },
     { hour: "Sunday 4PM", title: "A wine-and-cheese tasting at a small producer in the hills above Comporta.", img: IMG.comportaHero, color: "var(--cream)" },
   ],
+  night: [
+    { no: 1, name: "Sublime Comporta bar", area: "Sublime Comporta", kind: "Hotel cocktail bar", note: "Pre-dinner negroni in the lounge that smells of wood and fig. Open to non-residents; reserve at 7 if you're staying off-property.", when: "Daily", link: "https://www.google.com/maps/search/?api=1&query=Sublime+Comporta" },
+    { no: 2, name: "Sal Comporta", area: "Praia do Pego", kind: "Beach bar", note: "On the sand, sunset only. One round of vinho verde, watch the dogs run the dunes, then walk back through the pines for dinner.", when: "Daily, May–Oct", link: "https://www.google.com/maps/search/?api=1&query=Sal+Restaurante+Comporta" },
+    { no: 3, name: "Comporta Café", area: "Carvalhal", kind: "Late dinner-into-night", note: "Where the locals end up after midnight. Live music on weekends, no dance floor — just enough room between tables to feel like one.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Comporta+Cafe+Carvalhal" },
+    { no: 4, name: "JNcQUOI Beach Club", area: "Praia da Comporta", kind: "Beach club", note: "The Lisbon institution's Comporta outpost. Lunch into late afternoon, music turns up at sunset, dinner if you stay. Reserve.", when: "Daily, season", link: "https://www.google.com/maps/search/?api=1&query=JNcQUOI+Comporta" },
+  ],
   eat: [
     { no: 1, name: "Cavalariça", area: "Comporta village", meal: "Thursday dinner", note: "A converted horse stable, white-washed, the chef's tasting on a small handwritten menu. Pre-order the suckling pig if it's on the day's list." },
     { no: 2, name: "Sal", area: "Pego beach", meal: "Friday lunch", note: "Beachside, feet in the sand, fresh fish and a long lunch. Reserve a week out, a 1PM table, no rush." },

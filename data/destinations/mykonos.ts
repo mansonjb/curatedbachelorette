@@ -32,6 +32,12 @@ export const MYKONOS: DestinationCover = {
     { hour: "Saturday 6PM", title: "Sunset at Little Venice, with one drink.", img: IMG.mykonos4, color: "var(--rose)" },
     { hour: "Sunday 11AM", title: "A Greek home-cooking class with Angelina — three hours, four dishes.", img: IMG.mykonosHero, color: "var(--sage)" },
   ],
+  night: [
+    { no: 1, name: "Cavo Paradiso", area: "Paradise Beach", kind: "Megaclub", note: "The cliffside pool-club with the international DJ residency. Friday is the night; the bus from Chora runs late. One round and out.", when: "Friday in season", link: "https://www.google.com/maps/search/?api=1&query=Cavo+Paradiso+Mykonos" },
+    { no: 2, name: "Scorpios", area: "Paraga Beach", kind: "Beach club", note: "The sunset-into-dance ritual that defined the modern Mykonos beach club. Reserve the long table for 6PM, leave by 11.", when: "Daily, season", link: "https://www.google.com/maps/search/?api=1&query=Scorpios+Mykonos" },
+    { no: 3, name: "Ftelia Beach Club", area: "Ftelia", kind: "Beach club", note: "Quieter than Scorpios, the Sunday session is the one. North coast, windier, fewer Instagram tripods.", when: "Sunday, season", link: "https://www.google.com/maps/search/?api=1&query=Ftelia+Beach+Club+Mykonos" },
+    { no: 4, name: "Astra", area: "Chora", kind: "Late-night club", note: "Tiny, alley-tucked, opens at 1AM and never advertises. The locals' last stop. Ask the doorman, mention the friend who sent you, smile.", when: "Saturday late", link: "https://www.google.com/maps/search/?api=1&query=Astra+Bar+Mykonos" },
+  ],
   eat: [
     { no: 1, name: "Kiki's Tavern", area: "Agios Sostis", meal: "Friday lunch", note: "No reservations, no electricity, grilled fish on a cliff. Arrive at 12:30, put your name down, swim while you wait." },
     { no: 2, name: "Niko's Taverna", area: "Chora", meal: "Friday dinner", note: "The classic. Mom's stuffed tomatoes, the calamari, a carafe of wine. Open since 1968 and we hope forever." },

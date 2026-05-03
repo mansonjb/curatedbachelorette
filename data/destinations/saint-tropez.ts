@@ -32,6 +32,12 @@ export const SAINT_TROPEZ: DestinationCover = {
     { hour: "Saturday 11AM", title: "Walk Ramatuelle. Café in the square.", img: IMG.tropez4, color: "var(--cream)" },
     { hour: "Sunday 9AM", title: "A private day-trip down the coast — Èze village, Monte Carlo, and home by aperitivo.", img: IMG.tropezHero, color: "var(--peach)" },
   ],
+  night: [
+    { no: 1, name: "Les Caves du Roy", area: "Hotel Byblos", kind: "Club", note: "The myth. Dress cleanly, bring cash, drink slowly. Worth the once-in-a-lifetime visit even if the door makes you wait twenty minutes.", when: "Friday & Saturday in season", link: "https://www.google.com/maps/search/?api=1&query=Les+Caves+du+Roy+Saint+Tropez" },
+    { no: 2, name: "Sénéquier", area: "Vieux Port", kind: "Aperitif terrace", note: "The red-canvas tables on the harbour. One glass of rosé, watch the boats come in, leave by 8. The Tropez ritual that costs €18.", when: "Daily, 6–8PM", link: "https://www.google.com/maps/search/?api=1&query=Senequier+Saint+Tropez" },
+    { no: 3, name: "Bagatelle Saint-Tropez", area: "Quartier de la Madrague", kind: "Day-into-night beach club", note: "The brunch-into-dinner-into-dance circuit. Saturday lunch is the move; by 5PM the tables clear and the music takes over.", when: "Saturday, season", link: "https://www.google.com/maps/search/?api=1&query=Bagatelle+Saint+Tropez" },
+    { no: 4, name: "L'Opéra Saint-Tropez", area: "Place de la Garonne", kind: "Cabaret-dinner", note: "Dinner with a small show, then it tips into a club around midnight. Reserve the early seating; you can leave when the bride decides.", when: "Daily in season", link: "https://www.google.com/maps/search/?api=1&query=L%27Opera+Saint+Tropez" },
+  ],
   eat: [
     { no: 1, name: "La Ponche", area: "La Ponche", meal: "Thursday dinner", note: "The hotel restaurant, but an institution in its own right. A small dining room, the bouillabaisse, the kind of first dinner that sets the trip up." },
     { no: 2, name: "Loulou Ramatuelle", area: "Pampelonne", meal: "Friday lunch", note: "On the beach, a long lunch, the photograph of the trip will be from this table. Reservations required, even in October. Linen, please." },

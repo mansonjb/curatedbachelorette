@@ -31,6 +31,19 @@ export type ItineraryDay = {
 
 export type FaqItem = { q: string; a: string };
 
+export type NightItem = {
+  no: number;
+  name: string;
+  area: string;
+  /** "Club" / "Beach club" / "Cocktail bar" / "Boat party" / "Dinner-show" / "Speakeasy" */
+  kind: string;
+  note: string;
+  /** Best night to go, or "Daily" / "Weekends only". */
+  when?: string;
+  /** Optional outbound link — venue site, Resy, or Google Maps fallback. */
+  link?: string;
+};
+
 export type RelatedItem = {
   name: string;
   slug: string;
@@ -66,6 +79,7 @@ export type DestinationCover = {
   intro: string[];
   stay: Stay[];
   do: DoItem[];
+  night?: NightItem[];
   eat: Eat[];
   pullQuote: { lead: string; emphasis: string; tail: string; cite: string };
   itinerary: ItineraryDay[];

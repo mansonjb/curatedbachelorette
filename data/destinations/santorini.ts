@@ -32,6 +32,12 @@ export const SANTORINI: DestinationCover = {
     { hour: "Saturday 9AM", title: "A small-group hike from Fira to Oia along the caldera, three hours, easy.", img: IMG.santorini4, color: "var(--peach)" },
     { hour: "Sunday 8PM", title: "Sunset at Imerovigli — the view Oia takes credit for, without the queue.", img: IMG.santoriniHero, color: "var(--cream)" },
   ],
+  night: [
+    { no: 1, name: "MoMix Bar", area: "Fira", kind: "Cocktail bar", note: "The molecular-cocktail bar Santorini doesn't get enough credit for. Ask for the Smoke Show; the rest of the menu writes itself.", when: "Daily", link: "https://www.google.com/maps/search/?api=1&query=MoMix+Bar+Fira" },
+    { no: 2, name: "Tango Cocktail Bar", area: "Fira", kind: "Lounge", note: "The cliff-edge lounge where you nurse a glass through sunset and the slow shift to blue hour. Quiet enough to hear yourself.", when: "Daily, sunset", link: "https://www.google.com/maps/search/?api=1&query=Tango+Bar+Fira" },
+    { no: 3, name: "Casablanca Soul", area: "Fira", kind: "Live-music bar", note: "Live jazz and soul, four-piece band, locals dancing by 1AM. The closest the island gets to a night out.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Casablanca+Soul+Bar" },
+    { no: 4, name: "Franco's Cafe", area: "Fira", kind: "Sunset cocktail", note: "The classic Santorini ritual. Classical music on the speakers, one negroni each, sunset at 8:24. Then dinner. That's the night.", when: "Daily", link: "https://www.google.com/maps/search/?api=1&query=Franco%27s+Cafe+Fira" },
+  ],
   eat: [
     { no: 1, name: "Selene", area: "Pyrgos", meal: "Wednesday dinner", note: "The first serious restaurant on the island and still the best. Seven-course tasting with the local-vintage pairing." },
     { no: 2, name: "To Psaraki", area: "Vlychada", meal: "Thursday lunch", note: "Harbour-side, white-washed, the catch of the day grilled whole. Eat with your hands." },

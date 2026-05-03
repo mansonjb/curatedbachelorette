@@ -32,6 +32,12 @@ export const CAPRI: DestinationCover = {
     { hour: "Saturday 4PM", title: "Marina Piccola swim, before aperitivo.", img: IMG.capri4, color: "var(--peach)" },
     { hour: "Sunday 10AM", title: "A private boat day-trip to Positano and Amalfi for the group that has time for it.", img: IMG.capriHero, color: "var(--cream)" },
   ],
+  night: [
+    { no: 1, name: "Anema e Core", area: "Capri Town", kind: "Music tavern", note: "The institution. Guitar trio, locals dancing on the tables by 1AM, Italian families and Greek shipping heirs sharing the same room. Reserve, dress sharp, tip the band.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Anema+e+Core+Capri" },
+    { no: 2, name: "Quisi Bar at Grand Hotel Quisisana", area: "Capri Town", kind: "Hotel cocktail bar", note: "Pre-dinner negroni, perfectly tailored bartender, the kind of room where you sit and watch the cast of characters pass through. Walk-in only.", when: "Daily, 7–10PM", link: "https://www.google.com/maps/search/?api=1&query=Quisisana+Capri" },
+    { no: 3, name: "Taverna Anema e Core (the late one)", area: "Capri Town", kind: "Late-night spot", note: "Same family, different door, opens after midnight. Smaller, smokier, no tourists. The Capri after-the-restaurants night.", when: "Late Saturday", link: "https://www.google.com/maps/search/?api=1&query=Taverna+Anema+e+Core+Capri" },
+    { no: 4, name: "Lido del Faro", area: "Anacapri", kind: "Sunset bar", note: "On the rocks at the lighthouse. Aperitivo at 7PM, swim if it's calm, taxi back to dinner. The trip's most cinematic hour.", when: "Daily, season", link: "https://www.google.com/maps/search/?api=1&query=Lido+del+Faro+Capri" },
+  ],
   eat: [
     { no: 1, name: "Le Grottelle", area: "Above the Arco Naturale", meal: "Friday lunch", note: "A walk to get there, scallop ravioli, a view that won't fit in the photo. Reserve, but the table is yours for two hours." },
     { no: 2, name: "Da Paolino", area: "Marina Grande", meal: "Friday dinner", note: "Under the lemon trees. Theatrical, the photo everyone takes, the food still good despite the photo. Ask for table 14 if it's available." },

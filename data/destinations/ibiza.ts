@@ -32,6 +32,12 @@ export const IBIZA: DestinationCover = {
     { hour: "Saturday 9AM", title: "A Formentera day-escape. Two hours each way, beach in between.", img: IMG.ibiza4, color: "var(--peach)" },
     { hour: "Sunday 10AM", title: "A guided hike to a hidden cove with a local. Two hours, no rush.", img: IMG.ibizaHero, color: "var(--rose)" },
   ],
+  night: [
+    { no: 1, name: "Pacha", area: "Marina Botafoch", kind: "Club", note: "The institution. Friday Flower Power night is the one — costumed, joyful, much less pretentious than the megaclubs.", when: "Friday", link: "https://www.google.com/maps/search/?api=1&query=Pacha+Ibiza" },
+    { no: 2, name: "Hï Ibiza", area: "Playa d'en Bossa", kind: "Megaclub", note: "If you want one big night with a name DJ, do it here. Skip the main floor for the smaller Wild Room behind it; it's where the locals go.", when: "Tuesday & Saturday in season", link: "https://www.google.com/maps/search/?api=1&query=Hi+Ibiza" },
+    { no: 3, name: "Lío Ibiza", area: "Marina Botafoch", kind: "Cabaret-dinner", note: "The Cirque-meets-supper-club hybrid. Reserve a table for the show, leave by midnight. The bachelorette favourite that doesn't feel like one.", when: "Daily, season", link: "https://www.google.com/maps/search/?api=1&query=Lio+Ibiza" },
+    { no: 4, name: "Beachouse Ibiza sunset", area: "Playa d'en Bossa", kind: "Beach club", note: "Pre-dinner, on the sand, drinks slow enough that you can leave by 9PM and still make a real reservation.", when: "Daily, until October", link: "https://www.google.com/maps/search/?api=1&query=Beachouse+Ibiza" },
+  ],
   eat: [
     { no: 1, name: "La Paloma", area: "San Lorenzo", meal: "Wednesday dinner", note: "An old farmhouse, candles, a long table outside. Vegetable-forward, family-style. The Saturday-night Ibiza you didn't know existed." },
     { no: 2, name: "Es Boldadó", area: "Cala d'Hort", meal: "Friday lunch", note: "Cliffside, looking at Es Vedrà, the fish arrives whole. Reserve, even in May. Sit outside no matter the wind." },

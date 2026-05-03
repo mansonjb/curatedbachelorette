@@ -67,6 +67,7 @@ export default async function DestinationPage({
         <DestIntro cover={cover} />
         <DestStay cover={cover} card={card} />
         <ViatorBlock slug={slug} city={cover.title} />
+        <DestNight cover={cover} />
         <DestEat cover={cover} />
         <DestPullQuote cover={cover} />
         <DestItinerary cover={cover} />
@@ -287,11 +288,109 @@ function DestStay({ cover, card }: { cover: DestinationCover; card: DestinationC
   );
 }
 
+function DestNight({ cover }: { cover: DestinationCover }) {
+  if (!cover.night || cover.night.length === 0) return null;
+  return (
+    <section className="section" style={{ background: "var(--ink)", color: "var(--bg)" }}>
+      <div className="container container-wide" style={{ maxWidth: 1480 }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "baseline",
+            flexWrap: "wrap",
+            gap: 12,
+            marginBottom: 28,
+          }}
+        >
+          <div>
+            <div className="eyebrow" style={{ marginBottom: 6, color: "var(--pink)" }}>№ 03</div>
+            <h2 className="h-display h-2" style={{ margin: 0 }}>Night.</h2>
+            <p style={{ margin: "10px 0 0", fontSize: 16, color: "rgba(245,239,229,0.7)", maxWidth: 540 }}>
+              The bachelorette&apos;s reason for being. {cover.night.length} venues we&apos;d
+              actually walk into — clubs, beach-bars, and the late-night
+              hideouts that don&apos;t have a sign on the door.
+            </p>
+          </div>
+          <span className="meta" style={{ color: "rgba(245,239,229,0.6)" }}>Editor-curated</span>
+        </div>
+        <div
+          className="night-grid"
+          style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 16 }}
+        >
+          {cover.night.map((n) => (
+            <article
+              key={n.no}
+              style={{
+                background: "var(--bg-alt)",
+                color: "var(--ink)",
+                borderRadius: "var(--radius-lg)",
+                padding: "26px 28px",
+                display: "flex",
+                flexDirection: "column",
+                gap: 10,
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  gap: 8,
+                  flexWrap: "wrap",
+                }}
+              >
+                <span className="tag tag-pink">{n.kind}</span>
+                {n.when && <span className="meta">{n.when}</span>}
+              </div>
+              <h3 className="h-display" style={{ margin: "4px 0 0", fontSize: 24, lineHeight: 1.15 }}>
+                {n.name}{" "}
+                <span className="meta" style={{ marginLeft: 6, fontWeight: 400 }}>{n.area}</span>
+              </h3>
+              <p style={{ margin: 0, fontSize: 15, color: "var(--ink-soft)", lineHeight: 1.6 }}>
+                {n.note}
+              </p>
+              {n.link && (
+                <a
+                  href={n.link}
+                  target="_blank"
+                  rel="noopener nofollow"
+                  className="ulink"
+                  style={{ alignSelf: "flex-start", marginTop: 6, fontSize: 14 }}
+                >
+                  Find it on the map →
+                </a>
+              )}
+            </article>
+          ))}
+        </div>
+        <p
+          style={{
+            marginTop: 24,
+            fontSize: 13,
+            color: "rgba(245,239,229,0.55)",
+            maxWidth: 720,
+            lineHeight: 1.55,
+          }}
+        >
+          Bookable nightlife (boat parties, club entries, bar crawls) ships in
+          a separate block above when our GetYourGuide and Fever integrations
+          go live this season. The list here is the editor&apos;s shortlist —
+          venues we&apos;d send a friend to without checking a partnership.
+        </p>
+        <style>
+          {`@media (max-width: 900px) { .night-grid { grid-template-columns: 1fr !important; } }`}
+        </style>
+      </div>
+    </section>
+  );
+}
+
 function DestEat({ cover }: { cover: DestinationCover }) {
   return (
     <section className="section" style={{ background: "var(--bg-soft)" }}>
       <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <SectionHeader number="03" title="Eat" />
+        <SectionHeader number="04" title="Eat" />
         <ol style={{ listStyle: "none", padding: 0, margin: 0 }}>
           {cover.eat.map((e) => (
             <li
@@ -364,7 +463,7 @@ function DestItinerary({ cover }: { cover: DestinationCover }) {
   return (
     <section className="section">
       <div className="container container-wide" style={{ maxWidth: 1480 }}>
-        <SectionHeader number="04" title="Plan" />
+        <SectionHeader number="05" title="Plan" />
         <div className="iti-grid" style={{ display: "grid", gridTemplateColumns: `repeat(${cover.itinerary.length}, minmax(0, 1fr))`, gap: 20 }}>
           {cover.itinerary.map((d) => (
             <div
@@ -404,7 +503,7 @@ function DestFaq({ cover }: { cover: DestinationCover }) {
   return (
     <section className="section" style={{ background: "var(--bg-soft)" }}>
       <div className="container" style={{ maxWidth: 880 }}>
-        <SectionHeader number="05" title="FAQ" />
+        <SectionHeader number="06" title="FAQ" />
         <Faq items={cover.faq} />
       </div>
     </section>

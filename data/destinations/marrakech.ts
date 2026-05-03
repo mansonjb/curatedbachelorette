@@ -32,6 +32,12 @@ export const MARRAKECH: DestinationCover = {
     { hour: "Saturday 9AM", title: "A private day in the Atlas Mountains and the five Berber valleys.", img: IMG.marrakech4, color: "var(--sage)" },
     { hour: "Sunday 6AM", title: "A hot-air balloon over the Agafay, with a Berber breakfast on landing.", img: IMG.marrakechHero, color: "var(--rose)" },
   ],
+  night: [
+    { no: 1, name: "Comptoir Darna", area: "Hivernage", kind: "Dinner-show", note: "The Moroccan-cabaret institution. Belly dancers between courses, a dance floor that fills by midnight, no irony. Reserve the upper level.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Comptoir+Darna+Marrakech" },
+    { no: 2, name: "Theatro", area: "Hivernage", kind: "Club", note: "Built inside an actual theatre. Not subtle, very Marrakech. One night, one bottle, leave by 3 — the bachelorette package the venue knows by heart.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Theatro+Marrakech" },
+    { no: 3, name: "Le Salama rooftop", area: "Medina", kind: "Cocktail rooftop", note: "Three floors, the top one is the one. Pre-dinner, fresh-squeezed cocktails, cushions, the call to prayer at sunset. Walk-in.", when: "Daily, sunset", link: "https://www.google.com/maps/search/?api=1&query=Le+Salama+Marrakech" },
+    { no: 4, name: "Bacha Coffee at night", area: "Dar el Bacha", kind: "Late tea-room", note: "Coffee bar by day, transformed at night into a candle-lit hideaway. Mint tea, the rare thing in Marrakech that's open past 11 and still elegant.", when: "Daily until 11PM", link: "https://www.google.com/maps/search/?api=1&query=Bacha+Coffee+Marrakech" },
+  ],
   eat: [
     { no: 1, name: "Le Jardin", area: "Sidi Abdelaziz", meal: "Thursday lunch", note: "An emerald-green courtyard in the medina with a tortoise. Lemon-chicken tagine, a salad, mint tea. The lunch we eat the day we arrive." },
     { no: 2, name: "Nomad", area: "Souk Cherifia", meal: "Friday lunch", note: "A rooftop, modern Moroccan, the salads are the assignment. The view is the second-best view in the medina, which is fine." },

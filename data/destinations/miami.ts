@@ -32,6 +32,12 @@ export const MIAMI: DestinationCover = {
     { hour: "Saturday 4PM", title: "A sailboat in Biscayne Bay. Two hours. No costume.", img: IMG.miami4, color: "var(--rose)" },
     { hour: "Sunday 11AM", title: "A small-group cigar factory tour in Little Havana, then a long lunch.", img: IMG.miamiHero, color: "var(--peach)" },
   ],
+  night: [
+    { no: 1, name: "LIV at Fontainebleau", area: "Mid-Beach", kind: "Megaclub", note: "The Miami megaclub. Sunday is the night, bottle service is the move, get your name on the list before you fly.", when: "Sunday", link: "https://www.google.com/maps/search/?api=1&query=LIV+Miami+Fontainebleau" },
+    { no: 2, name: "E11even", area: "Park West", kind: "24-hour club", note: "Open all night, every night, gravity-defying performers. Genuinely chaotic in the best possible way; one visit will tell you if you want a second.", when: "Daily, peak Saturday", link: "https://www.google.com/maps/search/?api=1&query=E11even+Miami" },
+    { no: 3, name: "Sweet Liberty", area: "Mid-Beach", kind: "Cocktail bar", note: "If the bride wants the night to end at 12 instead of 4. The bartenders know what they're doing; the room is a real room, not a club.", when: "Daily, until 5AM", link: "https://www.google.com/maps/search/?api=1&query=Sweet+Liberty+Miami" },
+    { no: 4, name: "Mac's Club Deuce", area: "South Beach", kind: "Dive bar", note: "The 1933 dive bar where the locals go to escape the locals. Cash only, no cover, no door, no dress code. The 3AM corrective.", when: "Daily, until 5AM", link: "https://www.google.com/maps/search/?api=1&query=Mac%27s+Club+Deuce+Miami" },
+  ],
   eat: [
     { no: 1, name: "Boia De", area: "Buena Vista", meal: "Friday dinner", note: "Cacio e pepe, small kitchen, smaller dining room. Reserve five weeks out, ask for the back banquette." },
     { no: 2, name: "Walrus Rodeo", area: "Little River", meal: "Saturday lunch", note: "Wood-fired everything. Chicken for the table. Don't skip the bread." },

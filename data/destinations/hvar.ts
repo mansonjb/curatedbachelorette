@@ -32,6 +32,12 @@ export const HVAR: DestinationCover = {
     { hour: "Saturday 5PM", title: "A wine-and-olive-oil tasting at a small Stari Grad producer.", img: IMG.hvar4, color: "var(--peach)" },
     { hour: "Sunday 10AM", title: "A guided lavender-field walk through the Plain, slowly. Two hours.", img: IMG.hvarHero, color: "var(--cream)" },
   ],
+  night: [
+    { no: 1, name: "Hula Hula Hvar", area: "Majerovica", kind: "Sunset beach bar", note: "The Hvar institution. Sunset drinks on the rocks, locals on stools, every Croatian song you'll never know the lyrics to. Cash only, sandals welcome.", when: "Daily, season", link: "https://www.google.com/maps/search/?api=1&query=Hula+Hula+Hvar" },
+    { no: 2, name: "Carpe Diem Beach", area: "Stipanska Island", kind: "Island club", note: "The boat-in club on a tiny island offshore. Last shuttle back at 5AM if you're up for it; we usually leave at 1.", when: "Friday & Saturday in season", link: "https://www.google.com/maps/search/?api=1&query=Carpe+Diem+Beach+Hvar" },
+    { no: 3, name: "Pink Champagne", area: "Old Town", kind: "Late-night club", note: "Smaller, in town, the locals' favourite. Two doormen, one pink neon sign, no dress code beyond clean.", when: "Late Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Pink+Champagne+Hvar" },
+    { no: 4, name: "Riva Yacht Bar", area: "Hvar harbour", kind: "Pre-dinner cocktail", note: "On the marina, watching superyachts dock. One Aperol, harbourfront, before the konoba dinner that follows.", when: "Daily, sunset", link: "https://www.google.com/maps/search/?api=1&query=Riva+Hvar+Yacht+Bar" },
+  ],
   eat: [
     { no: 1, name: "Konoba Menego", area: "Hvar Town", meal: "Thursday dinner", note: "Stone-walled, candle-lit, the Dalmatian classics done patiently. Octopus under a peka, lamb on a slow flame." },
     { no: 2, name: "Gariful", area: "Hvar Riva", meal: "Friday lunch", note: "Yes the celebrity restaurant. Yes the lobster spaghetti. Yes once per trip, on a sunny afternoon, sitting on the harbour." },

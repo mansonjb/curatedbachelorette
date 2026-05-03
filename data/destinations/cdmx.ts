@@ -32,6 +32,12 @@ export const CDMX: DestinationCover = {
     { hour: "Saturday 5PM", title: "A private Mexican cooking class with a gastronomic historian, three hours.", img: IMG.cdmx4, color: "var(--peach)" },
     { hour: "Sunday 7AM", title: "Xochimilco at sunrise, with breakfast on the trajinera.", img: IMG.cdmxHero, color: "var(--cream)" },
   ],
+  night: [
+    { no: 1, name: "Departamento", area: "Juárez", kind: "Club", note: "Two floors, the second one is where the night happens. The DJ booth runs into Sunday morning if you let it. Wear black, smile at the door.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Departamento+Mexico+City" },
+    { no: 2, name: "Hanky Panky", area: "Juárez", kind: "Speakeasy", note: "Through an unmarked door behind a taco shop. The CDMX cocktail bar that put the city on the World's 50 Best list. Reservation essential.", when: "Daily, until 2AM", link: "https://www.google.com/maps/search/?api=1&query=Hanky+Panky+CDMX" },
+    { no: 3, name: "Bósforo", area: "Centro Histórico", kind: "Mezcalería", note: "The mezcal bar people fly here for. Tiny, ten seats, the owner picks the bottle for you based on three questions. Pre-dinner, never after.", when: "Tuesday–Saturday, 6–11PM", link: "https://www.google.com/maps/search/?api=1&query=Bosforo+Mexico+City" },
+    { no: 4, name: "Patrick Miller", area: "Roma Norte", kind: "Salsa institution", note: "Friday-only since 1986. The locals who taught their kids to dance here are the ones running the floor. Wildly fun if you commit; awkward if you don't.", when: "Friday only", link: "https://www.google.com/maps/search/?api=1&query=Patrick+Miller+Mexico+City" },
+  ],
   eat: [
     { no: 1, name: "Contramar", area: "Roma Norte", meal: "Friday lunch", note: "The reservation that runs the rest of the weekend. 1:30PM, four hours, fish two ways, never rushed." },
     { no: 2, name: "Pasillo de Humo", area: "Condesa", meal: "Friday dinner", note: "Oaxacan, second-floor, mole all the way. Start with the memelitas." },

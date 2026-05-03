@@ -32,6 +32,12 @@ export const MALLORCA: DestinationCover = {
     { hour: "Saturday 11AM", title: "A wine-and-vermouth tasting at a Binissalem winery, with a tapas lunch.", img: IMG.mallorca4, color: "var(--peach)" },
     { hour: "Sunday 9AM", title: "A morning at Cala Deià, the cove below Belmond — swim, lunch at Ca's Patró March, slowly.", img: IMG.mallorcaHero, color: "var(--cream)" },
   ],
+  night: [
+    { no: 1, name: "Purobeach Palma", area: "Cala Estancia", kind: "Beach club", note: "The white-on-white beach club that started the genre. Daybeds at 1PM, dinner at 9, DJ to midnight. Skip Magaluf and come here instead.", when: "Daily, May–Oct", link: "https://www.google.com/maps/search/?api=1&query=Purobeach+Palma" },
+    { no: 2, name: "Marula Café", area: "Sóller", kind: "Live-music bar", note: "The off-grid Tramuntana favourite. Three musicians, twenty seats, a single negroni you'll remember. Walk-in only, opens at 9.", when: "Wednesday–Saturday", link: "https://www.google.com/maps/search/?api=1&query=Marula+Cafe+Soller" },
+    { no: 3, name: "Hotel Cort rooftop", area: "Palma Old Town", kind: "Rooftop cocktail", note: "Quietly the best terrace in Palma. Pre-dinner aperitivo with a view of the cathedral; reserve a table by 8.", when: "Daily, sunset", link: "https://www.google.com/maps/search/?api=1&query=Hotel+Cort+Palma" },
+    { no: 4, name: "Tito's Mallorca", area: "Paseo Marítimo", kind: "Megaclub", note: "If the bride wants one big dancefloor night, this is the answer that doesn't involve Magaluf. International DJs, Saturday only.", when: "Saturday in season", link: "https://www.google.com/maps/search/?api=1&query=Tito%27s+Mallorca" },
+  ],
   eat: [
     { no: 1, name: "Es Racó d'Es Teix", area: "Deià", meal: "Wednesday dinner", note: "One Michelin star, a small dining room in a stone house, the kind of dinner that anchors the whole trip. Reserve six weeks out." },
     { no: 2, name: "Ca's Patró March", area: "Cala Deià", meal: "Thursday lunch", note: "A cliffside fisherman's tavern with no road in. Walk down, eat octopus, walk back up. The lunch in every Mallorca photograph that matters." },

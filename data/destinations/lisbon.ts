@@ -32,6 +32,12 @@ export const LISBON: DestinationCover = {
     { hour: "Saturday 9AM", title: "An inland day-trip — Knights Templar castle, Nazaré, the white village of Óbidos.", img: IMG.lisbon4, color: "var(--rose)" },
     { hour: "Saturday 6PM", title: "Sunset at the Miradouro de Santa Catarina, with one drink.", img: IMG.lisbonHero, color: "var(--blush)" },
   ],
+  night: [
+    { no: 1, name: "Lux Frágil", area: "Santa Apolónia", kind: "Club", note: "The Lisbon club. Three floors, riverfront terrace, owner has impeccable taste in DJs. Worth the late arrival; nothing happens before 1AM.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Lux+Fragil+Lisbon" },
+    { no: 2, name: "Pensão Amor", area: "Cais do Sodré", kind: "Cabaret-bar", note: "Pink-velvet, mirrored, slightly louche. Cocktails on the upper floor, burlesque on the lower. Pre-dinner or post-dinner, both work.", when: "Daily", link: "https://www.google.com/maps/search/?api=1&query=Pensao+Amor+Lisbon" },
+    { no: 3, name: "Park Bar", area: "Bairro Alto", kind: "Rooftop", note: "Hidden on top of a six-storey car park; you wouldn't find it without the tip. Sunset drinks, no reservations, leave by 9 if you want a table.", when: "Daily, until 11PM", link: "https://www.google.com/maps/search/?api=1&query=Park+Bar+Lisbon" },
+    { no: 4, name: "A Tabacaria", area: "Cais do Sodré", kind: "Speakeasy", note: "Tiny, ten-seat, the bartender is the show. One round of whatever they suggest, then on to dinner.", when: "Daily, until midnight", link: "https://www.google.com/maps/search/?api=1&query=A+Tabacaria+Lisbon" },
+  ],
   eat: [
     { no: 1, name: "Cervejaria Ramiro", area: "Anjos", meal: "Wednesday late dinner", note: "Shellfish in a fluorescent dining room, opened in 1956. The prawns are the entrée; the steak sandwich is dessert." },
     { no: 2, name: "Taberna da Rua das Flores", area: "Chiado", meal: "Thursday lunch", note: "Twenty-six seats, no reservations, the menu is on a chalkboard. We arrive at 12:25." },
