@@ -8,6 +8,7 @@ import { Header } from "@/components/Header";
 import { Img } from "@/components/Img";
 import { JsonLd } from "@/components/JsonLd";
 import { ScrollProgress } from "@/components/ScrollProgress";
+import { DesktopBookCta } from "@/components/DesktopBookCta";
 import { MobileBookCta } from "@/components/MobileBookCta";
 import { Stay22Cta, Stay22Map } from "@/components/Stay22";
 import { TicketBadge } from "@/components/TicketBadge";
@@ -76,6 +77,7 @@ export default async function DestinationPage({
         <DestRelated cover={cover} />
       </main>
       <MobileBookCta city={cover.title} contextSlug={slug} />
+      <DesktopBookCta city={cover.title} contextSlug={slug} />
       <Footer />
     </>
   );
