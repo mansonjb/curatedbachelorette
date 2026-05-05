@@ -42,17 +42,17 @@ const OUT_ROOT = join(process.cwd(), "public", "destinations");
  */
 const QUERIES: Record<string, string> = {
   ibiza: "Cala Comte beach Ibiza",
-  mykonos: "Little Venice Mykonos sunset",
+  mykonos: "Mykonos windmills Kato Mili",
   santorini: "Oia caldera sunset Santorini",
   capri: "Faraglioni rocks Capri",
   "saint-tropez": "Pampelonne beach Saint-Tropez",
-  hvar: "Pakleni Islands Hvar Croatia",
+  hvar: "Hvar Town Old Town panorama Croatia",
   mallorca: "Cala Mondragó Mallorca",
   lisbon: "Miradouro da Senhora do Monte Lisbon",
   comporta: "Praia do Pego Comporta",
   marrakech: "Jardin Majorelle Marrakech",
   miami: "Ocean Drive Miami Beach Art Deco",
-  cdmx: "Casa Azul Frida Kahlo Coyoacán",
+  cdmx: "Palacio de Bellas Artes Mexico City",
 };
 
 type Place = {

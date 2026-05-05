@@ -188,7 +188,14 @@ function DestHero({ cover }: { cover: DestinationCover }) {
         </p>
         <div className="tilt-l" style={{ marginTop: 40 }}>
           <div style={{ border: "1.5px solid var(--ink)", borderRadius: "var(--radius-xl)", overflow: "hidden", background: "var(--bg-alt)" }}>
-            <Img src={cover.hero.img} alt={cover.title} ratio="16 / 9" rounded={0} />
+            <Img
+              src={cover.hero.img}
+              alt={cover.title}
+              ratio="16 / 9"
+              rounded={0}
+              priority
+              sizes="100vw"
+            />
           </div>
         </div>
       </div>

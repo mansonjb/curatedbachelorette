@@ -120,7 +120,14 @@ function Hero() {
               background: "var(--bg-alt)",
             }}
           >
-            <Img src={IMG.santoriniHero} alt="The blue domes of Oia, Santorini" ratio="4 / 5" rounded={0} />
+            <Img
+              src={IMG.santoriniHero}
+              alt="The blue domes of Oia, Santorini"
+              ratio="4 / 5"
+              rounded={0}
+              priority
+              sizes="(max-width: 900px) 100vw, 600px"
+            />
           </div>
         </div>
       </div>
