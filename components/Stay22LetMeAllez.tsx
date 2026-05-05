@@ -20,7 +20,7 @@ export function Stay22LetMeAllez() {
   return (
     <Script
       id="stay22-lma"
-      strategy="afterInteractive"
+      strategy="lazyOnload"
       dangerouslySetInnerHTML={{
         __html: `
           (function (s, t, a, y, twenty, two) {
