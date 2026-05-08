@@ -33,11 +33,11 @@ export const CARTAGENA: DestinationCover = {
     { hour: "Sunday 11AM", title: "Mercado de Bazurto with a chef-led food tour. Three hours, twelve tastings.", img: IMG.cartagenaHero, color: "var(--peach)" },
   ],
   eat: [
-    { no: 1, name: "Carmen", area: "Centro", meal: "Friday dinner", note: "The eight-course tasting menu in a converted patio. Quiet, careful, the kitchen is one of the best in Latin America right now. Reserve four weeks out." },
-    { no: 2, name: "Celele", area: "Getsemaní", meal: "Saturday lunch", note: "Caribbean-Colombian, ingredient-driven, the room is small and the chefs are visible. The Saturday lunch that becomes the trip's main meal." },
-    { no: 3, name: "La Cevichería", area: "Centro", meal: "Saturday late lunch", note: "Anthony Bourdain's old recommendation, still good. Ten tables on a corner, three ceviches, a beer in a styrofoam cup. Don't dress up." },
-    { no: 4, name: "Alma", area: "Casa San Agustín", meal: "Sunday dinner", note: "The hotel restaurant — yes, but it earns its place. The courtyard is candlelit, the menu is short, the wine list reads like the chef's personal collection." },
-    { no: 5, name: "Café San Alberto", area: "Plaza San Diego", meal: "Daily, anytime", note: "The coffee program in town. The cold brew is the answer for the airport-day morning." },
+    { no: 1, name: "Carmen", area: "Centro", meal: "Friday dinner", note: "The eight-course tasting menu in a converted patio. Quiet, careful, the kitchen is one of the best in Latin America right now. Reserve four weeks out.", img: "/destinations/cartagena/eat-1.jpg" },
+    { no: 2, name: "Celele", area: "Getsemaní", meal: "Saturday lunch", note: "Caribbean-Colombian, ingredient-driven, the room is small and the chefs are visible. The Saturday lunch that becomes the trip's main meal.", img: "/destinations/cartagena/eat-2.jpg" },
+    { no: 3, name: "La Cevichería", area: "Centro", meal: "Saturday late lunch", note: "Anthony Bourdain's old recommendation, still good. Ten tables on a corner, three ceviches, a beer in a styrofoam cup. Don't dress up.", img: "/destinations/cartagena/eat-3.jpg" },
+    { no: 4, name: "Alma", area: "Casa San Agustín", meal: "Sunday dinner", note: "The hotel restaurant — yes, but it earns its place. The courtyard is candlelit, the menu is short, the wine list reads like the chef's personal collection.", img: "/destinations/cartagena/eat-4.jpg" },
+    { no: 5, name: "Café San Alberto", area: "Plaza San Diego", meal: "Daily, anytime", note: "The coffee program in town. The cold brew is the answer for the airport-day morning.", img: "/destinations/cartagena/eat-5.jpg" },
   ],
   pullQuote: { lead: "Cartagena", emphasis: "ends", tail: "at sunset, then begins again.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

@@ -33,11 +33,11 @@ export const LAKE_COMO: DestinationCover = {
     { hour: "Sunday 9AM", title: "Villa Carlotta gardens, then a long lunch in Tremezzo.", img: IMG.lakeComoHero, color: "var(--cream)" },
   ],
   eat: [
-    { no: 1, name: "Ristorante Silvio", area: "Bellagio (lake-edge)", meal: "Friday dinner", note: "Family-run, the freshwater fish is caught by the owner that morning. Sit on the terrace, order the perch, ask for the lemon-and-butter version." },
-    { no: 2, name: "La Punta", area: "Bellagio promontory", meal: "Saturday lunch alternative", note: "If you can't get to Varenna. The view is the photo, the kitchen is reliable, the lake breeze does the rest. Lunch only." },
-    { no: 3, name: "Il Cavatappi", area: "Varenna", meal: "Saturday lunch", note: "Eight tables in a stone-walled room. The agnolotti del plin and a bottle of Valtellina red. Two hours minimum, three if you ask for dessert." },
-    { no: 4, name: "Materia", area: "Cernobbio", meal: "Sunday dinner", note: "One Michelin star, less stiff than that suggests. The lake-fish raw plate, the tortelli, a list of Sicilian wines you won't see anywhere else this lake." },
-    { no: 5, name: "Bar Rossi", area: "Bellagio piazza", meal: "Daily, 8AM", note: "The morning espresso and the brioche con crema. The piazza fills slowly while you sit. Don't hurry the second one." },
+    { no: 1, name: "Ristorante Silvio", area: "Bellagio (lake-edge)", meal: "Friday dinner", note: "Family-run, the freshwater fish is caught by the owner that morning. Sit on the terrace, order the perch, ask for the lemon-and-butter version.", img: "/destinations/lake-como/eat-1.jpg" },
+    { no: 2, name: "La Punta", area: "Bellagio promontory", meal: "Saturday lunch alternative", note: "If you can't get to Varenna. The view is the photo, the kitchen is reliable, the lake breeze does the rest. Lunch only.", img: "/destinations/lake-como/eat-2.jpg" },
+    { no: 3, name: "Il Cavatappi", area: "Varenna", meal: "Saturday lunch", note: "Eight tables in a stone-walled room. The agnolotti del plin and a bottle of Valtellina red. Two hours minimum, three if you ask for dessert.", img: "/destinations/lake-como/eat-3.jpg" },
+    { no: 4, name: "Materia", area: "Cernobbio", meal: "Sunday dinner", note: "One Michelin star, less stiff than that suggests. The lake-fish raw plate, the tortelli, a list of Sicilian wines you won't see anywhere else this lake.", img: "/destinations/lake-como/eat-4.jpg" },
+    { no: 5, name: "Bar Rossi", area: "Bellagio piazza", meal: "Daily, 8AM", note: "The morning espresso and the brioche con crema. The piazza fills slowly while you sit. Don't hurry the second one.", img: "/destinations/lake-como/eat-5.jpg" },
   ],
   pullQuote: { lead: "Lake Como is", emphasis: "smaller", tail: "than the photographs suggest.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [

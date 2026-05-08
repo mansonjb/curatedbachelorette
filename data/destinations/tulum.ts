@@ -33,11 +33,11 @@ export const TULUM: DestinationCover = {
     { hour: "Sunday 9AM", title: "Yoga in a private palapa, then breakfast at the hotel.", img: IMG.tulumHero, color: "var(--rose)" },
   ],
   eat: [
-    { no: 1, name: "Hartwood", area: "Beach road, north", meal: "Friday dinner", note: "The classic Tulum room. Live fire, no electricity after sundown, walk-ups only at 5:30PM. Show up at 5:15." },
-    { no: 2, name: "Arca", area: "Beach road", meal: "Saturday lunch", note: "Lighter, shorter list, vegetable-forward. The cabana under the parota tree is the table to ask for." },
-    { no: 3, name: "Casa Jaguar", area: "Beach road, north", meal: "Saturday dinner", note: "Live music two nights a week, a kitchen that takes itself less seriously than Hartwood. The mezcal list is the long one." },
-    { no: 4, name: "Posada Margherita", area: "Beach road, north", meal: "Sunday lunch", note: "Italian, beachside, the pasta is genuinely Italian-grandmother-good. The Sunday lunch that fixes Saturday night." },
-    { no: 5, name: "Burrito Amor", area: "Tulum town", meal: "Monday breakfast", note: "Pre-flight breakfast in town. The agave-cured bacon burrito is the only acceptable answer." },
+    { no: 1, name: "Hartwood", area: "Beach road, north", meal: "Friday dinner", note: "The classic Tulum room. Live fire, no electricity after sundown, walk-ups only at 5:30PM. Show up at 5:15.", img: "/destinations/tulum/eat-1.jpg" },
+    { no: 2, name: "Arca", area: "Beach road", meal: "Saturday lunch", note: "Lighter, shorter list, vegetable-forward. The cabana under the parota tree is the table to ask for.", img: "/destinations/tulum/eat-2.jpg" },
+    { no: 3, name: "Casa Jaguar", area: "Beach road, north", meal: "Saturday dinner", note: "Live music two nights a week, a kitchen that takes itself less seriously than Hartwood. The mezcal list is the long one.", img: "/destinations/tulum/eat-3.jpg" },
+    { no: 4, name: "Posada Margherita", area: "Beach road, north", meal: "Sunday lunch", note: "Italian, beachside, the pasta is genuinely Italian-grandmother-good. The Sunday lunch that fixes Saturday night.", img: "/destinations/tulum/eat-4.jpg" },
+    { no: 5, name: "Burrito Amor", area: "Tulum town", meal: "Monday breakfast", note: "Pre-flight breakfast in town. The agave-cured bacon burrito is the only acceptable answer.", img: "/destinations/tulum/eat-5.jpg" },
   ],
   pullQuote: { lead: "The good Tulum is", emphasis: "off", tail: "the beach road.", cite: "— M. Aldrin · From the cover essay" },
   itinerary: [
