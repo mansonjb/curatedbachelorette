@@ -1,7 +1,7 @@
 {
   "destinationId": 51025,
   "destinationName": "comporta",
-  "fetchedAt": "2026-04-29T05:35:01.900Z",
+  "fetchedAt": "2026-05-08T21:53:55.670Z",
   "products": [
     {
       "productCode": "164947P15",
@@ -10,7 +10,7 @@
       "rating": 5,
       "reviewCount": 2,
       "fromPrice": {
-        "value": 536.82,
+        "value": 537.87,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lisbon/Hassle-Free-transfer-from-Lisbon-to-Sevilha/d538-164947P15?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -22,7 +22,7 @@
       "rating": 5,
       "reviewCount": 1,
       "fromPrice": {
-        "value": 417.53,
+        "value": 418.35,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lisbon/Algarve-full-day-private-tour-with-boat-trip-to-visit-Benagil/d538-164947P24?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -32,7 +32,7 @@
       "title": "Private Luxury Transfer Between Lisbon and Comporta",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/70/8f/73.jpg",
       "fromPrice": {
-        "value": 128.84,
+        "value": 129.09,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lisbon/Private-Luxury-Transfer-Between-Lisbon-and-Comporta/d538-92356P33?mcid=42383&pid=P00298683&medium=api&api_version=2.0"

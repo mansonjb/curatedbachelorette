@@ -49,6 +49,9 @@ export const VIATOR_DESTINATION_IDS: Record<string, number> = {
   marrakech: 5408,
   miami: 662,
   cdmx: 628,
+  tulum: 23012,
+  cartagena: 4498,
+  "lake-como": 26113,
 };
 
 const PARTNER_PID = process.env.VIATOR_PARTNER_PID || "P00250395"; // mcid placeholder

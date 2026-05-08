@@ -1,7 +1,7 @@
 {
   "destinationId": 958,
   "destinationName": "mykonos",
-  "fetchedAt": "2026-04-29T05:34:58.813Z",
+  "fetchedAt": "2026-05-08T21:53:52.870Z",
   "products": [
     {
       "productCode": "462539P1",
@@ -10,7 +10,7 @@
       "rating": 5,
       "reviewCount": 136,
       "fromPrice": {
-        "value": 166.41,
+        "value": 166.74,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mykonos/Private-Island-Tour-Discover-Mykonos-With-Us/d958-462539P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -20,9 +20,9 @@
       "title": "Sea kayaking Mykonos natural beauty beaches",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/3a/5b/c4.jpg",
       "rating": 5,
-      "reviewCount": 104,
+      "reviewCount": 105,
       "fromPrice": {
-        "value": 107.36,
+        "value": 91.44,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mykonos/Adventure-Sea-Kayaking-the-wild-North-Coast/d958-274302P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -34,7 +34,7 @@
       "rating": 5,
       "reviewCount": 90,
       "fromPrice": {
-        "value": 3459.51,
+        "value": 3466.3,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mykonos/Sip-Sail-and-Savor-Private-Catamaran-Experience-20-guests/d958-364436P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -46,7 +46,7 @@
       "rating": 5,
       "reviewCount": 64,
       "fromPrice": {
-        "value": 150.76,
+        "value": 151.06,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mykonos/Experience-the-True-Essence-of-Mykonos-With-a-Local/d958-5586083P4?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -58,7 +58,7 @@
       "rating": 5,
       "reviewCount": 61,
       "fromPrice": {
-        "value": 95.41,
+        "value": 95.6,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mykonos/Private-Tour-Discover-Mykonos-Island-In-Half-Day/d958-5536404P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -68,7 +68,7 @@
       "title": "Mykonos Home Cooking Class & Traditional Greek Meal with Angelina",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/7f/f3/4c.jpg",
       "rating": 5,
-      "reviewCount": 56,
+      "reviewCount": 57,
       "fromPrice": {
         "value": 326,
         "currency": "USD"

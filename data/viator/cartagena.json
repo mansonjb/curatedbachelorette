@@ -1,0 +1,79 @@
+{
+  "destinationId": 4498,
+  "destinationName": "cartagena",
+  "fetchedAt": "2026-05-08T21:53:57.761Z",
+  "products": [
+    {
+      "productCode": "112088P3",
+      "title": "The Howling Trail Hike",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0b/f3/9a/f7.jpg",
+      "rating": 5,
+      "reviewCount": 184,
+      "fromPrice": {
+        "value": 145,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Cartagena/Private-Trip-The-Tropical-Dry-Forest-Nature-and-Hike/d4498-112088P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "331088P6",
+      "title": "Romantic Date Night in the Bay of Cartagena",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/5c/94/77.jpg",
+      "rating": 5,
+      "reviewCount": 47,
+      "fromPrice": {
+        "value": 729,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Cartagena/Sunset-Night-Bay-Tour-La-Romantica/d4498-331088P6?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "335559P2",
+      "title": "Champeta with us, it's a vibe",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/e5/cd/50.jpg",
+      "rating": 5,
+      "reviewCount": 44,
+      "fromPrice": {
+        "value": 35,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Cartagena/Champeta-and-Salsa-Dance-Experience-in-Cartagena/d4498-335559P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "152506P1",
+      "title": "Authentic Cartagena City Tour",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/8e/d8/43.jpg",
+      "rating": 5,
+      "reviewCount": 36,
+      "fromPrice": {
+        "value": 530,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Cartagena/AUTHENTIC-CARTAGENA-CITY-TOUR/d4498-152506P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "52356P2",
+      "title": "Specialty Coffee Workshops in Cartagena",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/3b/bd/6f.jpg",
+      "rating": 5,
+      "reviewCount": 34,
+      "fromPrice": {
+        "value": 49.65,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Cartagena/Specialty-Coffee-Shop-Tour-in-Cartagena-Colombia/d4498-52356P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "86436P10",
+      "title": "Birdwatching in a private nature reserve",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/de/63/e6.jpg",
+      "rating": 5,
+      "reviewCount": 33,
+      "fromPrice": {
+        "value": 358,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Cartagena/Tour-a-Baru-pueblo-de-paz-cultura-y-mar/d4498-86436P10?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

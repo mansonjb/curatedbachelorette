@@ -1,16 +1,16 @@
 {
   "destinationId": 179,
   "destinationName": "saint-tropez",
-  "fetchedAt": "2026-04-29T05:35:00.131Z",
+  "fetchedAt": "2026-05-08T21:53:54.047Z",
   "products": [
     {
       "productCode": "420556P1",
       "title": "Exclusive Private Boat Tour on a Luxury Day Cruiser - Nice/Monaco",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/f9/32/ae.jpg",
       "rating": 5,
-      "reviewCount": 120,
+      "reviewCount": 121,
       "fromPrice": {
-        "value": 596.47,
+        "value": 597.64,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Nice/Luxury-Day-Boat-for-rent-in-Saint-Jean-Cap-Ferrat/d478-420556P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -20,21 +20,21 @@
       "title": "Cannes shore excursion (private) Monaco - English speaking guide",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/33/14/25/c7/caption.jpg",
       "rating": 5,
-      "reviewCount": 96,
+      "reviewCount": 97,
       "fromPrice": {
-        "value": 565.63,
+        "value": 566.74,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Cannes/The-most-exhaustive-tour-of-French-Riviera-certified-tour-guide/d786-467701P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
       "productCode": "75054P13",
-      "title": "Private Boat Charter in the Bay of St Tropez",
+      "title": "Saint Tropez Private Boat Charter in the Bay of St Tropez",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/9b/27/87.jpg",
       "rating": 5,
       "reviewCount": 91,
       "fromPrice": {
-        "value": 571.42,
+        "value": 572.54,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Cogolin/Private-Boat-Charter-in-the-Bay-of-St-Tropez/d50414-75054P13?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -46,7 +46,7 @@
       "rating": 5,
       "reviewCount": 73,
       "fromPrice": {
-        "value": 181.33,
+        "value": 181.68,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Beaulieu-sur-Mer/Private-Tour-1-Hour-French-Riviera-Solar-Boat-Cruise-from-Saint-Jean-Cap-Ferrat/d50249-42535P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -58,7 +58,7 @@
       "rating": 5,
       "reviewCount": 70,
       "fromPrice": {
-        "value": 345.95,
+        "value": 346.63,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Cannes/Private-Boat-Tour-Cannes-Lerins-Islands/d786-72085P14?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -68,9 +68,9 @@
       "title": "Monaco - Monte Carlo - Eze Village - Private HALF Day Tour",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/86/04/ba.jpg",
       "rating": 5,
-      "reviewCount": 51,
+      "reviewCount": 54,
       "fromPrice": {
-        "value": 751.55,
+        "value": 753.02,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Nice/Eze-Monaco-and-Monte-Carlo-Half-Day/d478-5497912P11?mcid=42383&pid=P00298683&medium=api&api_version=2.0"

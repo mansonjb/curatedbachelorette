@@ -53,6 +53,9 @@ const QUERIES: Record<string, string> = {
   marrakech: "Jardin Majorelle Marrakech",
   miami: "Ocean Drive Miami Beach Art Deco",
   cdmx: "Palacio de Bellas Artes Mexico City",
+  tulum: "Gran Cenote Tulum",
+  cartagena: "Walled City Cartagena Colombia old town",
+  "lake-como": "Bellagio Lake Como Italy",
 };
 
 type Place = {

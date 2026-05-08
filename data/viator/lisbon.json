@@ -1,16 +1,16 @@
 {
   "destinationId": 538,
   "destinationName": "lisbon",
-  "fetchedAt": "2026-04-29T05:35:01.509Z",
+  "fetchedAt": "2026-05-08T21:53:55.149Z",
   "products": [
     {
       "productCode": "454950P2",
       "title": "All City Premium Private Guided Tour by Tuk-Tuk in Lisbon",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/71/7d/5e.jpg",
       "rating": 5,
-      "reviewCount": 267,
+      "reviewCount": 269,
       "fromPrice": {
-        "value": 176.55,
+        "value": 176.9,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lisbon/All-City-Premium-Private-Guided-Tour-by-Tuk-Tuk-in-Lisbon/d538-454950P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -20,9 +20,9 @@
       "title": "PRIVATE Unforgettable Full Day Tour to Sintra from Lisbon",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/46/dd/e1.jpg",
       "rating": 5,
-      "reviewCount": 246,
+      "reviewCount": 250,
       "fromPrice": {
-        "value": 195.64,
+        "value": 196.03,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lisbon/WindowToLisboa-Van-Tours-Sintra/d538-289069P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -32,9 +32,9 @@
       "title": "Sintra Private Tour with All Tickets Included",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/09/7c/9f/5c.jpg",
       "rating": 5,
-      "reviewCount": 223,
+      "reviewCount": 225,
       "fromPrice": {
-        "value": 351.92,
+        "value": 352.61,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lisbon/Sintra-Full-Day-Private-Tour-All-Entrances-Included/d538-72696P15?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -44,9 +44,9 @@
       "title": "3 Hour Lisbon Private Guided Tour via Tuk Tuk",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0f/8e/d4/01.jpg",
       "rating": 5,
-      "reviewCount": 120,
+      "reviewCount": 122,
       "fromPrice": {
-        "value": 116.31,
+        "value": 116.54,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lisbon/Tuk-Tuk-Lisbon-Guided-tour-3h-duration/d538-15078P26?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -56,24 +56,24 @@
       "title": "Knights Templar Castle, Nazaré & Óbidos️ Private Day Tour",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/36/5c/66.jpg",
       "rating": 5,
-      "reviewCount": 99,
+      "reviewCount": 101,
       "fromPrice": {
-        "value": 184.9,
+        "value": 185.27,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lisbon/Obidos-Nazare-and-Tomar-or-Fatima/d538-85308P4?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
-      "productCode": "373150P2",
-      "title": "Sintra Private Tour 2 Palaces Roca Cascais Tailored up to 7",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/67/14/e3.jpg",
+      "productCode": "482586P1",
+      "title": "Private Sintra skip-the-line Flexible Tour DiscoverWonderland",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/df/72/75.jpg",
       "rating": 5,
-      "reviewCount": 96,
+      "reviewCount": 100,
       "fromPrice": {
-        "value": 709.8,
+        "value": 119.53,
         "currency": "USD"
       },
-      "productUrl": "https://www.viator.com/tours/Lisbon/Full-day-tour-Sintra-Cape-Roca-Cascais-and-Estoril/d538-373150P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+      "productUrl": "https://www.viator.com/tours/Sintra/Sintra-Full-Day-Private-tour-discover-wonderland/d50861-482586P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     }
   ]
 }

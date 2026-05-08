@@ -1,16 +1,16 @@
 {
   "destinationId": 628,
   "destinationName": "cdmx",
-  "fetchedAt": "2026-04-29T05:35:03.017Z",
+  "fetchedAt": "2026-05-08T21:53:56.788Z",
   "products": [
     {
       "productCode": "488032P1",
       "title": "Balloon Flight with Breakfast in Cave and Round Trip CDMX",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/25/fa/54.jpg",
       "rating": 5,
-      "reviewCount": 195,
+      "reviewCount": 196,
       "fromPrice": {
-        "value": 159.06,
+        "value": 160.52,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mexico-City/Balloon-Flight-with-Breakfast-in-Cave-and-Round-Trip-CDMX/d628-488032P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -22,7 +22,7 @@
       "rating": 5,
       "reviewCount": 189,
       "fromPrice": {
-        "value": 141.39,
+        "value": 142.69,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mexico-City/Teotihuacan-Private-Tour-from-Mexico-City/d628-277127P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -56,9 +56,9 @@
       "title": "Mexico City: Xochimilco at sunrise + Breakfast and transportation",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/73/ba/fa.jpg",
       "rating": 5,
-      "reviewCount": 112,
+      "reviewCount": 113,
       "fromPrice": {
-        "value": 170.85,
+        "value": 172.41,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mexico-City/Navigation-experience-in-Xochimilco-at-sunrise-with-breakfast/d628-366381P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -68,7 +68,7 @@
       "title": "Private tour with Archaeologist at National Anthropology Museum",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/78/17/c6.jpg",
       "rating": 5,
-      "reviewCount": 104,
+      "reviewCount": 105,
       "fromPrice": {
         "value": 98,
         "currency": "USD"

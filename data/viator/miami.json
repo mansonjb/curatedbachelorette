@@ -1,8 +1,20 @@
 {
   "destinationId": 662,
   "destinationName": "miami",
-  "fetchedAt": "2026-04-29T05:35:02.639Z",
+  "fetchedAt": "2026-05-08T21:53:56.432Z",
   "products": [
+    {
+      "productCode": "348065P1",
+      "title": "Miami: 60 Minute Private Everglades Airboat Ride",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/3d/7c/ae.jpg",
+      "rating": 5,
+      "reviewCount": 153,
+      "fromPrice": {
+        "value": 135,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Miami/60-min-Everglades-Airboat-Private-Tour/d662-348065P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
     {
       "productCode": "250325P6",
       "title": "Award-winning Art Deco & Neon Lights Walking Tour in Miami Beach",
@@ -16,23 +28,11 @@
       "productUrl": "https://www.viator.com/tours/Miami/Miami-Vice-and-Art-Deco-history-and-locations-Walking-Tour/d662-250325P6?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
-      "productCode": "348065P1",
-      "title": "Miami: 60 Minute Private Everglades Airboat Ride",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/3d/7c/ae.jpg",
-      "rating": 5,
-      "reviewCount": 152,
-      "fromPrice": {
-        "value": 135,
-        "currency": "USD"
-      },
-      "productUrl": "https://www.viator.com/tours/Miami/60-min-Everglades-Airboat-Private-Tour/d662-348065P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
-    },
-    {
       "productCode": "348065P2",
       "title": "Miami: 90 Minute Private Everglades Airboat Ride",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/16/9c/6a/7a.jpg",
       "rating": 5,
-      "reviewCount": 140,
+      "reviewCount": 141,
       "fromPrice": {
         "value": 185,
         "currency": "USD"
@@ -44,7 +44,7 @@
       "title": "Miami Helicopter Tour Hard Rock and Beach",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/f2/82/5c.jpg",
       "rating": 5,
-      "reviewCount": 66,
+      "reviewCount": 70,
       "fromPrice": {
         "value": 179.55,
         "currency": "USD"

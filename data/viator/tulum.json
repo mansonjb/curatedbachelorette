@@ -1,0 +1,79 @@
+{
+  "destinationId": 23012,
+  "destinationName": "tulum",
+  "fetchedAt": "2026-05-08T21:53:57.267Z",
+  "products": [
+    {
+      "productCode": "160562P30",
+      "title": "Tulum: Leopard 51′ Yacht with Gourmet Dining & Water Toys",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/e7/50/b1.jpg",
+      "rating": 5,
+      "reviewCount": 239,
+      "fromPrice": {
+        "value": 3150,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Tulum/4-Hour-Private-51-power-Cat-Leopard-Up-to-15-people-Fun-and-YACHT/d23012-160562P30?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "391831P2",
+      "title": "Private Tour to Tulum, Cenote and Swimming with Turtles",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/32/b0/cf/02/caption.jpg",
+      "rating": 5,
+      "reviewCount": 228,
+      "fromPrice": {
+        "value": 328,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Playa-del-Carmen/Tulum-cenote-and-swimming-with-turtles-6h-PRIVATE-TOUR/d5501-391831P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "257593P1",
+      "title": "Sian Ka'an & Birdwatching Tours By Eddy",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0a/9a/47/e7.jpg",
+      "rating": 5,
+      "reviewCount": 133,
+      "fromPrice": {
+        "value": 95,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Tulum/Sian-Kaan-and-Birdwatching-Tours-By-Eddy/d23012-257593P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "275859P1",
+      "title": "Birdwatching in Sian Ka´an Muyil from Tulum - Shared Group Tour",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0b/22/33/64.jpg",
+      "rating": 5,
+      "reviewCount": 119,
+      "fromPrice": {
+        "value": 119,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Tulum/Bird-Watching-in-Sian-Kaan-and-Muyil-Archaeological-Site-from-Tulum/d23012-275859P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "11671P1",
+      "title": "Private Kiteboarding Lesson in Tulum",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0a/ff/f4/6c.jpg",
+      "rating": 5,
+      "reviewCount": 92,
+      "fromPrice": {
+        "value": 270,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Tulum/Private-Kiteboarding-Lessons-in-Tulum/d23012-11671P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "411679P3",
+      "title": "Luxury one way transfer to Tulum from Tulum airport",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/e3/34/44.jpg",
+      "rating": 5,
+      "reviewCount": 87,
+      "fromPrice": {
+        "value": 220,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Tulum/Luxury-Private-Transfer-From-Tulum-Airport-to-Tulum/d23012-411679P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}
