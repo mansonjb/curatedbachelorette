@@ -26,12 +26,6 @@ export const SEVILLA: DestinationCover = {
     { no: 2, name: "Hospes Las Casas del Rey de Baeza", area: "Santa Cruz", color: "var(--rose)", img: "/destinations/sevilla/hotel-2.jpg", note: "A 17th-century courtyard converted, forty rooms, a rooftop pool that catches the cathedral bell. Our default for groups of six.", price: "$$$" },
     { no: 3, name: "Corral del Rey", area: "Santa Cruz, deeper in", color: "var(--peach)", img: "/destinations/sevilla/hotel-3.jpg", note: "Thirteen rooms, family-run, the boutique answer for groups under six. Quiet, slightly hidden, the perfect light at 4PM on the roof.", price: "$$$" },
   ],
-  do: [
-    { hour: "Thursday 11AM", title: "Real Alcázar tour, with a guide, before the noon crowd.", img: IMG.sevilla2, color: "var(--blush)" },
-    { hour: "Friday 9AM", title: "Train to Jerez. Bodega tour, sherry tasting, lunch at the bodega.", img: IMG.sevilla3, color: "var(--peach)" },
-    { hour: "Saturday 6PM", title: "Flamenco at La Carbonería — locals' version, not the tablao tourist trap.", img: IMG.sevilla4, color: "var(--rose)" },
-    { hour: "Sunday 10AM", title: "Walk Triana across the river, pottery shops, end at the food market.", img: IMG.sevillaHero, color: "var(--cream)" },
-  ],
   eat: [
     { no: 1, name: "Casa Morales", area: "Santa Cruz", meal: "Wednesday tapas", note: "An 1850 bodega. Eight tapas, two cañas, stand at the barrel out front. The first meal that establishes the rhythm of the week.", img: "/destinations/sevilla/eat-1.jpg" },
     { no: 2, name: "Eslava", area: "San Lorenzo", meal: "Thursday lunch", note: "The tapas bar everyone wants a table at. Walk-up at 1PM, list your name, accept the wait. Honey-glazed pork ribs and a glass of fino.", img: "/destinations/sevilla/eat-2.jpg" },

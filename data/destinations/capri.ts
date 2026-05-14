@@ -26,12 +26,6 @@ export const CAPRI: DestinationCover = {
     { no: 2, name: "Hotel La Minerva", area: "Capri Town", color: "var(--peach)", img: "/destinations/capri/hotel-2.jpg", note: "Family-run, walking distance to the Piazzetta, a terrace looking at the Faraglioni. Half the price of J.K., 80% of the experience.", price: "$$$" },
     { no: 3, name: "Capri Palace", area: "Anacapri", color: "var(--blush-deep)", img: "/destinations/capri/hotel-3.jpg", note: "If you want quieter and more spa. Far enough from Capri Town to feel different, close enough by taxi to come back for dinner.", price: "$$$$" },
   ],
-  do: [
-    { hour: "Friday 10AM", title: "Private full-day boat tour — Faraglioni, Blue Grotto if calm, limoncello on board.", img: IMG.capri2, color: "var(--blush)" },
-    { hour: "Saturday 11AM", title: "Anacapri walk, Villa San Michele, slowly.", img: IMG.capri3, color: "var(--rose)" },
-    { hour: "Saturday 4PM", title: "Marina Piccola swim, before aperitivo.", img: IMG.capri4, color: "var(--peach)" },
-    { hour: "Sunday 10AM", title: "A private boat day-trip to Positano and Amalfi for the group that has time for it.", img: IMG.capriHero, color: "var(--cream)" },
-  ],
   night: [
     { no: 1, name: "Anema e Core", area: "Capri Town", kind: "Music tavern", note: "The institution. Guitar trio, locals dancing on the tables by 1AM, Italian families and Greek shipping heirs sharing the same room. Reserve, dress sharp, tip the band.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Anema+e+Core+Capri" },
     { no: 2, name: "Quisi Bar at Grand Hotel Quisisana", area: "Capri Town", kind: "Hotel cocktail bar", note: "Pre-dinner negroni, perfectly tailored bartender, the kind of room where you sit and watch the cast of characters pass through. Walk-in only.", when: "Daily, 7–10PM", link: "https://www.google.com/maps/search/?api=1&query=Quisisana+Capri" },

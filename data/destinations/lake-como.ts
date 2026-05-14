@@ -26,12 +26,6 @@ export const LAKE_COMO: DestinationCover = {
     { no: 2, name: "Grand Hotel Tremezzo", area: "Tremezzo (west shore)", color: "var(--blush-deep)", img: "/destinations/lake-como/hotel-2.jpg", note: "If you want the floating-pool photo and the white-glove service. Across the lake from Bellagio, ten minutes by boat. The full-luxury answer.", price: "$$$$" },
     { no: 3, name: "A rented villa, Tremezzina", area: "West shore villages", color: "var(--peach)", img: IMG.lakeComo4, note: "For groups of eight who want their own boat dock. The villas with private piers above Lenno are the gold standard. Book the year before for May.", price: "$$$$" },
   ],
-  do: [
-    { hour: "Friday 10AM", title: "Private boat day, mid-lake — Villa del Balbianello, Comacina, lunch on the water.", img: IMG.lakeComo2, color: "var(--blush)" },
-    { hour: "Saturday 11AM", title: "Walk Bellagio's old town, then ferry to Varenna for lunch.", img: IMG.lakeComo3, color: "var(--rose)" },
-    { hour: "Saturday 6PM", title: "Aperitif at the Hotel du Lac terrace, Varenna. One drink, before the ferry home.", img: IMG.lakeComo4, color: "var(--peach)" },
-    { hour: "Sunday 9AM", title: "Villa Carlotta gardens, then a long lunch in Tremezzo.", img: IMG.lakeComoHero, color: "var(--cream)" },
-  ],
   eat: [
     { no: 1, name: "Ristorante Silvio", area: "Bellagio (lake-edge)", meal: "Friday dinner", note: "Family-run, the freshwater fish is caught by the owner that morning. Sit on the terrace, order the perch, ask for the lemon-and-butter version.", img: "/destinations/lake-como/eat-1.jpg" },
     { no: 2, name: "La Punta", area: "Bellagio promontory", meal: "Saturday lunch alternative", note: "If you can't get to Varenna. The view is the photo, the kitchen is reliable, the lake breeze does the rest. Lunch only.", img: "/destinations/lake-como/eat-2.jpg" },

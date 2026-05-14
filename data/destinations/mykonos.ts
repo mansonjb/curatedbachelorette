@@ -26,12 +26,6 @@ export const MYKONOS: DestinationCover = {
     { no: 2, name: "Cavo Tagoo", area: "North coast", color: "var(--blush-deep)", img: "/destinations/mykonos/hotel-2.jpg", note: "If you want the resort experience and the photo. Ten-minute taxi to town. The infinity pool is the assignment.", price: "$$$$" },
     { no: 3, name: "A rented house, Agios Lazaros", area: "Above Psarou", color: "var(--peach)", img: IMG.mykonos4, note: "Our default for groups of six or eight. Look for a flat roof and a cypress at the gate.", price: "$$$" },
   ],
-  do: [
-    { hour: "Friday 11AM", title: "Private catamaran day, with lunch on board and one quiet anchorage.", img: IMG.mykonos2, color: "var(--blush)" },
-    { hour: "Saturday 10:30AM", title: "A private island tour with a local guide — Chora before the cruise ships.", img: IMG.mykonos3, color: "var(--cream)" },
-    { hour: "Saturday 6PM", title: "Sunset at Little Venice, with one drink.", img: IMG.mykonos4, color: "var(--rose)" },
-    { hour: "Sunday 11AM", title: "A Greek home-cooking class with Angelina — three hours, four dishes.", img: IMG.mykonosHero, color: "var(--sage)" },
-  ],
   night: [
     { no: 1, name: "Cavo Paradiso", area: "Paradise Beach", kind: "Megaclub", note: "The cliffside pool-club with the international DJ residency. Friday is the night; the bus from Chora runs late. One round and out.", when: "Friday in season", link: "https://www.google.com/maps/search/?api=1&query=Cavo+Paradiso+Mykonos" },
     { no: 2, name: "Scorpios", area: "Paraga Beach", kind: "Beach club", note: "The sunset-into-dance ritual that defined the modern Mykonos beach club. Reserve the long table for 6PM, leave by 11.", when: "Daily, season", link: "https://www.google.com/maps/search/?api=1&query=Scorpios+Mykonos" },

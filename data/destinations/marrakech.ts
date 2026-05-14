@@ -26,12 +26,6 @@ export const MARRAKECH: DestinationCover = {
     { no: 2, name: "Riad Mena", area: "Mouassine", color: "var(--rose)", img: "/destinations/marrakech/hotel-2.jpg", note: "Six rooms, a pool the size of a bathtub, an owner who'll cook a Friday couscous if you ask. The most authentic stay we book.", price: "$$$" },
     { no: 3, name: "Royal Mansour", area: "Hivernage", color: "var(--peach)", img: "/destinations/marrakech/hotel-3.jpg", note: "The grand-resort answer, outside the medina. Private riads, a spa that's worth the airfare alone. For groups who want zero medina friction.", price: "$$$$" },
   ],
-  do: [
-    { hour: "Friday 10AM", title: "Hammam at La Mamounia, two hours.", img: IMG.marrakech2, color: "var(--peach)" },
-    { hour: "Friday 5PM", title: "Agafay desert sunset dinner with a camel ride — 90 minutes from the medina, back by 11PM.", img: IMG.marrakech3, color: "var(--blush-deep)" },
-    { hour: "Saturday 9AM", title: "A private day in the Atlas Mountains and the five Berber valleys.", img: IMG.marrakech4, color: "var(--sage)" },
-    { hour: "Sunday 6AM", title: "A hot-air balloon over the Agafay, with a Berber breakfast on landing.", img: IMG.marrakechHero, color: "var(--rose)" },
-  ],
   night: [
     { no: 1, name: "Comptoir Darna", area: "Hivernage", kind: "Dinner-show", note: "The Moroccan-cabaret institution. Belly dancers between courses, a dance floor that fills by midnight, no irony. Reserve the upper level.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Comptoir+Darna+Marrakech" },
     { no: 2, name: "Theatro", area: "Hivernage", kind: "Club", note: "Built inside an actual theatre. Not subtle, very Marrakech. One night, one bottle, leave by 3 — the bachelorette package the venue knows by heart.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Theatro+Marrakech" },

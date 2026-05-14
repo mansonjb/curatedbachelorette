@@ -8,13 +8,6 @@ export type Stay = {
   price: string;
 };
 
-export type DoItem = {
-  hour: string;
-  title: string;
-  img: string;
-  color: string;
-};
-
 export type Eat = {
   no: number;
   name: string;
@@ -80,7 +73,6 @@ export type DestinationCover = {
   };
   intro: string[];
   stay: Stay[];
-  do: DoItem[];
   night?: NightItem[];
   eat: Eat[];
   pullQuote: { lead: string; emphasis: string; tail: string; cite: string };

@@ -26,12 +26,6 @@ export const IBIZA: DestinationCover = {
     { no: 2, name: "Six Senses Ibiza", area: "Cala Xarraca", color: "var(--rose)", img: "/destinations/ibiza/hotel-2.jpg", note: "If you don't want to manage a villa. North-facing, a real spa, a beach club that closes by ten.", price: "$$$$" },
     { no: 3, name: "Hacienda Na Xamena", area: "San Miguel", color: "var(--peach)", img: "/destinations/ibiza/hotel-3.jpg", note: "The classic cliffside hotel. The infinity pool is the photo, the silence at 7AM is the reason.", price: "$$$$" },
   ],
-  do: [
-    { hour: "Thursday 11AM", title: "Private four-hour Mediterranean boat charter, with snorkelling.", img: IMG.ibiza2, color: "var(--blush)" },
-    { hour: "Friday 6PM", title: "Es Vedrà sunset by sail — book the small boat, not the party catamaran.", img: IMG.ibiza3, color: "var(--blush-deep)" },
-    { hour: "Saturday 9AM", title: "A Formentera day-escape. Two hours each way, beach in between.", img: IMG.ibiza4, color: "var(--peach)" },
-    { hour: "Sunday 10AM", title: "A guided hike to a hidden cove with a local. Two hours, no rush.", img: IMG.ibizaHero, color: "var(--rose)" },
-  ],
   night: [
     { no: 1, name: "Pacha", area: "Marina Botafoch", kind: "Club", note: "The institution. Friday Flower Power night is the one — costumed, joyful, much less pretentious than the megaclubs.", when: "Friday", link: "https://www.google.com/maps/search/?api=1&query=Pacha+Ibiza" },
     { no: 2, name: "Hï Ibiza", area: "Playa d'en Bossa", kind: "Megaclub", note: "If you want one big night with a name DJ, do it here. Skip the main floor for the smaller Wild Room behind it; it's where the locals go.", when: "Tuesday & Saturday in season", link: "https://www.google.com/maps/search/?api=1&query=Hi+Ibiza" },

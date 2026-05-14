@@ -26,12 +26,6 @@ export const TULUM: DestinationCover = {
     { no: 2, name: "Be Tulum", area: "Beach road, south end", color: "var(--blush-deep)", img: "/destinations/tulum/hotel-2.jpg", note: "If the group wants beach-club proximity. South end is calmer. The pool is the photo, the suites are the reason.", price: "$$$$" },
     { no: 3, name: "A rented casa, Aldea Zama", area: "Aldea Zama", color: "var(--peach)", img: IMG.tulum4, note: "Our default for groups of eight. Twenty minutes inland, gated, a real kitchen, ten minutes to the beach by car.", price: "$$$" },
   ],
-  do: [
-    { hour: "Friday 7AM", title: "Cenote at sunrise — Gran Cenote, before the tour buses arrive.", img: IMG.tulum2, color: "var(--sage)" },
-    { hour: "Saturday 11AM", title: "Mayan ruins of Tulum, the early entry, ninety minutes.", img: IMG.tulum3, color: "var(--peach)" },
-    { hour: "Saturday 4PM", title: "Beach-club lunch at the quieter south end. Linen, not glitter.", img: IMG.tulum4, color: "var(--blush)" },
-    { hour: "Sunday 9AM", title: "Yoga in a private palapa, then breakfast at the hotel.", img: IMG.tulumHero, color: "var(--rose)" },
-  ],
   eat: [
     { no: 1, name: "Hartwood", area: "Beach road, north", meal: "Friday dinner", note: "The classic Tulum room. Live fire, no electricity after sundown, walk-ups only at 5:30PM. Show up at 5:15.", img: "/destinations/tulum/eat-1.jpg" },
     { no: 2, name: "Arca", area: "Beach road", meal: "Saturday lunch", note: "Lighter, shorter list, vegetable-forward. The cabana under the parota tree is the table to ask for.", img: "/destinations/tulum/eat-2.jpg" },

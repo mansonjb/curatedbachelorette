@@ -26,12 +26,6 @@ export const SANTORINI: DestinationCover = {
     { no: 2, name: "Aria Suites", area: "Fira", color: "var(--peach)", img: "/destinations/santorini/hotel-2.jpg", note: "Walking distance to dinner, a real plunge pool, the kind of suite that makes the bride forget the airport.", price: "$$$" },
     { no: 3, name: "Mystique, a Luxury Collection", area: "Oia", color: "var(--blush-deep)", img: "/destinations/santorini/hotel-3.jpg", note: "If you must do Oia, do it from a cave suite that opens onto a stone terrace at the cliff edge.", price: "$$$$" },
   ],
-  do: [
-    { hour: "Thursday 10AM", title: "A private catamaran day around the caldera, with a swim at the hot springs.", img: IMG.santorini2, color: "var(--blush)" },
-    { hour: "Friday 5PM", title: "A wine-tasting afternoon at a Vinsanto producer in Pyrgos.", img: IMG.santorini3, color: "var(--rose)" },
-    { hour: "Saturday 9AM", title: "A small-group hike from Fira to Oia along the caldera, three hours, easy.", img: IMG.santorini4, color: "var(--peach)" },
-    { hour: "Sunday 8PM", title: "Sunset at Imerovigli — the view Oia takes credit for, without the queue.", img: IMG.santoriniHero, color: "var(--cream)" },
-  ],
   night: [
     { no: 1, name: "MoMix Bar", area: "Fira", kind: "Cocktail bar", note: "The molecular-cocktail bar Santorini doesn't get enough credit for. Ask for the Smoke Show; the rest of the menu writes itself.", when: "Daily", link: "https://www.google.com/maps/search/?api=1&query=MoMix+Bar+Fira" },
     { no: 2, name: "Tango Cocktail Bar", area: "Fira", kind: "Lounge", note: "The cliff-edge lounge where you nurse a glass through sunset and the slow shift to blue hour. Quiet enough to hear yourself.", when: "Daily, sunset", link: "https://www.google.com/maps/search/?api=1&query=Tango+Bar+Fira" },

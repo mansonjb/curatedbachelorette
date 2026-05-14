@@ -26,12 +26,6 @@ export const HVAR: DestinationCover = {
     { no: 2, name: "Palace Elisabeth", area: "Hvar Town", color: "var(--rose)", img: "/destinations/hvar/hotel-2.jpg", note: "On the main square, a 13th-century palace with thirty-five rooms. The only Hvar Town hotel we'd choose for a group of six.", price: "$$$$" },
     { no: 3, name: "A rented stone villa, Vrboska", area: "Vrboska", color: "var(--peach)", img: IMG.hvar4, note: "Our default for groups of eight or ten. Fishing-village quiet, a private dock, ten minutes by car from town.", price: "$$$" },
   ],
-  do: [
-    { hour: "Friday 10AM", title: "A private speedboat day across the Pakleni Islands, with two swim stops.", img: IMG.hvar2, color: "var(--blush)" },
-    { hour: "Saturday 11AM", title: "A small-group day-trip to the Blue and Green Caves on Vis.", img: IMG.hvar3, color: "var(--rose)" },
-    { hour: "Saturday 5PM", title: "A wine-and-olive-oil tasting at a small Stari Grad producer.", img: IMG.hvar4, color: "var(--peach)" },
-    { hour: "Sunday 10AM", title: "A guided lavender-field walk through the Plain, slowly. Two hours.", img: IMG.hvarHero, color: "var(--cream)" },
-  ],
   night: [
     { no: 1, name: "Hula Hula Hvar", area: "Majerovica", kind: "Sunset beach bar", note: "The Hvar institution. Sunset drinks on the rocks, locals on stools, every Croatian song you'll never know the lyrics to. Cash only, sandals welcome.", when: "Daily, season", link: "https://www.google.com/maps/search/?api=1&query=Hula+Hula+Hvar" },
     { no: 2, name: "Carpe Diem Beach", area: "Stipanska Island", kind: "Island club", note: "The boat-in club on a tiny island offshore. Last shuttle back at 5AM if you're up for it; we usually leave at 1.", when: "Friday & Saturday in season", link: "https://www.google.com/maps/search/?api=1&query=Carpe+Diem+Beach+Hvar" },

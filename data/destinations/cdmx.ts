@@ -26,12 +26,6 @@ export const CDMX: DestinationCover = {
     { no: 2, name: "Octavia Casa", area: "Roma Norte", color: "var(--rose)", img: "/destinations/cdmx/hotel-2.jpg", note: "Eight rooms, a courtyard, a single record player. The right answer for groups of four to six.", price: "$$$" },
     { no: 3, name: "A rented apartment, Condesa", area: "Condesa", color: "var(--sage)", img: IMG.cdmx4, note: "What we book for eight or more. Look for two-floor places with a roof and a kitchen nobody will use.", price: "$$" },
   ],
-  do: [
-    { hour: "Friday 11AM", title: "Casa Luis Barragán, by appointment.", img: IMG.cdmx2, color: "var(--rose)" },
-    { hour: "Saturday 7AM", title: "A private day at Teotihuacán — pyramids before the buses, back by lunch.", img: IMG.cdmx3, color: "var(--blush)" },
-    { hour: "Saturday 5PM", title: "A private Mexican cooking class with a gastronomic historian, three hours.", img: IMG.cdmx4, color: "var(--peach)" },
-    { hour: "Sunday 7AM", title: "Xochimilco at sunrise, with breakfast on the trajinera.", img: IMG.cdmxHero, color: "var(--cream)" },
-  ],
   night: [
     { no: 1, name: "Departamento", area: "Juárez", kind: "Club", note: "Two floors, the second one is where the night happens. The DJ booth runs into Sunday morning if you let it. Wear black, smile at the door.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Departamento+Mexico+City" },
     { no: 2, name: "Hanky Panky", area: "Juárez", kind: "Speakeasy", note: "Through an unmarked door behind a taco shop. The CDMX cocktail bar that put the city on the World's 50 Best list. Reservation essential.", when: "Daily, until 2AM", link: "https://www.google.com/maps/search/?api=1&query=Hanky+Panky+CDMX" },

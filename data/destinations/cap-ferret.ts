@@ -26,12 +26,6 @@ export const CAP_FERRET: DestinationCover = {
     { no: 2, name: "Hôtel des Pins", area: "Cap Ferret village", color: "var(--rose)", img: "/destinations/cap-ferret/hotel-2.jpg", note: "Older Cap Ferret hotel, lower-key. Closer to the lighthouse, slightly more 'auberge' than 'boutique.' The right answer for groups of four.", price: "$$$" },
     { no: 3, name: "A rented cabane, Petit Piquey", area: "Petit Piquey", color: "var(--peach)", img: IMG.capFerret4, note: "What we book for groups of six and up. Pine trees, outdoor shower, a five-minute walk to oysters at the dock. The summer is booked by April.", price: "$$$$" },
   ],
-  do: [
-    { hour: "Friday 12PM", title: "Oyster lunch at Chez Hortense — pine trees, white wine, the dock.", img: IMG.capFerret2, color: "var(--sage)" },
-    { hour: "Saturday 11AM", title: "Boat to Dune du Pilat, climb the dune, swim back at the foot.", img: IMG.capFerret3, color: "var(--blush)" },
-    { hour: "Saturday 6PM", title: "Beach sunset, Atlantic side. The lighthouse path then the cabin bar.", img: IMG.capFerret4, color: "var(--peach)" },
-    { hour: "Sunday 11AM", title: "Bike the peninsula. Cap Ferret to L'Herbe, two oysters, ride back.", img: IMG.capFerretHero, color: "var(--rose)" },
-  ],
   eat: [
     { no: 1, name: "Chez Hortense", area: "Cap Ferret pointe", meal: "Friday lunch", note: "The institution. Mussels with cream, twelve oysters per person, a pichet of Entre-deux-Mers. The lunch the trip rotates around. Reserve from June.", img: "/destinations/cap-ferret/eat-1.jpg" },
     { no: 2, name: "Pinasse Café", area: "Cap Ferret village", meal: "Saturday dinner", note: "The terrace at sunset; the kitchen that took a beach restaurant seriously. Sole meunière, oeufs mimosa, a long wine list with Margaux at the right price.", img: "/destinations/cap-ferret/eat-2.jpg" },

@@ -26,12 +26,6 @@ export const COMPORTA: DestinationCover = {
     { no: 2, name: "Sublime Comporta", area: "Muda", color: "var(--peach)", img: "/destinations/comporta/hotel-2.jpg", note: "Twenty-two villas tucked into the cork forest, each with a plunge pool and a hammock. The right answer for groups of six.", price: "$$$$" },
     { no: 3, name: "A rented stilted casa", area: "Pego", color: "var(--rose)", img: IMG.comporta4, note: "What we book for groups of eight. Wood, white linen, a path through the dunes that ends at the ocean.", price: "$$$" },
   ],
-  do: [
-    { hour: "Thursday 5PM", title: "A walk down the dune path to the ocean. The whole trip resets.", img: IMG.comporta2, color: "var(--rose)" },
-    { hour: "Friday 10AM", title: "A horseback ride along Pego beach at low tide, two hours.", img: IMG.comporta3, color: "var(--peach)" },
-    { hour: "Saturday 11AM", title: "A private day-trip across the river to Setúbal — Arrábida cliffs, a fish lunch, dolphin spotting.", img: IMG.comporta4, color: "var(--blush)" },
-    { hour: "Sunday 4PM", title: "A wine-and-cheese tasting at a small producer in the hills above Comporta.", img: IMG.comportaHero, color: "var(--cream)" },
-  ],
   night: [
     { no: 1, name: "Sublime Comporta bar", area: "Sublime Comporta", kind: "Hotel cocktail bar", note: "Pre-dinner negroni in the lounge that smells of wood and fig. Open to non-residents; reserve at 7 if you're staying off-property.", when: "Daily", link: "https://www.google.com/maps/search/?api=1&query=Sublime+Comporta" },
     { no: 2, name: "Sal Comporta", area: "Praia do Pego", kind: "Beach bar", note: "On the sand, sunset only. One round of vinho verde, watch the dogs run the dunes, then walk back through the pines for dinner.", when: "Daily, May–Oct", link: "https://www.google.com/maps/search/?api=1&query=Sal+Restaurante+Comporta" },

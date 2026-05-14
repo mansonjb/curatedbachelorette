@@ -26,12 +26,6 @@ export const MALLORCA: DestinationCover = {
     { no: 2, name: "Son Brull", area: "Pollença", color: "var(--sage)", img: "/destinations/mallorca/hotel-2.jpg", note: "A converted 18th-century monastery on the north of the island. Quieter than Deià, ten minutes from the cleanest north-coast beaches.", price: "$$$$" },
     { no: 3, name: "A rented finca, Sóller", area: "Sóller valley", color: "var(--peach)", img: "/destinations/mallorca/hotel-3.jpg", note: "What we book for groups of eight or ten. Citrus orchard, a long pool, a kitchen nobody will use because lunch is always out.", price: "$$$" },
   ],
-  do: [
-    { hour: "Thursday 10AM", title: "A private boat day from Port de Sóller — Sa Foradada, Cala Deià for lunch.", img: IMG.mallorca2, color: "var(--blush)" },
-    { hour: "Friday 11AM", title: "A small-group walk through the Tramuntana — olive terraces above Deià, two hours, lunch in a stone village.", img: IMG.mallorca3, color: "var(--rose)" },
-    { hour: "Saturday 11AM", title: "A wine-and-vermouth tasting at a Binissalem winery, with a tapas lunch.", img: IMG.mallorca4, color: "var(--peach)" },
-    { hour: "Sunday 9AM", title: "A morning at Cala Deià, the cove below Belmond — swim, lunch at Ca's Patró March, slowly.", img: IMG.mallorcaHero, color: "var(--cream)" },
-  ],
   night: [
     { no: 1, name: "Purobeach Palma", area: "Cala Estancia", kind: "Beach club", note: "The white-on-white beach club that started the genre. Daybeds at 1PM, dinner at 9, DJ to midnight. Skip Magaluf and come here instead.", when: "Daily, May–Oct", link: "https://www.google.com/maps/search/?api=1&query=Purobeach+Palma" },
     { no: 2, name: "Marula Café", area: "Sóller", kind: "Live-music bar", note: "The off-grid Tramuntana favourite. Three musicians, twenty seats, a single negroni you'll remember. Walk-in only, opens at 9.", when: "Wednesday–Saturday", link: "https://www.google.com/maps/search/?api=1&query=Marula+Cafe+Soller" },

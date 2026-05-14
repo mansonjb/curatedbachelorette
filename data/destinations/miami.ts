@@ -26,12 +26,6 @@ export const MIAMI: DestinationCover = {
     { no: 2, name: "Casa Faena", area: "Mid-Beach", color: "var(--blush-deep)", img: "/destinations/miami/hotel-2.jpg", note: "Old grande dame, gilded edges, the pool that used to be a chapel.", price: "$$$$" },
     { no: 3, name: "Esme Hotel", area: "Española Way", color: "var(--rose)", img: "/destinations/miami/hotel-3.jpg", note: "Walking-distance everything. Tile, more tile, a record player.", price: "$$$" },
   ],
-  do: [
-    { hour: "Friday 4PM", title: "An afternoon at the pool, undisturbed.", img: IMG.miami2, color: "var(--blush)" },
-    { hour: "Saturday 10AM", title: "An award-winning Art Deco walking tour of South Beach, ninety minutes.", img: IMG.miami3, color: "var(--cream)" },
-    { hour: "Saturday 4PM", title: "A sailboat in Biscayne Bay. Two hours. No costume.", img: IMG.miami4, color: "var(--rose)" },
-    { hour: "Sunday 11AM", title: "A small-group cigar factory tour in Little Havana, then a long lunch.", img: IMG.miamiHero, color: "var(--peach)" },
-  ],
   night: [
     { no: 1, name: "LIV at Fontainebleau", area: "Mid-Beach", kind: "Megaclub", note: "The Miami megaclub. Sunday is the night, bottle service is the move, get your name on the list before you fly.", when: "Sunday", link: "https://www.google.com/maps/search/?api=1&query=LIV+Miami+Fontainebleau" },
     { no: 2, name: "E11even", area: "Park West", kind: "24-hour club", note: "Open all night, every night, gravity-defying performers. Genuinely chaotic in the best possible way; one visit will tell you if you want a second.", when: "Daily, peak Saturday", link: "https://www.google.com/maps/search/?api=1&query=E11even+Miami" },

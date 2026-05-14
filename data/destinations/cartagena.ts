@@ -26,12 +26,6 @@ export const CARTAGENA: DestinationCover = {
     { no: 2, name: "Sofitel Santa Clara", area: "San Diego barrio", color: "var(--blush-deep)", img: "/destinations/cartagena/hotel-2.jpg", note: "A 17th-century convent. Bigger, more formal, the better answer for groups of eight or ten. The cloister bar at sundown is the photo.", price: "$$$$" },
     { no: 3, name: "A rented house, Getsemaní", area: "Getsemaní", color: "var(--peach)", img: IMG.cartagena4, note: "The artsy barrio just outside the walls. Loud at night, lively, the rented houses have rooftops with hammocks. Not the calm option.", price: "$$" },
   ],
-  do: [
-    { hour: "Friday 9AM", title: "Boat to the Rosario Islands. Casa Pestagua's day-pass at Isla Marimar.", img: IMG.cartagena2, color: "var(--blush)" },
-    { hour: "Saturday 11AM", title: "Walk the walled city — Centro and San Diego, with a guide for the first hour.", img: IMG.cartagena3, color: "var(--cream)" },
-    { hour: "Saturday 5PM", title: "Sunset from the city walls at Café del Mar. One drink, then dinner.", img: IMG.cartagena4, color: "var(--rose)" },
-    { hour: "Sunday 11AM", title: "Mercado de Bazurto with a chef-led food tour. Three hours, twelve tastings.", img: IMG.cartagenaHero, color: "var(--peach)" },
-  ],
   eat: [
     { no: 1, name: "Carmen", area: "Centro", meal: "Friday dinner", note: "The eight-course tasting menu in a converted patio. Quiet, careful, the kitchen is one of the best in Latin America right now. Reserve four weeks out.", img: "/destinations/cartagena/eat-1.jpg" },
     { no: 2, name: "Celele", area: "Getsemaní", meal: "Saturday lunch", note: "Caribbean-Colombian, ingredient-driven, the room is small and the chefs are visible. The Saturday lunch that becomes the trip's main meal.", img: "/destinations/cartagena/eat-2.jpg" },

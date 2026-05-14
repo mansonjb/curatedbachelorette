@@ -26,12 +26,6 @@ export const SAINT_TROPEZ: DestinationCover = {
     { no: 2, name: "Lily of the Valley", area: "La Croix-Valmer", color: "var(--sage)", img: "/destinations/saint-tropez/hotel-2.jpg", note: "Twenty minutes from the village, a real spa, a hill of vines. We send people who want a longer breakfast and shorter dinners.", price: "$$$$" },
     { no: 3, name: "A rented house, Ramatuelle", area: "Ramatuelle hills", color: "var(--peach)", img: IMG.tropez4, note: "Our default for groups of six or eight. Cypress, a pool, twenty minutes to the village, fifteen to the beach.", price: "$$$" },
   ],
-  do: [
-    { hour: "Thursday 6PM", title: "Aperitif at Senequier, port-side, slowly.", img: IMG.tropez2, color: "var(--blush)" },
-    { hour: "Friday 10AM", title: "A private boat charter in the Bay of Saint-Tropez, Cap Camarat to Pampelonne.", img: IMG.tropez3, color: "var(--rose)" },
-    { hour: "Saturday 11AM", title: "Walk Ramatuelle. Café in the square.", img: IMG.tropez4, color: "var(--cream)" },
-    { hour: "Sunday 9AM", title: "A private day-trip down the coast — Èze village, Monte Carlo, and home by aperitivo.", img: IMG.tropezHero, color: "var(--peach)" },
-  ],
   night: [
     { no: 1, name: "Les Caves du Roy", area: "Hotel Byblos", kind: "Club", note: "The myth. Dress cleanly, bring cash, drink slowly. Worth the once-in-a-lifetime visit even if the door makes you wait twenty minutes.", when: "Friday & Saturday in season", link: "https://www.google.com/maps/search/?api=1&query=Les+Caves+du+Roy+Saint+Tropez" },
     { no: 2, name: "Sénéquier", area: "Vieux Port", kind: "Aperitif terrace", note: "The red-canvas tables on the harbour. One glass of rosé, watch the boats come in, leave by 8. The Tropez ritual that costs €18.", when: "Daily, 6–8PM", link: "https://www.google.com/maps/search/?api=1&query=Senequier+Saint+Tropez" },

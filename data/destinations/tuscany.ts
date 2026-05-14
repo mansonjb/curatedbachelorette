@@ -26,12 +26,6 @@ export const TUSCANY: DestinationCover = {
     { no: 2, name: "A rented villa, Chianti", area: "Greve / Radda area", color: "var(--sage)", img: IMG.tuscany3, note: "Our default for eight. Eight bedrooms, a chef on call, a vineyard ten minutes' drive in any direction. Book the year before for September.", price: "$$$$" },
     { no: 3, name: "Borgo Santo Pietro", area: "Chiusdino, southern Chianti", color: "var(--rose)", img: "/destinations/tuscany/hotel-3.jpg", note: "Twenty rooms, two Michelin-starred restaurant on site, a kitchen garden you can walk through before dinner. The full-luxury answer.", price: "$$$$" },
   ],
-  do: [
-    { hour: "Friday 10AM", title: "Vineyard tour + lunch at Castello di Ama — Chianti Classico, four hours.", img: IMG.tuscany2, color: "var(--blush)" },
-    { hour: "Saturday 9AM", title: "Day in Florence — Uffizi reserved entry, lunch at Trattoria Sabatino, train back.", img: IMG.tuscany3, color: "var(--rose)" },
-    { hour: "Sunday 10AM", title: "Cooking class at the villa, two hours, the pasta you'll eat at lunch.", img: IMG.tuscany4, color: "var(--peach)" },
-    { hour: "Monday 9AM", title: "Greve market, Saturday-only, the cheese stall and the prosciutto man.", img: IMG.tuscanyHero, color: "var(--cream)" },
-  ],
   eat: [
     { no: 1, name: "Osteria di Passignano", area: "Tavarnelle Val di Pesa", meal: "Friday dinner", note: "Antinori-family restaurant, attached to the Badia winery. Reserve the back terrace, ask for the wine pairing. The Saturday-dinner the trip ends up calling 'the dinner.'", img: "/destinations/tuscany/eat-1.jpg" },
     { no: 2, name: "La Bottega del 30", area: "Villa a Sesta", meal: "Saturday lunch alternative", note: "One Michelin star, a 1976 dining room that hasn't changed. The signora cooks; the husband pours. Lunch is six courses and you'll need a nap.", img: "/destinations/tuscany/eat-2.jpg" },

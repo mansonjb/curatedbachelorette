@@ -26,12 +26,6 @@ export const LISBON: DestinationCover = {
     { no: 2, name: "The Lumiares", area: "Bairro Alto", color: "var(--blush-deep)", img: "/destinations/lisbon/hotel-2.jpg", note: "Apartments more than rooms. The rooftop bar is fine; the kitchenettes are the point.", price: "$$$" },
     { no: 3, name: "A rented house, Príncipe Real", area: "Príncipe Real", color: "var(--sage)", img: IMG.lisbon4, note: "Our default for groups of six or eight. Look for a courtyard and an oven nobody will use.", price: "$$" },
   ],
-  do: [
-    { hour: "Thursday 10AM", title: "A private guided tuk-tuk through Alfama and Bairro Alto — the city in three hours.", img: IMG.lisbon2, color: "var(--cream)" },
-    { hour: "Friday 9AM", title: "A private full-day to Sintra — Pena Palace, Quinta da Regaleira, all tickets sorted.", img: IMG.lisbon3, color: "var(--peach)" },
-    { hour: "Saturday 9AM", title: "An inland day-trip — Knights Templar castle, Nazaré, the white village of Óbidos.", img: IMG.lisbon4, color: "var(--rose)" },
-    { hour: "Saturday 6PM", title: "Sunset at the Miradouro de Santa Catarina, with one drink.", img: IMG.lisbonHero, color: "var(--blush)" },
-  ],
   night: [
     { no: 1, name: "Lux Frágil", area: "Santa Apolónia", kind: "Club", note: "The Lisbon club. Three floors, riverfront terrace, owner has impeccable taste in DJs. Worth the late arrival; nothing happens before 1AM.", when: "Friday & Saturday", link: "https://www.google.com/maps/search/?api=1&query=Lux+Fragil+Lisbon" },
     { no: 2, name: "Pensão Amor", area: "Cais do Sodré", kind: "Cabaret-bar", note: "Pink-velvet, mirrored, slightly louche. Cocktails on the upper floor, burlesque on the lower. Pre-dinner or post-dinner, both work.", when: "Daily", link: "https://www.google.com/maps/search/?api=1&query=Pensao+Amor+Lisbon" },
