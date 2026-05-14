@@ -1,7 +1,7 @@
 {
   "destinationId": 179,
   "destinationName": "saint-tropez",
-  "fetchedAt": "2026-05-08T21:53:54.047Z",
+  "fetchedAt": "2026-05-14T05:44:11.748Z",
   "products": [
     {
       "productCode": "420556P1",
@@ -10,7 +10,7 @@
       "rating": 5,
       "reviewCount": 121,
       "fromPrice": {
-        "value": 597.64,
+        "value": 596.89,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Nice/Luxury-Day-Boat-for-rent-in-Saint-Jean-Cap-Ferrat/d478-420556P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -22,7 +22,7 @@
       "rating": 5,
       "reviewCount": 97,
       "fromPrice": {
-        "value": 566.74,
+        "value": 650.62,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Cannes/The-most-exhaustive-tour-of-French-Riviera-certified-tour-guide/d786-467701P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -34,22 +34,10 @@
       "rating": 5,
       "reviewCount": 91,
       "fromPrice": {
-        "value": 572.54,
+        "value": 536.01,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Cogolin/Private-Boat-Charter-in-the-Bay-of-St-Tropez/d50414-75054P13?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
-    },
-    {
-      "productCode": "42535P1",
-      "title": "Romantic Private Tour for 2 plus guide on your own Solar Powered Boat",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0a/b8/60/7a.jpg",
-      "rating": 5,
-      "reviewCount": 73,
-      "fromPrice": {
-        "value": 181.68,
-        "currency": "USD"
-      },
-      "productUrl": "https://www.viator.com/tours/Beaulieu-sur-Mer/Private-Tour-1-Hour-French-Riviera-Solar-Boat-Cruise-from-Saint-Jean-Cap-Ferrat/d50249-42535P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
       "productCode": "72085P14",
@@ -58,7 +46,7 @@
       "rating": 5,
       "reviewCount": 70,
       "fromPrice": {
-        "value": 346.63,
+        "value": 346.2,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Cannes/Private-Boat-Tour-Cannes-Lerins-Islands/d786-72085P14?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -70,10 +58,22 @@
       "rating": 5,
       "reviewCount": 54,
       "fromPrice": {
-        "value": 753.02,
+        "value": 752.09,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Nice/Eze-Monaco-and-Monte-Carlo-Half-Day/d478-5497912P11?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "479450P1",
+      "title": "2 Hour Walking Tour in the Old Town of Antibes",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/32/bf/76/b5/caption.jpg",
+      "rating": 5,
+      "reviewCount": 51,
+      "fromPrice": {
+        "value": 29.84,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Antibes/Antibes-2-hour-walking-tour-in-the-old-town/d21941-479450P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     }
   ]
 }

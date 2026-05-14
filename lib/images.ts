@@ -48,6 +48,9 @@ export const IMG = {
   tulumHero: D("tulum"),
   cartagenaHero: D("cartagena"),
   lakeComoHero: D("lake-como"),
+  sevillaHero: D("sevilla"),
+  tuscanyHero: D("tuscany"),
+  capFerretHero: D("cap-ferret"),
 
   // -------- Per-destination secondary shots (Places API, local) --------
   ibiza2: D("ibiza", 2), ibiza3: D("ibiza", 3), ibiza4: D("ibiza", 4),
@@ -65,6 +68,9 @@ export const IMG = {
   tulum2: D("tulum", 2), tulum3: D("tulum", 3), tulum4: D("tulum", 4),
   cartagena2: D("cartagena", 2), cartagena3: D("cartagena", 3), cartagena4: D("cartagena", 4),
   lakeComo2: D("lake-como", 2), lakeComo3: D("lake-como", 3), lakeComo4: D("lake-como", 4),
+  sevilla2: D("sevilla", 2), sevilla3: D("sevilla", 3), sevilla4: D("sevilla", 4),
+  tuscany2: D("tuscany", 2), tuscany3: D("tuscany", 3), tuscany4: D("tuscany", 4),
+  capFerret2: D("cap-ferret", 2), capFerret3: D("cap-ferret", 3), capFerret4: D("cap-ferret", 4),
 
   // -------- Legacy keys still referenced in some old data files --------
   miamiPalms: D("miami"),

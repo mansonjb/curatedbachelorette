@@ -1,0 +1,77 @@
+{
+  "destinationId": 26516,
+  "destinationName": "cap-ferret",
+  "fetchedAt": "2026-05-14T05:44:17.167Z",
+  "products": [
+    {
+      "productCode": "110804P888",
+      "title": "Exploring Arcachon: A Self Guided Walking Tour",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/70/b9/96.jpg",
+      "rating": 5,
+      "reviewCount": 3,
+      "fromPrice": {
+        "value": 14.99,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Arcachon/Exploring-Arcachon-A-Self-Guided-Walking-Tour/d26516-110804P888?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "132681P25",
+      "title": "Arcachon: Guided City Walking Tour",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/09/6b/d4.jpg",
+      "rating": 5,
+      "reviewCount": 1,
+      "fromPrice": {
+        "value": 238.16,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Arcachon/Arcachon-Guided-City-Walking-Tour/d26516-132681P25?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "5565209P5",
+      "title": "Visit Arcachon in a fun and captivating way!",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/bc/9e/d2.jpg",
+      "rating": 4.9666667,
+      "reviewCount": 30,
+      "fromPrice": {
+        "value": 29.73,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Arcachon/Visit-Arcachon-in-a-fun-and-captivating-way/d26516-5565209P5?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "129020P1",
+      "title": "Surfing lessons",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0a/4b/c7/34.jpg",
+      "rating": 4.96,
+      "reviewCount": 25,
+      "fromPrice": {
+        "value": 71.63,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Arcachon/Surfing-and-Stand-Up-Paddle-Classes-and-Rentals/d26516-129020P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "110321P27",
+      "title": "Private Sightseeing Flight above the Arcachon Bay",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/0b/ea/e2.jpg",
+      "rating": 3.6666667,
+      "reviewCount": 3,
+      "fromPrice": {
+        "value": 177.87,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Arcachon/Fly-Over-the-Arcachon-Bay-in-a-Private-Plane-with-Wingly/d26516-110321P27?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "5577016P128",
+      "title": "Arcachon Audio Guided Walking Tour 1h30 and 19 audio reviews",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/17/14/ad/10.jpg",
+      "fromPrice": {
+        "value": 7.04,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Arcachon/Arcachon-Audio-Guided-Walking-Tour-1h30-and-19-audio-reviews/d26516-5577016P128?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

@@ -1,16 +1,16 @@
 {
   "destinationId": 26113,
   "destinationName": "lake-como",
-  "fetchedAt": "2026-05-08T21:53:58.183Z",
+  "fetchedAt": "2026-05-14T05:44:15.911Z",
   "products": [
     {
       "productCode": "485381P1",
       "title": "Lake Como Private Boat Tour from Bellagio with a Local",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/67/d9/a7.jpg",
       "rating": 5,
-      "reviewCount": 233,
+      "reviewCount": 239,
       "fromPrice": {
-        "value": 346.63,
+        "value": 346.2,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lake-Como/Boat-tour-como-lake-experience/d26113-485381P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -22,7 +22,7 @@
       "rating": 5,
       "reviewCount": 169,
       "fromPrice": {
-        "value": 203.2,
+        "value": 202.94,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lake-Como/Group-Bike-Tour-Onno-and-Ghisallino-E-bikes-and-Road-bikes/d26113-122537P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -32,9 +32,9 @@
       "title": "Private Cruise on Lake Como with Luxury Motorboat from 1H to 4H",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/e3/19/7e.jpg",
       "rating": 5,
-      "reviewCount": 117,
+      "reviewCount": 118,
       "fromPrice": {
-        "value": 382.49,
+        "value": 382.01,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lake-Como/1-Hour-Private-Cruise-and-Lake-Como-by-Motorboat/d26113-389847P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -46,7 +46,7 @@
       "rating": 5,
       "reviewCount": 96,
       "fromPrice": {
-        "value": 1183.32,
+        "value": 1181.85,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lake-Como/Lake-Como-Motorbike-Motorcycle-tour-around-Lake-Como-and-the-Alps/d26113-44840P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -58,19 +58,19 @@
       "rating": 5,
       "reviewCount": 60,
       "fromPrice": {
-        "value": 107.57,
+        "value": 107.44,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lake-Como/Boat-Tour-Central-Lake-Como/d26113-5574010P4?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
       "productCode": "456186P3",
-      "title": "Private Boat Tour on Lake Como",
+      "title": "Private Boat Tour on Lake Como: Prosecco and Villas",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/32/ec/4e/36/caption.jpg",
       "rating": 5,
       "reviewCount": 55,
       "fromPrice": {
-        "value": 478.11,
+        "value": 477.52,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Lake-Como/2-hour-private-boat-tour-on-Lake-Como/d26113-456186P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"

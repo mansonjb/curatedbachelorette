@@ -52,6 +52,11 @@ export const VIATOR_DESTINATION_IDS: Record<string, number> = {
   tulum: 23012,
   cartagena: 4498,
   "lake-como": 26113,
+  sevilla: 556,
+  tuscany: 206,
+  // Cap Ferret has no own Viator destination — Arcachon (same bay, oyster
+  // tours and Pilat dune cross-listed) is the closest match.
+  "cap-ferret": 26516,
 };
 
 const PARTNER_PID = process.env.VIATOR_PARTNER_PID || "P00250395"; // mcid placeholder

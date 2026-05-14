@@ -1,8 +1,20 @@
 {
   "destinationId": 958,
   "destinationName": "mykonos",
-  "fetchedAt": "2026-05-08T21:53:52.870Z",
+  "fetchedAt": "2026-05-14T05:44:10.301Z",
   "products": [
+    {
+      "productCode": "279755P1",
+      "title": "Naxos Kayak Tour to Rina Cave with Snorkeling and Homemade lunch",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/33/32/5d/8d/caption.jpg",
+      "rating": 5,
+      "reviewCount": 161,
+      "fromPrice": {
+        "value": 161.16,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Mykonos/Rina-Cave-Sea-Kayak-Tour-with-Snorkeling-and-Picnic/d958-279755P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
     {
       "productCode": "462539P1",
       "title": "Mykonos Private Island Tour",
@@ -10,7 +22,7 @@
       "rating": 5,
       "reviewCount": 136,
       "fromPrice": {
-        "value": 166.74,
+        "value": 166.53,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mykonos/Private-Island-Tour-Discover-Mykonos-With-Us/d958-462539P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -20,9 +32,9 @@
       "title": "Sea kayaking Mykonos natural beauty beaches",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/3a/5b/c4.jpg",
       "rating": 5,
-      "reviewCount": 105,
+      "reviewCount": 107,
       "fromPrice": {
-        "value": 91.44,
+        "value": 91.32,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mykonos/Adventure-Sea-Kayaking-the-wild-North-Coast/d958-274302P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -34,7 +46,7 @@
       "rating": 5,
       "reviewCount": 90,
       "fromPrice": {
-        "value": 3466.3,
+        "value": 3461.99,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mykonos/Sip-Sail-and-Savor-Private-Catamaran-Experience-20-guests/d958-364436P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -46,7 +58,7 @@
       "rating": 5,
       "reviewCount": 64,
       "fromPrice": {
-        "value": 151.06,
+        "value": 169.52,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mykonos/Experience-the-True-Essence-of-Mykonos-With-a-Local/d958-5586083P4?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -58,22 +70,10 @@
       "rating": 5,
       "reviewCount": 61,
       "fromPrice": {
-        "value": 95.6,
+        "value": 95.48,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Mykonos/Private-Tour-Discover-Mykonos-Island-In-Half-Day/d958-5536404P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
-    },
-    {
-      "productCode": "7626P457",
-      "title": "Mykonos Home Cooking Class & Traditional Greek Meal with Angelina",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/7f/f3/4c.jpg",
-      "rating": 5,
-      "reviewCount": 57,
-      "fromPrice": {
-        "value": 326,
-        "currency": "USD"
-      },
-      "productUrl": "https://www.viator.com/tours/Mykonos/Private-Greek-Cooking-Class-in-Mykonos-with-a-Food-Professional/d958-7626P457?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     }
   ]
 }

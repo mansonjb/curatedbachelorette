@@ -1,7 +1,7 @@
 {
   "destinationId": 5408,
   "destinationName": "marrakech",
-  "fetchedAt": "2026-05-08T21:53:56.063Z",
+  "fetchedAt": "2026-05-14T05:44:13.904Z",
   "products": [
     {
       "productCode": "5626470P1",
@@ -10,7 +10,7 @@
       "rating": 5,
       "reviewCount": 2582,
       "fromPrice": {
-        "value": 19.12,
+        "value": 19.1,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/Half-Day-Guided-Tour-of-Marrakech-History-and-Culture-Highlights/d5408-5626470P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -20,9 +20,9 @@
       "title": "Agafay Desert Dinner with Camel Ride from Marrakech Sunset Tour",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/32/b6/95/8e/caption.jpg",
       "rating": 5,
-      "reviewCount": 1647,
+      "reviewCount": 1646,
       "fromPrice": {
-        "value": 21.51,
+        "value": 21.49,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/Private-Ait-Ben-Haddou-and-Ouarzazate-Tour-from-Marrakech/d5408-5626470P6?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -34,7 +34,7 @@
       "rating": 5,
       "reviewCount": 899,
       "fromPrice": {
-        "value": 1434.33,
+        "value": 1432.55,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/3-Day-Marrakech-to-Merzouga-Desert-Adventure-with-Camel-Trek/d5408-5626470P8?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -46,7 +46,7 @@
       "rating": 5,
       "reviewCount": 191,
       "fromPrice": {
-        "value": 154.19,
+        "value": 154,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/Private-Tour-Atlas-Mountains-and-4-Valleys-Guided-Day-Trip-from-Marrakech/d5408-25014P17?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -58,7 +58,7 @@
       "rating": 5,
       "reviewCount": 145,
       "fromPrice": {
-        "value": 215.15,
+        "value": 214.88,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/Oasis-and-desert/d5408-121683P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -68,9 +68,9 @@
       "title": "Private 4 Days Tour From Marrakech to Fes Via Merzouga Desert",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/36/eb/f2.jpg",
       "rating": 5,
-      "reviewCount": 126,
+      "reviewCount": 127,
       "fromPrice": {
-        "value": 812.79,
+        "value": 811.78,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Marrakech/Private-4-Days-Tour-From-Marrakech-to-Fes-Via-Merzouga-Desert/d5408-270251P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"

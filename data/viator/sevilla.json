@@ -1,0 +1,79 @@
+{
+  "destinationId": 556,
+  "destinationName": "sevilla",
+  "fetchedAt": "2026-05-14T05:44:16.419Z",
+  "products": [
+    {
+      "productCode": "282418P1",
+      "title": "Private Half Day Walking Tour of Seville",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/05/67/97.jpg",
+      "rating": 5,
+      "reviewCount": 104,
+      "fromPrice": {
+        "value": 131.32,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Seville/Private-Half-Day-Walking-Tour-of-Seville/d556-282418P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "337526P1",
+      "title": "Private Monumental Walking Tour in Seville",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/cc/0f/f5.jpg",
+      "rating": 5,
+      "reviewCount": 65,
+      "fromPrice": {
+        "value": 149.22,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Seville/Private-Monumental-Walking-Tour-in-Seville/d556-337526P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "9924P16",
+      "title": "Cordoba & & The Mosque Small-Group Day Tour from Seville",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/01/e6/31.jpg",
+      "rating": 5,
+      "reviewCount": 56,
+      "fromPrice": {
+        "value": 356.94,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Seville/Cordoba-Small-Group-Day-Tour-from-Seville/d556-9924P16?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "341142P1",
+      "title": "Seville Vegan Tapas Food and Market Walking Tour",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/59/7e/8e.jpg",
+      "rating": 5,
+      "reviewCount": 42,
+      "fromPrice": {
+        "value": 106.25,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Seville/Discover-the-Best-Vegan-Tapas-in-Seville/d556-341142P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "442046P1",
+      "title": "Private Theatrical Journey with Roman Emperor in Italica",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/1c/7c/59.jpg",
+      "rating": 5,
+      "reviewCount": 40,
+      "fromPrice": {
+        "value": 95.5,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Seville/Theatrical-journey-with-Roman-Emperor-and-tapa-and-photos-and-reels-and-transport/d556-442046P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "177149P9",
+      "title": "Private tour Royal Palace+Cathedral+old Jewish neighbourhood",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/c2/e7/9e.jpg",
+      "rating": 5,
+      "reviewCount": 39,
+      "fromPrice": {
+        "value": 262.63,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Seville/Cathedral-Alcazar-Santa-Cruz-Alcazar-Cathedral-Jewish-Neighborhood/d556-177149P9?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

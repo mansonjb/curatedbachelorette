@@ -56,6 +56,9 @@ const QUERIES: Record<string, string> = {
   tulum: "Gran Cenote Tulum",
   cartagena: "Walled City Cartagena Colombia old town",
   "lake-como": "Bellagio Lake Como Italy",
+  sevilla: "Plaza de España Seville",
+  tuscany: "Val d'Orcia hills Tuscany cypress",
+  "cap-ferret": "Phare du Cap Ferret France",
 };
 
 type Place = {

@@ -1,0 +1,79 @@
+{
+  "destinationId": 206,
+  "destinationName": "tuscany",
+  "fetchedAt": "2026-05-14T05:44:16.832Z",
+  "products": [
+    {
+      "productCode": "122179P1",
+      "title": "The Florence Pottery Experience: Factory Tour & Masterclass",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/36/91/8f.jpg",
+      "rating": 5,
+      "reviewCount": 212,
+      "fromPrice": {
+        "value": 131.32,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Florence/How-to-make-handmade-Tuscan-Ceramic-a-course-with-a-master-potter-in-Montelupo/d519-122179P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "73555P1",
+      "title": "Farm To table Experience on an organic hilltop estate in Tuscany",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/71/4a/6d.jpg",
+      "rating": 5,
+      "reviewCount": 122,
+      "fromPrice": {
+        "value": 191.01,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Florence/Organic-Farm-to-Table-Experience-on-the-hills-of-Tuscany/d519-73555P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "205621P1",
+      "title": "The Cooking Lab - Authentic Food Experience",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/09/5f/51/23.jpg",
+      "rating": 5,
+      "reviewCount": 113,
+      "fromPrice": {
+        "value": 125.35,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Florence/The-Cooking-Lab-Firenze/d519-205621P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "305987P7",
+      "title": "UFFIZI Private Tour in Florence Italy",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0b/ff/cd/c4.jpg",
+      "rating": 5,
+      "reviewCount": 104,
+      "fromPrice": {
+        "value": 181.83,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Florence/Uffizi-Masterpieces-Private-Tour-with-Licensed-Guide/d519-305987P7?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "121219P2",
+      "title": "Brunello Wine Tour and Val D'Orcia Landscape",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/1d/fc/de.jpg",
+      "rating": 5,
+      "reviewCount": 94,
+      "fromPrice": {
+        "value": 263.08,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Arezzo/Brunello-wine-tour-and-Val-DOrcia-Landscape/d22631-121219P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    },
+    {
+      "productCode": "481582P2",
+      "title": "Montalcino: Renowned Tuscan Olive Oil Mill Tour & Tasting",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/e7/fe/4e.jpg",
+      "rating": 5,
+      "reviewCount": 89,
+      "fromPrice": {
+        "value": 83.57,
+        "currency": "USD"
+      },
+      "productUrl": "https://www.viator.com/tours/Chianti/Olive-Oil-Tours-and-Tasting-at-Frantoio-di-Montalcino/d26111-481582P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+    }
+  ]
+}

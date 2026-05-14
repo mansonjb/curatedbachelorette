@@ -1,16 +1,16 @@
 {
   "destinationId": 959,
   "destinationName": "santorini",
-  "fetchedAt": "2026-05-08T21:53:53.210Z",
+  "fetchedAt": "2026-05-14T05:44:10.894Z",
   "products": [
     {
       "productCode": "69212P7",
       "title": "Private Overview of Santorini: Full-Day Customizable Experience!",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/17/8e/6f.jpg",
       "rating": 5,
-      "reviewCount": 191,
+      "reviewCount": 192,
       "fromPrice": {
-        "value": 239.06,
+        "value": 238.76,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Santorini/Santorini-Top-Attractions-Private-Experience/d959-69212P7?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -22,7 +22,7 @@
       "rating": 5,
       "reviewCount": 178,
       "fromPrice": {
-        "value": 143.43,
+        "value": 143.25,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Santorini/Santorini-Secrets-and-Wine-Stories/d959-85166P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -32,9 +32,9 @@
       "title": "Best Of Santorini Private Tailor Made Tour",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/50/fb/52.jpg",
       "rating": 5,
-      "reviewCount": 160,
+      "reviewCount": 163,
       "fromPrice": {
-        "value": 83.67,
+        "value": 83.57,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Santorini/Best-Of-Santorini-6-Hour-Private-Customizable-Tour/d959-389196P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -44,9 +44,9 @@
       "title": "5-hour My Santorini Private Guided Tour",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/97/53/69.jpg",
       "rating": 5,
-      "reviewCount": 127,
+      "reviewCount": 128,
       "fromPrice": {
-        "value": 239.06,
+        "value": 238.76,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Santorini/Island-Tour-and-Wine-Tasting/d959-85166P2?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
@@ -56,24 +56,24 @@
       "title": "Santorini Wine Stories: Daytime Tour with Tasting & Lunch",
       "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7c/05/79.jpg",
       "rating": 5,
-      "reviewCount": 114,
+      "reviewCount": 118,
       "fromPrice": {
-        "value": 179.29,
+        "value": 179.07,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Santorini/Santorini-Wine-Stories-Daytime-Tour-Tasting-and-Lunch/d959-85166P6?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     },
     {
-      "productCode": "254710P1",
-      "title": "Small-Group Santorini Sea Caves Kayak Trip with Snorkeling & Picnic",
-      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0a/92/bb/f1.jpg",
+      "productCode": "341874P4",
+      "title": "Private Transfer Santorini One-way From/To Airport, Port & Hotel",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/c2/ab/d2.jpg",
       "rating": 5,
-      "reviewCount": 94,
+      "reviewCount": 95,
       "fromPrice": {
-        "value": 161.36,
+        "value": 38.2,
         "currency": "USD"
       },
-      "productUrl": "https://www.viator.com/tours/Santorini/Serenity-Kayak-Santorini-Outdoors/d959-254710P1?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
+      "productUrl": "https://www.viator.com/tours/Santorini/Santorini-Private-Transfer-Airport-Port-Arrival-Departure/d959-341874P4?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
     }
   ]
 }

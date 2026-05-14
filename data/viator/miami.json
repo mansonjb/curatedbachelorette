@@ -1,7 +1,7 @@
 {
   "destinationId": 662,
   "destinationName": "miami",
-  "fetchedAt": "2026-05-08T21:53:56.432Z",
+  "fetchedAt": "2026-05-14T05:44:14.304Z",
   "products": [
     {
       "productCode": "348065P1",
@@ -46,7 +46,7 @@
       "rating": 5,
       "reviewCount": 70,
       "fromPrice": {
-        "value": 179.55,
+        "value": 189,
         "currency": "USD"
       },
       "productUrl": "https://www.viator.com/tours/Miami/Miami-and-Hard-Rock-Helicopter-Tour/d662-5555868P3?mcid=42383&pid=P00298683&medium=api&api_version=2.0"
